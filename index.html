@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestió en 15 Minuts — Podcast</title>
+<style>
+  :root{
+    --nit:#0d1b3e; --petroli:#0a5f58; --or:#d4a853; --paper:#f5f2ea; --tinta:#1c2333;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:Georgia,'Times New Roman',serif;
+    background:linear-gradient(170deg,var(--nit) 0%,var(--petroli) 100%);
+    color:var(--paper); min-height:100vh;
+    display:flex; flex-direction:column; align-items:center;
+    padding:2.2rem 1.4rem 3rem; text-align:center;
+  }
+  .cover{
+    width:min(62vw,230px); aspect-ratio:1; border-radius:18px;
+    box-shadow:0 18px 45px rgba(0,0,0,.45); margin-bottom:1.6rem;
+  }
+  .eyebrow{
+    font-family:-apple-system,'Helvetica Neue',sans-serif;
+    font-size:.72rem; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--or); margin-bottom:.6rem;
+  }
+  h1{font-size:2rem; line-height:1.15; font-weight:700; margin-bottom:.55rem}
+  .sub{font-size:1rem; opacity:.85; max-width:30ch; margin:0 auto 2rem; line-height:1.5}
+  .btn{
+    display:block; width:100%; max-width:340px; margin:0 auto .8rem;
+    padding:1.05rem 1.2rem; border-radius:999px; text-decoration:none;
+    font-family:-apple-system,'Helvetica Neue',sans-serif;
+    font-size:1.05rem; font-weight:600;
+  }
+  .btn-apple{background:var(--or); color:var(--nit)}
+  .btn-copy{background:rgba(245,242,234,.12); color:var(--paper); border:1px solid rgba(245,242,234,.35)}
+  .btn:active{transform:scale(.98)}
+  .hint{font-family:-apple-system,sans-serif; font-size:.8rem; opacity:.65; max-width:34ch; margin:1.4rem auto 0; line-height:1.55}
+  .feed{
+    font-family:Menlo,monospace; font-size:.68rem; word-break:break-all;
+    opacity:.5; margin-top:2rem; max-width:340px;
+  }
+  #avis{
+    display:none; margin-top:.6rem; font-family:-apple-system,sans-serif;
+    font-size:.85rem; color:var(--or);
+  }
+</style>
+</head>
+<body>
+  <img class="cover" src="cover.png" alt="Portada del podcast Gestió en 15 Minuts">
+  <p class="eyebrow">Podcast diari · Català</p>
+  <h1>Gestió en 15 Minuts</h1>
+  <p class="sub">Cada dia, un gran llibre de gestió empresarial resumit en un quart d'hora.</p>
+
+  <a class="btn btn-apple" href="podcast://ramonramon1973.github.io/podcast-llibres/feed.xml">🎧 Escolta'l a Apple Podcasts</a>
+  <a class="btn btn-copy" href="#" onclick="copia(event)">Copia l'adreça del feed</a>
+  <p id="avis">✓ Adreça copiada</p>
+
+  <p class="hint">Si el botó no obre l'app Podcasts: copia l'adreça, i a Podcasts ves a Biblioteca → ⋯ → «Segueix un programa per URL» i enganxa-la.</p>
+
+  <p class="feed">https://ramonramon1973.github.io/podcast-llibres/feed.xml</p>
+
+<script>
+function copia(e){
+  e.preventDefault();
+  navigator.clipboard.writeText('https://ramonramon1973.github.io/podcast-llibres/feed.xml')
+    .then(()=>{document.getElementById('avis').style.display='block'});
+}
+</script>
+</body>
+</html>
