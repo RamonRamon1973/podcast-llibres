@@ -6,7 +6,7 @@
   <channel>
     <title>Gestió en 15 Minuts</title>
     <link>https://github.com/RamonRamon1973/podcast-llibres</link>
-    <atom:link href="https://github.com/RamonRamon1973/podcast-llibres/releases/download/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://ramonramon1973.github.io/podcast-llibres/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ca</language>
     <copyright>© 2026 Gestió en 15 Minuts</copyright>
     <description>Cada dia, un gran llibre de gestió empresarial resumit i comentat en quinze minuts. Idees clau, exemples pràctics i accions concretes per aplicar des d'avui mateix. Resums en català generats amb intel·ligència artificial.</description>
