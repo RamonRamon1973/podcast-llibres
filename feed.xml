@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gestió en 15 Minuts</title>
+    <link>https://ramonramon1973.github.io/podcast-llibres/</link>
+    <atom:link href="https://ramonramon1973.github.io/podcast-llibres/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>ca</language>
+    <copyright>© 2026 Gestió en 15 Minuts</copyright>
+    <description>Cada dia, un gran llibre de gestió empresarial resumit i comentat en quinze minuts. Idees clau, exemples pràctics i accions concretes per aplicar des d'avui mateix. Resums en català generats amb intel·ligència artificial.</description>
+    <itunes:summary>Cada dia, un gran llibre de gestió empresarial resumit i comentat en quinze minuts. Idees clau, exemples pràctics i accions concretes per aplicar des d'avui mateix.</itunes:summary>
+    <itunes:author>Gestió en 15 Minuts</itunes:author>
+    <itunes:owner>
+      <itunes:name>Ramon</itunes:name>
+      <itunes:email>canviar@exemple.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://ramonramon1973.github.io/podcast-llibres/cover.png"/>
+    <itunes:category text="Business">
+      <itunes:category text="Management"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>Ep. 1 — Co-Intelligence, d'Ethan Mollick</title>
+      <description>Comencem amb el llibre de management més influent de l'era de la IA. Les quatre regles de Mollick per treballar amb intel·ligència artificial, la frontera dentada, centaures i cíborgs, els cíborgs secrets de la teva empresa, i quatre accions per aplicar demà mateix. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://ramonramon1973.github.io/podcast-llibres/episodes/ep01.m4a" length="7808903" type="audio/x-m4a"/>
+      <guid isPermaLink="false">gestio15-ep01</guid>
+      <pubDate>Fri, 17 Jul 2026 16:00:00 +0200</pubDate>
+      <itunes:duration>14:08</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+  </channel>
+</rss>
