@@ -9,3 +9,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 ## Llibres publicats
 1. Co-Intelligence — Ethan Mollick (2024)
 2. Measure What Matters — John Doerr (2018)
+3. Good to Great — Jim Collins (2001)

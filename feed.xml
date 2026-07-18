@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 3 — Good to Great, de Jim Collins</title>
+      <description>L'estudi més famós del management: 1.435 empreses analitzades durant 40 anys per descobrir per què només 11 van passar de bones a extraordinàries. El lideratge de nivell 5, primer qui i després què, la paradoxa de Stockdale, el concepte de l'eriçó, el cas Nucor, el volant d'inèrcia... i també les crítiques que cal conèixer. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep03.m4a" length="12806146" type="audio/x-m4a"/>
+      <guid isPermaLink="false">gestio15-ep03</guid>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 +0200</pubDate>
+      <itunes:duration>14:27</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 2 — Measure What Matters, de John Doerr</title>
       <description>El sistema OKR que Andy Grove va inventar a Intel i John Doerr va regalar a Google quan tenia 19 empleats. Objectius i resultats clau, els quatre superpoders, l'operació Crush d'Intel, els mil milions d'hores de YouTube, els errors que maten el sistema, i cinc accions per provar-lo aquesta setmana. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep02.m4a" length="12293346" type="audio/x-m4a"/>
