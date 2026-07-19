@@ -13,4 +13,3 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 4. Thinking, Fast and Slow — Daniel Kahneman (2011)
 5. The Innovator's Dilemma — Clayton Christensen (1997)
 6. The Lean Startup — Eric Ries
-6. The Lean Startup — Eric Ries

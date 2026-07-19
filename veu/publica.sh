@@ -24,6 +24,12 @@ python3 -c "import piper" 2>/dev/null || pip install piper-tts --break-system-pa
 rm -rf "$WORK" && git clone -q "https://x-access-token:${TOKEN}@github.com/${REPO}.git" "$WORK"
 cd "$WORK"
 
+# Protecció anti-duplicats: si l'episodi NN ja existeix al feed, atura't
+if grep -q "gestio15-ep${NN}" feed.xml; then
+  echo "!! L'episodi ${NN} ja existeix al feed. Aturo per no duplicar."
+  exit 1
+fi
+
 echo "==> Descarregant veu medium"
 curl -sL -o ca-medium.onnx "https://github.com/${REPO}/releases/download/veu-medium/ca_ES-upc_ona-medium.onnx"
 curl -sL -o ca-medium.onnx.json "https://raw.githubusercontent.com/${REPO}/main/veu/ca_ES-upc_ona-medium.onnx.json"

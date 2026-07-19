@@ -26,11 +26,15 @@ pip install piper-tts --break-system-packages -q
 
 Comprova que `ffmpeg` existeix (`which ffmpeg`; si no, `apt-get install -y ffmpeg`).
 
-**Veu (en ordre de preferència):**
-1. *Qualitat mitjana (prova-la primer si la xarxa ho permet):* veu "ona" medium del projecte Aina a Hugging Face:
-   `curl -sL -o ca.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium.onnx` i el seu `.onnx.json` equivalent.
-2. *Alternativa garantida (xarxa restringida):*
-   `curl -sL -o v.tar.gz https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_ona-x-low.tar.gz && tar xzf v.tar.gz` (dona `ca-upc_ona-x-low.onnx`).
+**Veu — model medium (qualitat superior, PER DEFECTE):**
+Els dos arxius de la veu ja són al mateix repositori, així que es baixen sempre des de GitHub (domini accessible):
+```bash
+curl -sL -o ca-medium.onnx "https://github.com/RamonRamon1973/podcast-llibres/releases/download/veu-medium/ca_ES-upc_ona-medium.onnx"
+curl -sL -o ca-medium.onnx.json "https://raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/veu/ca_ES-upc_ona-medium.onnx.json"
+```
+*Alternativa d'emergència* si la veu medium fallés: `curl -sL -o v.tar.gz https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_ona-x-low.tar.gz && tar xzf v.tar.gz` (dona `ca-upc_ona-x-low.onnx`, qualitat inferior).
+
+**Correcció OBLIGATÒRIA de la erra:** la veu medium no pronuncia bé la erra vibrant inicial de paraula (diu "Damon" en lloc de "Ramon"). Abans de generar l'àudio, passa SEMPRE el guió pel filtre `veu/fix_erra.py` (és al repositori), que dobla la erra inicial de paraula (Ramon→Rramon, resum→rresum) sense tocar les erres internes (terra, carro). Ús: `python3 veu/fix_erra.py < guio.txt > guio_tts.txt` i genera l'àudio des de `guio_tts.txt`. El guió que es desa a `episodes/epNN-guio.txt` ha de ser l'ORIGINAL sense doblar, no el corregit.
 
 ### 2. Decidir el llibre
 
@@ -45,20 +49,27 @@ Criteris de tria: alterna (a) clàssics de referència del management (Drucker, 
 Fitxer de treball: `/home/claude/guio.txt`. Requisits:
 
 - **En català**, to de podcast conversacional (parla a "tu"), sense encapçalaments ni llistes amb símbols: text corregut que es pugui llegir en veu alta.
-- **Mínim 2.300 paraules** (comprova amb `wc -w`; per sota de 2.300 l'àudio queda curt).
+- **Mínim 2.600 paraules** (comprova amb `wc -w`; amb la veu medium a length_scale 1.18, ~2.600-2.900 paraules donen 14-16 min. Per sota, l'àudio queda curt).
 - Estructura: salutació i presentació del llibre i per què s'ha triat → context de l'autor → tesi central → 3-6 idees clau desenvolupades amb exemples i casos reals → si escau, una nota crítica honesta sobre les limitacions del llibre → 4-5 accions pràctiques concretes per aplicar demà → resum final d'una frase → comiat anunciant que demà hi haurà nou episodi.
 - Escriu els números en lletres (la veu llegeix malament les xifres) i evita anglicismes innecessaris; els títols en anglès es diuen tal qual i es tradueixen un cop.
 - Cap dada inventada: si no estàs segur d'una xifra o cas del llibre, omet-lo o explica'l de manera genèrica.
 
 ### 4. Generar i masteritzar l'àudio
 
+Primer aplica la correcció de la erra, després genera amb el model medium:
+
 ```bash
-python3 -m piper --model MODEL.onnx --length_scale 1.05 --sentence_silence 0.45 \
-  --output_file ep.wav < guio.txt
+python3 repo/veu/fix_erra.py < guio.txt > guio_tts.txt
+
+# length_scale 1.18: la veu medium parla ràpid; aquest valor la porta a ritme de podcast
+python3 -m piper --model ca-medium.onnx --length_scale 1.18 --sentence_silence 0.45 \
+  --output_file ep.wav < guio_tts.txt
 
 ffmpeg -y -i ep.wav -af "highpass=f=70,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,loudnorm=I=-16:TP=-1.5:LRA=11" \
   -c:a aac -b:a 112k repo/episodes/epNN.m4a
 ```
+
+Nota: `guio.txt` és l'original (es desa com a `epNN-guio.txt`); `guio_tts.txt` és el corregit i només serveix per generar l'àudio.
 
 Comprova la durada: `ffprobe -v error -show_entries format=duration -of csv=p=0 repo/episodes/epNN.m4a`.
 **Objectiu: entre 13:30 i 16:30 minuts.** Si queda curt, amplia el guió amb una secció nova (un cas real més, una crítica, una comparació amb un altre llibre ja publicat al podcast) i regenera. Desa el guió final a `repo/episodes/epNN-guio.txt`.
