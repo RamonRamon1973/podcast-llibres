@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 6 — The Lean Startup, de Eric Ries</title>
+      <description>Com construir una cosa nova enmig de la incertesa sense arruïnar-se. El cicle crear-mesurar-aprendre, el producte mínim viable amb els casos de Dropbox i Zappos, les mètriques de vanitat, els tres motors de creixement, la tècnica dels cinc perquès i quan pivotar. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep06.mp3" length="16803049" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep06</guid>
+      <pubDate>Sun, 19 Jul 2026 16:58:34 +0000</pubDate>
+      <itunes:duration>14:00</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 5 — The Innovator's Dilemma, de Clayton Christensen</title>
       <description>Per què les empreses líders moren precisament per fer-ho tot bé. Innovació sostenidora contra disruptiva, l'escalada de les minifàbriques d'acer, per què escoltar els millors clients et pot deixar cec, el cas Netflix contra Blockbuster, la feina per fer del batut, i cinc preguntes per detectar el teu propi disruptor abans que arribi. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep05.m4a" length="12749102" type="audio/x-m4a"/>
