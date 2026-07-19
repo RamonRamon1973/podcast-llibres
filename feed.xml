@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 7 — L'Executiu Eficaç, de Peter Drucker</title>
+      <description>Els hàbits pràctics que separen els directius que produeixen resultats extraordinaris dels que simplement estan ocupats: gestionar el temps en blocs grans, preguntar-se què cal fer en lloc de què es vol fer, centrar-se en la contribució, construir sobre les fortaleses, abandonar allò obsolet i buscar el desacord abans de decidir.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep07.mp3" length="19962045" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep07</guid>
+      <pubDate>Sun, 19 Jul 2026 18:03:52 +0000</pubDate>
+      <itunes:duration>16:38</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 6 — The Lean Startup, de Eric Ries</title>
       <description>Com construir una cosa nova enmig de la incertesa sense arruïnar-se. El cicle crear-mesurar-aprendre, el producte mínim viable amb els casos de Dropbox i Zappos, les mètriques de vanitat, els tres motors de creixement, la tècnica dels cinc perquès i quan pivotar. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep06.mp3" length="15308685" type="audio/mpeg"/>
