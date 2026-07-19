@@ -12,3 +12,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 3. Good to Great — Jim Collins (2001)
 4. Thinking, Fast and Slow — Daniel Kahneman (2011)
 5. The Innovator's Dilemma — Clayton Christensen (1997)
+6. The Lean Startup — Eric Ries
