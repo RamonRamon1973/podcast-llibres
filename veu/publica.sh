@@ -31,8 +31,8 @@ if grep -q "gestio15-ep${NN}" feed.xml; then
 fi
 
 echo "==> Descarregant veu mini (x-low, sense soroll de fons)"
-curl -sL -o v.tar.gz "https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_ona-x-low.tar.gz"
-tar xzf v.tar.gz
+curl -sL -o ca-upc_ona-x-low.onnx "https://raw.githubusercontent.com/${REPO}/main/veu/ca-upc_ona-x-low.onnx"
+curl -sL -o ca-upc_ona-x-low.onnx.json "https://raw.githubusercontent.com/${REPO}/main/veu/ca-upc_ona-x-low.onnx.json"
 MODEL="ca-upc_ona-x-low.onnx"
 
 echo "==> Generant l'àudio (model: $MODEL)"
