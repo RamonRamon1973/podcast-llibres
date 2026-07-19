@@ -45,12 +45,14 @@ fi
 echo "==> Corregint la erra i generant l'àudio (model: $MODEL)"
 cp "$GUIO" "episodes/ep${NN}-guio.txt"           # guió original
 python3 veu/fix_erra.py < "$GUIO" > guio_tts.txt  # versió per a TTS
-python3 -m piper --model "$MODEL" --length_scale 1.05 --sentence_silence 0.45 \
+# length_scale 1.18: la veu medium parla ràpid; aquest valor la porta a ritme de podcast
+python3 -m piper --model "$MODEL" --length_scale 1.18 --sentence_silence 0.45 \
   --output_file ep.wav < guio_tts.txt
-ffmpeg -y -i ep.wav -af "$MASTER" -c:a aac -b:a 112k "episodes/ep${NN}.m4a" -loglevel error
+# MP3 (no AAC): l'AAC a bitrate baix genera soroll blanc a les pauses; l'MP3 les deixa netes
+ffmpeg -y -i ep.wav -af "$MASTER" -c:a libmp3lame -b:a 128k "episodes/ep${NN}.mp3" -loglevel error
 
-DUR_S=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "episodes/ep${NN}.m4a")
-SIZE=$(stat -c%s "episodes/ep${NN}.m4a")
+DUR_S=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "episodes/ep${NN}.mp3")
+SIZE=$(stat -c%s "episodes/ep${NN}.mp3")
 DUR=$(python3 -c "d=float('$DUR_S'); print(f'{int(d//60)}:{int(d%60):02d}')")
 echo "    Durada: $DUR | Mida: $SIZE bytes"
 
@@ -63,7 +65,7 @@ feed = open('feed.xml', encoding='utf-8').read()
 item = f'''    <item>
       <title>Ep. {int(NN)} — {TITOL}, de {AUTOR}</title>
       <description>{DESC}</description>
-      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep{NN}.m4a" length="{SIZE}" type="audio/x-m4a"/>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep{NN}.mp3" length="{SIZE}" type="audio/mpeg"/>
       <guid isPermaLink="false">gestio15-ep{NN}</guid>
       <pubDate>{PUBDATE}</pubDate>
       <itunes:duration>{DUR}</itunes:duration>
@@ -92,6 +94,6 @@ git push -q origin main
 
 echo "==> Verificant"
 sleep 5
-CODE=$(curl -s -o /dev/null -w "%{http_code}" "https://raw.githubusercontent.com/${REPO}/main/episodes/ep${NN}.m4a")
+CODE=$(curl -s -o /dev/null -w "%{http_code}" "https://raw.githubusercontent.com/${REPO}/main/episodes/ep${NN}.mp3")
 echo "    Àudio HTTP: $CODE"
 echo "==> FET. Episodi ${NN} publicat: ${TITOL} (${AUTOR}) · ${DUR}"
