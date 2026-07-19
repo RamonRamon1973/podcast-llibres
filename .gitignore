@@ -1,0 +1,6 @@
+ca-medium.onnx
+ca-medium.onnx.json
+ca-upc_ona-x-low.onnx*
+guio_tts.txt
+*.wav
+v.tar.gz
