@@ -79,7 +79,7 @@ python3 repo/veu/fix_erra.py < guio.txt > guio_tts.txt
 python3 -m piper --model ca-medium.onnx --length_scale 1.18 --sentence_silence 0.45 \
   --output_file ep.wav < guio_tts.txt
 
-ffmpeg -y -i ep.wav -af "highpass=f=75,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,agate=threshold=0.015:ratio=6:attack=2:release=60,dynaudnorm=f=250:g=4:p=0.9" \
+ffmpeg -y -i ep.wav -af "highpass=f=75,afftdn=nf=-25:nt=w,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,dynaudnorm=f=250:g=4:p=0.9,agate=threshold=0.008:ratio=9:attack=1:release=100" \
   -c:a libmp3lame -b:a 160k repo/episodes/epNN.mp3
 ```
 
