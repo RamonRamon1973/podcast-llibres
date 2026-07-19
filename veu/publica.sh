@@ -15,7 +15,7 @@ set -euo pipefail
 TOKEN="$1"; NN="$2"; TITOL="$3"; AUTOR="$4"; DESC="$5"; GUIO="$6"
 REPO="RamonRamon1973/podcast-llibres"
 WORK="/tmp/podcast-work"
-MASTER='highpass=f=70,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,loudnorm=I=-16:TP=-1.5:LRA=11'
+MASTER='highpass=f=75,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,agate=threshold=0.015:ratio=6:attack=2:release=60,dynaudnorm=f=250:g=4:p=0.9'
 
 echo "==> Preparant entorn"
 command -v ffmpeg >/dev/null || { apt-get update -q && apt-get install -y -q ffmpeg; }
@@ -49,7 +49,7 @@ python3 veu/fix_erra.py < "$GUIO" > guio_tts.txt  # versió per a TTS
 python3 -m piper --model "$MODEL" --length_scale 1.18 --sentence_silence 0.45 \
   --output_file ep.wav < guio_tts.txt
 # MP3 (no AAC): l'AAC a bitrate baix genera soroll blanc a les pauses; l'MP3 les deixa netes
-ffmpeg -y -i ep.wav -af "$MASTER" -c:a libmp3lame -b:a 128k "episodes/ep${NN}.mp3" -loglevel error
+ffmpeg -y -i ep.wav -af "$MASTER" -c:a libmp3lame -b:a 160k "episodes/ep${NN}.mp3" -loglevel error
 
 DUR_S=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "episodes/ep${NN}.mp3")
 SIZE=$(stat -c%s "episodes/ep${NN}.mp3")

@@ -24,7 +24,7 @@ Tota la part tècnica (veu, correcció de la erra, àudio MP3, feed, README, com
 
 L'script ja gestiona: protecció anti-duplicats (feed i README), model medium amb fallback a x-low, correcció de la erra, MP3 net (no AAC), length_scale 1.18 i masterització. Els passos manuals de sota són la referència detallada per si cal depurar o modificar alguna cosa.
 
-**IMPORTANT sobre el format d'àudio:** els episodis són MP3 (`libmp3lame`, 128k), NO AAC/m4a. L'AAC a bitrate baix genera soroll blanc audible a les pauses; l'MP3 les deixa netes. Mantén sempre MP3.
+**IMPORTANT sobre el format i el soroll de fons:** els episodis són MP3 (`libmp3lame`, 160k), NO AAC/m4a. A més, la veu medium genera un lleuger soroll de fons a les pauses; per això la cadena de masterització inclou un noise gate (`agate`) i fa servir `dynaudnorm` en lloc de `loudnorm` (aquest últim amplificava el soroll dels silencis fins a fer-lo audible, ~-37 dB; amb el gate baixa a ~-73 dB, inaudible). NO tornis a `loudnorm` ni treguis l'`agate`.
 
 ---
 
@@ -79,8 +79,8 @@ python3 repo/veu/fix_erra.py < guio.txt > guio_tts.txt
 python3 -m piper --model ca-medium.onnx --length_scale 1.18 --sentence_silence 0.45 \
   --output_file ep.wav < guio_tts.txt
 
-ffmpeg -y -i ep.wav -af "highpass=f=70,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,loudnorm=I=-16:TP=-1.5:LRA=11" \
-  -c:a libmp3lame -b:a 128k repo/episodes/epNN.mp3
+ffmpeg -y -i ep.wav -af "highpass=f=75,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,agate=threshold=0.015:ratio=6:attack=2:release=60,dynaudnorm=f=250:g=4:p=0.9" \
+  -c:a libmp3lame -b:a 160k repo/episodes/epNN.mp3
 ```
 
 Nota: `guio.txt` és l'original (es desa com a `epNN-guio.txt`); `guio_tts.txt` és el corregit i només serveix per generar l'àudio.
