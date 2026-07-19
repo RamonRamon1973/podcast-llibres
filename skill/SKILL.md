@@ -10,11 +10,25 @@ description: Produeix i publica un episodi diari del podcast "Gestió en 15 Minu
 - **Podcast**: "Gestió en 15 Minuts", en català. Un llibre de gestió empresarial per episodi.
 - **Repositori**: `github.com/RamonRamon1973/podcast-llibres` (branca `main`)
 - **Feed públic**: `https://ramonramon1973.github.io/podcast-llibres/feed.xml` (GitHub Pages, es desplega sol amb cada push)
-- **Estructura**: `feed.xml`, `cover.png`, `index.html`, `README.md` (llista de llibres publicats), `episodes/epNN.m4a` + `episodes/epNN-guio.txt`
+- **Estructura**: `feed.xml`, `cover.png`, `index.html`, `README.md` (llista de llibres publicats), `episodes/epNN.mp3` + `episodes/epNN-guio.txt`
 - **Estadístiques**: les URL d'àudio del feed van prefixades amb OP3.
 - **Autenticació**: cal un token fine-grained de GitHub del propietari (Ramon). **Mai no està desat en aquesta skill.** Si no és al missatge de l'usuari ni a l'entorn de la tasca, demana'l abans de començar. No el mostris mai sencer en cap resposta.
 
-## Procés complet (segueix els passos en ordre)
+## Via ràpida (RECOMANADA): l'script `veu/publica.sh`
+
+Tota la part tècnica (veu, correcció de la erra, àudio MP3, feed, README, commit, push i verificació) ja està encapsulada a `veu/publica.sh` del repositori. El flux recomanat és:
+
+1. Clona el repo, decideix el llibre (pas 2 de baix) i escriu el guió (pas 3) a un fitxer `guio.txt`.
+2. Executa: `bash veu/publica.sh <TOKEN> <NN> "<TÍTOL>" "<AUTOR>" "<DESCRIPCIÓ>" <ruta_absoluta_guio.txt>`
+3. Comprova que acaba amb "FET" i verificació HTTP 200.
+
+L'script ja gestiona: protecció anti-duplicats (feed i README), model medium amb fallback a x-low, correcció de la erra, MP3 net (no AAC), length_scale 1.18 i masterització. Els passos manuals de sota són la referència detallada per si cal depurar o modificar alguna cosa.
+
+**IMPORTANT sobre el format d'àudio:** els episodis són MP3 (`libmp3lame`, 128k), NO AAC/m4a. L'AAC a bitrate baix genera soroll blanc audible a les pauses; l'MP3 les deixa netes. Mantén sempre MP3.
+
+---
+
+## Procés detallat (referència)
 
 ### 1. Preparar l'entorn
 
@@ -66,12 +80,12 @@ python3 -m piper --model ca-medium.onnx --length_scale 1.18 --sentence_silence 0
   --output_file ep.wav < guio_tts.txt
 
 ffmpeg -y -i ep.wav -af "highpass=f=70,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,loudnorm=I=-16:TP=-1.5:LRA=11" \
-  -c:a aac -b:a 112k repo/episodes/epNN.m4a
+  -c:a libmp3lame -b:a 128k repo/episodes/epNN.mp3
 ```
 
 Nota: `guio.txt` és l'original (es desa com a `epNN-guio.txt`); `guio_tts.txt` és el corregit i només serveix per generar l'àudio.
 
-Comprova la durada: `ffprobe -v error -show_entries format=duration -of csv=p=0 repo/episodes/epNN.m4a`.
+Comprova la durada: `ffprobe -v error -show_entries format=duration -of csv=p=0 repo/episodes/epNN.mp3`.
 **Objectiu: entre 13:30 i 16:30 minuts.** Si queda curt, amplia el guió amb una secció nova (un cas real més, una crítica, una comparació amb un altre llibre ja publicat al podcast) i regenera. Desa el guió final a `repo/episodes/epNN-guio.txt`.
 
 ### 5. Actualitzar el feed
@@ -82,7 +96,7 @@ Obté la mida exacta en bytes (`stat -c%s`) i la durada en format `MM:SS`. Inser
     <item>
       <title>Ep. NN — TÍTOL, d'AUTOR</title>
       <description>DESCRIPCIÓ ATRACTIVA DE 2-4 FRASES AMB LES IDEES CLAU. Acaba amb: Resum i comentari del llibre en català.</description>
-      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/epNN.m4a" length="BYTES" type="audio/x-m4a"/>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/epNN.mp3" length="BYTES" type="audio/mpeg"/>
       <guid isPermaLink="false">gestio15-epNN</guid>
       <pubDate>DATA RFC-2822 D'AVUI, p.ex. Sat, 18 Jul 2026 09:00:00 +0200</pubDate>
       <itunes:duration>MM:SS</itunes:duration>
