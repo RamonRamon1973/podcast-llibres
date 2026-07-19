@@ -15,7 +15,7 @@ set -euo pipefail
 TOKEN="$1"; NN="$2"; TITOL="$3"; AUTOR="$4"; DESC="$5"; GUIO="$6"
 REPO="RamonRamon1973/podcast-llibres"
 WORK="/tmp/podcast-work"
-MASTER='highpass=f=75,afftdn=nf=-25:nt=w,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,dynaudnorm=f=250:g=4:p=0.9,agate=threshold=0.008:ratio=9:attack=1:release=100'
+MASTER='highpass=f=70,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,dynaudnorm=f=250:g=4:p=0.9'
 
 echo "==> Preparant entorn"
 command -v ffmpeg >/dev/null || { apt-get update -q && apt-get install -y -q ffmpeg; }
@@ -30,25 +30,17 @@ if grep -q "gestio15-ep${NN}" feed.xml; then
   exit 1
 fi
 
-echo "==> Descarregant veu medium"
-curl -sL -o ca-medium.onnx "https://github.com/${REPO}/releases/download/veu-medium/ca_ES-upc_ona-medium.onnx"
-curl -sL -o ca-medium.onnx.json "https://raw.githubusercontent.com/${REPO}/main/veu/ca_ES-upc_ona-medium.onnx.json"
-# Comprovació que el model és binari real i no una pàgina d'error
-if [ "$(stat -c%s ca-medium.onnx)" -lt 1000000 ]; then
-  echo "!! Veu medium no disponible, faig servir x-low d'emergència"
-  curl -sL -o v.tar.gz "https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_ona-x-low.tar.gz"
-  tar xzf v.tar.gz; MODEL="ca-upc_ona-x-low.onnx"
-else
-  MODEL="ca-medium.onnx"
-fi
+echo "==> Descarregant veu mini (x-low, sense soroll de fons)"
+curl -sL -o v.tar.gz "https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_ona-x-low.tar.gz"
+tar xzf v.tar.gz
+MODEL="ca-upc_ona-x-low.onnx"
 
-echo "==> Corregint la erra i generant l'àudio (model: $MODEL)"
+echo "==> Generant l'àudio (model: $MODEL)"
 cp "$GUIO" "episodes/ep${NN}-guio.txt"           # guió original
-python3 veu/fix_erra.py < "$GUIO" > guio_tts.txt  # versió per a TTS
-# length_scale 1.18: la veu medium parla ràpid; aquest valor la porta a ritme de podcast
-python3 -m piper --model "$MODEL" --length_scale 1.18 --sentence_silence 0.45 \
-  --output_file ep.wav < guio_tts.txt
-# MP3 (no AAC): l'AAC a bitrate baix genera soroll blanc a les pauses; l'MP3 les deixa netes
+# La veu mini pronuncia bé la erra: NO cal fix_erra. Genera directament del guió.
+# length_scale 1.05: ritme natural de podcast per a la veu mini
+python3 -m piper --model "$MODEL" --length_scale 1.05 --sentence_silence 0.45 \
+  --output_file ep.wav < "$GUIO"
 ffmpeg -y -i ep.wav -af "$MASTER" -c:a libmp3lame -b:a 160k "episodes/ep${NN}.mp3" -loglevel error
 
 DUR_S=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "episodes/ep${NN}.mp3")
