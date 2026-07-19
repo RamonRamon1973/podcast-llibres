@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 5 — The Innovator's Dilemma, de Clayton Christensen</title>
+      <description>Per què les empreses líders moren precisament per fer-ho tot bé. Innovació sostenidora contra disruptiva, l'escalada de les minifàbriques d'acer, per què escoltar els millors clients et pot deixar cec, el cas Netflix contra Blockbuster, la feina per fer del batut, i cinc preguntes per detectar el teu propi disruptor abans que arribi. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep05.m4a" length="12749102" type="audio/x-m4a"/>
+      <guid isPermaLink="false">gestio15-ep05</guid>
+      <pubDate>Sat, 18 Jul 2026 14:30:00 +0200</pubDate>
+      <itunes:duration>14:17</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 4 — Thinking, Fast and Slow, de Daniel Kahneman</title>
       <description>El Nobel que va demostrar que el cervell del millor directiu ve amb defectes de sèrie. Els dos sistemes de pensament, l'ancoratge, la fal·làcia de la planificació, l'aversió a la pèrdua, la regressió a la mitjana, quan fiar-se de la intuïció i quan no, i el premortem: la millor tècnica per decidir millor. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep04.m4a" length="13102153" type="audio/x-m4a"/>
