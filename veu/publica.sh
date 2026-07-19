@@ -83,7 +83,8 @@ print('    Feed vàlid i actualitzat')
 PYEOF
 
 echo "==> Actualitzant README"
-printf '%s. %s — %s\n' "$(printf '%d' "$((10#$NN))")" "$TITOL" "$AUTOR" >> README.md
+LINIA="$(printf '%d. %s — %s' "$((10#$NN))" "$TITOL" "$AUTOR")"
+grep -qF "$LINIA" README.md || echo "$LINIA" >> README.md
 
 echo "==> Publicant a GitHub"
 git config user.email "claude@anthropic.com"
