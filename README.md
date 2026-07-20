@@ -17,3 +17,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 8. Right Kind of Wrong — Amy C. Edmondson
 9. High Output Management — Andy Grove
 10. No Rules Rules — Reed Hastings i Erin Meyer
+11. The Speed of Trust — Stephen M. R. Covey

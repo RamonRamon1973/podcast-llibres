@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 11 — The Speed of Trust, de Stephen M. R. Covey</title>
+      <description>La confiança com a actiu econòmic mesurable, no com una virtut tova. L'equació confiança-velocitat-cost, les cinc ones de la confiança, els quatre pilars de la credibilitat, els tretze comportaments que la construeixen, i com detectar els impostos de la desconfiança a la teva organització. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep11.mp3" length="14989005" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep11</guid>
+      <pubDate>Mon, 20 Jul 2026 14:52:41 +0000</pubDate>
+      <itunes:duration>12:29</itunes:duration>
+      <itunes:episode>11</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 10 — No Rules Rules, de Reed Hastings i Erin Meyer</title>
       <description>Com Netflix va construir una cultura basada en la densitat de talent, la franquesa radical i la substitució de controls per context, i què n'has de tenir en compte abans de copiar-la. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep10.mp3" length="22817324" type="audio/mpeg"/>
