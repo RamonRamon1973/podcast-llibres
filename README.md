@@ -14,3 +14,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 5. The Innovator's Dilemma — Clayton Christensen (1997)
 6. The Lean Startup — Eric Ries
 7. L'Executiu Eficaç — Peter Drucker
+8. Right Kind of Wrong — Amy C. Edmondson

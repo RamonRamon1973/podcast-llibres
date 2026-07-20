@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 8 — Right Kind of Wrong, de Amy C. Edmondson</title>
+      <description>Amy Edmondson, professora a Harvard i creadora del concepte de seguretat psicològica, distingeix tres tipus de fracàs (bàsic, complex i intel·ligent) i explica com aprendre a fracassar bé és clau per innovar sense fer-se malbé pel camí. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep08.mp3" length="20178045" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep08</guid>
+      <pubDate>Mon, 20 Jul 2026 05:12:24 +0000</pubDate>
+      <itunes:duration>16:48</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 7 — L'Executiu Eficaç, de Peter Drucker</title>
       <description>Els hàbits pràctics que separen els directius que produeixen resultats extraordinaris dels que simplement estan ocupats: gestionar el temps en blocs grans, preguntar-se què cal fer en lloc de què es vol fer, centrar-se en la contribució, construir sobre les fortaleses, abandonar allò obsolet i buscar el desacord abans de decidir.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep07.mp3" length="19962045" type="audio/mpeg"/>
