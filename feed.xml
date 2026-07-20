@@ -5,7 +5,7 @@
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gestió en 15 Minuts</title>
-    <link>https://github.com/RamonRamon1973/podcast-llibres</link>
+    <link>https://ramonramon1973.github.io/podcast-llibres/</link>
     <atom:link href="https://ramonramon1973.github.io/podcast-llibres/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ca</language>
     <copyright>© 2026 Gestió en 15 Minuts</copyright>
