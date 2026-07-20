@@ -33,7 +33,7 @@ cd /d "%WORKDIR%"
 
 REM Executa el processador de guions pendents
 set "REPO_DIR=%WORKDIR%"
-python "%WORKDIR%\veu\processa_pendents.py"
+py "%WORKDIR%\veu\processa_pendents.py"
 if errorlevel 1 (
     echo [%date% %time%] El proces ha acabat amb errors. Revisa el missatge de dalt.
     exit /b 1
