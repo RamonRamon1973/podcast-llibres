@@ -10,6 +10,7 @@ set "GH_TOKEN=EL_TEU_TOKEN_DE_GITHUB"
 set "AZURE_KEY=LA_TEVA_CLAU_AZURE"
 set "AZURE_REGION=francecentral"
 set "WORKDIR=%USERPROFILE%\podcast-gestio"
+set "FFMPEG_DIR=C:\podcast"
 REM ---------------------------------
 
 set "AZURE_VOICE=ca-ES-JoanaNeural"

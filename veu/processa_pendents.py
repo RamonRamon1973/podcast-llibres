@@ -23,6 +23,11 @@ KEY = os.environ.get("AZURE_KEY", "").strip()
 REGION = os.environ.get("AZURE_REGION", "francecentral").strip()
 VOICE = os.environ.get("AZURE_VOICE", "ca-ES-JoanaNeural").strip()
 
+# ffmpeg i ffprobe: si FFMPEG_DIR està definit, usa'ls des d'allà; si no, del PATH
+FFDIR = os.environ.get("FFMPEG_DIR", "").strip()
+FFMPEG = os.path.join(FFDIR, "ffmpeg") if FFDIR else "ffmpeg"
+FFPROBE = os.path.join(FFDIR, "ffprobe") if FFDIR else "ffprobe"
+
 def log(m): print(f"[podcast] {m}", flush=True)
 def die(m, c=1): print(f"[podcast] ERROR: {m}", file=sys.stderr, flush=True); sys.exit(c)
 
@@ -70,10 +75,10 @@ def azure_tts(text, out_mp3):
     with open(lst, "w") as f:
         for p in parts: f.write(f"file '{p}'\n")
     raw = os.path.join(tmp, "raw.mp3")
-    r = run(["ffmpeg","-y","-f","concat","-safe","0","-i",lst,"-c","copy",raw])
+    r = run([FFMPEG,"-y","-f","concat","-safe","0","-i",lst,"-c","copy",raw])
     if r.returncode: die(f"concat: {r.stderr[:200]}")
     # Masterització: highpass + loudnorm amb marge + limitador (evita distorsió a volum alt)
-    r = run(["ffmpeg","-y","-i",raw,"-af",
+    r = run([FFMPEG,"-y","-i",raw,"-af",
              "highpass=f=60,loudnorm=I=-16:TP=-2.0:LRA=11,alimiter=limit=0.95",
              "-c:a","libmp3lame","-b:a","160k",out_mp3])
     if r.returncode: die(f"masterització: {r.stderr[:200]}")
@@ -96,7 +101,7 @@ for pf in pendents:
     open(f"episodes/ep{NN}-guio.txt","w",encoding="utf-8").write(d["guio"])
     azure_tts(d["guio"], f"episodes/ep{NN}.mp3")
     size = os.path.getsize(f"episodes/ep{NN}.mp3")
-    durs = run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f"episodes/ep{NN}.mp3"]).stdout.strip()
+    durs = run([FFPROBE,"-v","error","-show_entries","format=duration","-of","csv=p=0",f"episodes/ep{NN}.mp3"]).stdout.strip()
     sec = float(durs); dur = f"{int(sec//60)}:{int(sec%60):02d}"
     pub = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     # Inserir al feed abans del primer <item>
