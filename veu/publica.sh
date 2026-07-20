@@ -39,7 +39,9 @@ if [ -n "${AZURE_KEY:-}" ]; then
        AZURE_VOICE="${AZURE_VOICE:-ca-ES-JoanaNeural}" \
        python3 veu/azure_tts.py "$GUIO" azure_raw.mp3; then
     # Masterització lleugera (Azure ja surt net; només ajust de volum i to)
-    ffmpeg -y -i azure_raw.mp3 -af "highpass=f=60,dynaudnorm=f=250:g=4:p=0.9" \
+    # Azure ja surt net i ben anivellat: només un highpass suau i un limitador
+    # per evitar pics que saturin (loudnorm amb marge, sense empènyer el volum)
+    ffmpeg -y -i azure_raw.mp3 -af "highpass=f=60,loudnorm=I=-16:TP=-2.0:LRA=11,alimiter=limit=0.95" \
       -c:a libmp3lame -b:a 160k "episodes/ep${NN}.mp3" -loglevel error
     echo "    Àudio generat amb Azure ✓"
   else
