@@ -15,3 +15,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 6. The Lean Startup — Eric Ries
 7. L'Executiu Eficaç — Peter Drucker
 8. Right Kind of Wrong — Amy C. Edmondson
+9. High Output Management — Andy Grove

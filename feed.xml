@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 9 — High Output Management, de Andy Grove</title>
+      <description>Andy Grove, l'home que va convertir Intel en una màquina de producció disciplinada, explica que la feina d'un directiu no es mesura pel que fa amb les seves mans, sinó per l'output que multiplica en les dels altres. Apalancament directiu, maduresa relativa a la tasca, reunions individuals i els orígens del sistema d'objectius i resultats clau. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep09.mp3" length="19908765" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep09</guid>
+      <pubDate>Mon, 20 Jul 2026 08:32:56 +0000</pubDate>
+      <itunes:duration>16:35</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 8 — Right Kind of Wrong, de Amy C. Edmondson</title>
       <description>Amy Edmondson, professora a Harvard i creadora del concepte de seguretat psicològica, distingeix tres tipus de fracàs (bàsic, complex i intel·ligent) i explica com aprendre a fracassar bé és clau per innovar sense fer-se malbé pel camí. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep08.mp3" length="20178045" type="audio/mpeg"/>
