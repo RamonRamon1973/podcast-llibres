@@ -1,0 +1,58 @@
+name: Publica episodi amb Azure
+
+# Quan s'executa:
+#  - cada cop que Cowork puja un guió pendent (push que toca pendents/)
+#  - cada dia a les 06:30 UTC (08:30 hora catalana) com a xarxa de seguretat
+#  - manualment des de la pestanya Actions (botó "Run workflow")
+on:
+  push:
+    paths:
+      - 'pendents/ep*.json'
+  schedule:
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+
+# Permisos perquè el workflow pugui fer commit i push al propi repo
+permissions:
+  contents: write
+
+# Evita execucions solapades
+concurrency:
+  group: publica-episodi
+  cancel-in-progress: false
+
+jobs:
+  publica:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el repositori
+        uses: actions/checkout@v4
+
+      - name: Instal·lar ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Processar guions pendents amb Azure
+        env:
+          AZURE_KEY: ${{ secrets.AZURE_KEY }}
+          AZURE_REGION: ${{ secrets.AZURE_REGION }}
+          AZURE_VOICE: ca-ES-JoanaNeural
+          SKIP_GIT: '1'
+        run: |
+          python3 veu/processa_pendents.py
+
+      - name: Publicar els canvis
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            git add -A
+            git commit -m "Episodi publicat amb Azure (GitHub Actions)"
+            git push
+          else
+            echo "Res per publicar."
+          fi

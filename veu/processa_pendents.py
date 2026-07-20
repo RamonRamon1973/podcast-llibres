@@ -126,9 +126,12 @@ for pf in pendents:
     os.remove(pf)
     log(f"ep{NN} llest: {dur}, {size} bytes")
 
-log("Publicant a GitHub...")
-run(["git","add","-A"])
-run(["git","commit","-q","-m",f"Episodis processats amb Azure des del PC"])
-pr = run(["git","push","origin","main"])
-if pr.returncode: die(f"push: {pr.stderr[:200]}")
-log("FET. Tot publicat.")
+if os.environ.get("SKIP_GIT", "").strip():
+    log("FET. Àudio generat (el commit/push el fa el workflow).")
+else:
+    log("Publicant a GitHub...")
+    run(["git","add","-A"])
+    run(["git","commit","-q","-m","Episodis processats amb Azure des del PC"])
+    pr = run(["git","push","origin","main"])
+    if pr.returncode: die(f"push: {pr.stderr[:200]}")
+    log("FET. Tot publicat.")
