@@ -26,6 +26,12 @@ L'script ja gestiona: protecció anti-duplicats (feed i README), model medium am
 
 **IMPORTANT sobre el format i el soroll de fons:** els episodis són MP3 (`libmp3lame`, 160k), NO AAC/m4a. A més, la veu medium genera un lleuger soroll de fons a les pauses; per això la cadena de masterització inclou un noise gate (`agate`) i fa servir `dynaudnorm` en lloc de `loudnorm` (aquest últim amplificava el soroll dels silencis fins a fer-lo audible, ~-37 dB; amb el gate baixa a ~-73 dB, inaudible). NO tornis a `loudnorm` ni treguis l'`agate`.
 
+
+
+## Veu: Azure TTS (per defecte si hi ha clau) o Piper (reserva)
+
+Si les variables d'entorn `AZURE_KEY` i `AZURE_REGION` estan definides, l'script genera l'àudio amb la veu neuronal catalana d'Azure (`ca-ES-JoanaNeural`), que és neta, natural i pronuncia bé les erres. Si no hi ha clau o Azure falla, torna automàticament a la veu Piper mini (allotjada al repo). No cal cap correcció d'erra ni afftdn amb Azure. La tasca de Cowork ha de passar AZURE_KEY i AZURE_REGION com a variables d'entorn abans de cridar publica.sh.
+
 ---
 
 ## Procés detallat (referència)
