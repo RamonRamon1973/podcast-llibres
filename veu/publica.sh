@@ -30,18 +30,33 @@ if grep -q "gestio15-ep${NN}" feed.xml; then
   exit 1
 fi
 
-echo "==> Descarregant veu mini (x-low, sense soroll de fons)"
-curl -sL -o ca-upc_ona-x-low.onnx "https://raw.githubusercontent.com/${REPO}/main/veu/ca-upc_ona-x-low.onnx"
-curl -sL -o ca-upc_ona-x-low.onnx.json "https://raw.githubusercontent.com/${REPO}/main/veu/ca-upc_ona-x-low.onnx.json"
-MODEL="ca-upc_ona-x-low.onnx"
-
-echo "==> Generant l'àudio (model: $MODEL)"
+echo "==> Generant l'àudio"
 cp "$GUIO" "episodes/ep${NN}-guio.txt"           # guió original
-# La veu mini pronuncia bé la erra: NO cal fix_erra. Genera directament del guió.
-# length_scale 1.05: ritme natural de podcast per a la veu mini
-python3 -m piper --model "$MODEL" --length_scale 1.05 --sentence_silence 0.45 \
-  --output_file ep.wav < "$GUIO"
-ffmpeg -y -i ep.wav -af "$MASTER" -c:a libmp3lame -b:a 160k "episodes/ep${NN}.mp3" -loglevel error
+
+if [ -n "${AZURE_KEY:-}" ]; then
+  echo "    Provant Azure TTS (veu neuronal ${AZURE_VOICE:-ca-ES-JoanaNeural})"
+  if AZURE_KEY="$AZURE_KEY" AZURE_REGION="${AZURE_REGION:-francecentral}" \
+       AZURE_VOICE="${AZURE_VOICE:-ca-ES-JoanaNeural}" \
+       python3 veu/azure_tts.py "$GUIO" azure_raw.mp3; then
+    # Masterització lleugera (Azure ja surt net; només ajust de volum i to)
+    ffmpeg -y -i azure_raw.mp3 -af "highpass=f=60,dynaudnorm=f=250:g=4:p=0.9" \
+      -c:a libmp3lame -b:a 160k "episodes/ep${NN}.mp3" -loglevel error
+    echo "    Àudio generat amb Azure ✓"
+  else
+    echo "!! Azure ha fallat, faig servir la veu Piper de reserva"
+    AZURE_KEY=""
+  fi
+fi
+
+if [ -z "${AZURE_KEY:-}" ] || [ ! -f "episodes/ep${NN}.mp3" ]; then
+  echo "    Descarregant veu mini (Piper, reserva)"
+  curl -sL -o ca-upc_ona-x-low.onnx "https://raw.githubusercontent.com/${REPO}/main/veu/ca-upc_ona-x-low.onnx"
+  curl -sL -o ca-upc_ona-x-low.onnx.json "https://raw.githubusercontent.com/${REPO}/main/veu/ca-upc_ona-x-low.onnx.json"
+  python3 -c "import piper" 2>/dev/null || pip install piper-tts --break-system-packages -q
+  python3 -m piper --model ca-upc_ona-x-low.onnx --length_scale 1.05 --sentence_silence 0.45 \
+    --output_file ep.wav < "$GUIO"
+  ffmpeg -y -i ep.wav -af "$MASTER" -c:a libmp3lame -b:a 160k "episodes/ep${NN}.mp3" -loglevel error
+fi
 
 DUR_S=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "episodes/ep${NN}.mp3")
 SIZE=$(stat -c%s "episodes/ep${NN}.mp3")
