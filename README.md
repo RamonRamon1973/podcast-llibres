@@ -16,3 +16,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 7. L'Executiu Eficaç — Peter Drucker
 8. Right Kind of Wrong — Amy C. Edmondson
 9. High Output Management — Andy Grove
+10. No Rules Rules — Reed Hastings i Erin Meyer

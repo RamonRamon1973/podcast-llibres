@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 10 — No Rules Rules, de Reed Hastings i Erin Meyer</title>
+      <description>Com Netflix va construir una cultura basada en la densitat de talent, la franquesa radical i la substitució de controls per context, i què n'has de tenir en compte abans de copiar-la. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep10.mp3" length="22817324" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep10</guid>
+      <pubDate>Mon, 20 Jul 2026 13:16:54 +0000</pubDate>
+      <itunes:duration>19:00</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 9 — High Output Management, de Andy Grove</title>
       <description>Andy Grove, l'home que va convertir Intel en una màquina de producció disciplinada, explica que la feina d'un directiu no es mesura pel que fa amb les seves mans, sinó per l'output que multiplica en les dels altres. Apalancament directiu, maduresa relativa a la tasca, reunions individuals i els orígens del sistema d'objectius i resultats clau. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep09.mp3" length="19908765" type="audio/mpeg"/>
