@@ -18,3 +18,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 9. High Output Management — Andy Grove
 10. No Rules Rules — Reed Hastings i Erin Meyer
 11. The Speed of Trust — Stephen M. R. Covey
+12. Radical Candor — Kim Scott
