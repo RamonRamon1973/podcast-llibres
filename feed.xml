@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 13 — Blue Ocean Strategy, de W. Chan Kim i Renée Mauborgne</title>
+      <description>Com deixar de competir pel mateix mercat i crear un espai nou on el valor puja i el cost baixa. La innovació de valor, la graella ERRC i el llenç estratègic explicats amb els casos del Cirque du Soleil, Yellow Tail i les aerolínies de baix cost. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep13.mp3" length="22954125" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep13</guid>
+      <pubDate>Wed, 22 Jul 2026 05:16:56 +0000</pubDate>
+      <itunes:duration>19:07</itunes:duration>
+      <itunes:episode>13</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 12 — Radical Candor, de Kim Scott</title>
       <description>Un llibre imprescindible sobre com donar feedback honest sense perdre la relació humana amb el teu equip. Descobreix el marc dels quatre quadrants -sinceritat radical, empatia ruïnosa, agressivitat repulsiva i insinceritat manipuladora- i aprèn a convertir les converses difícils en oportunitats de creixement. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep12.mp3" length="22969965" type="audio/mpeg"/>
