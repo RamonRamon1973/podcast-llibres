@@ -2,14 +2,14 @@ name: Publica episodi amb Azure
 
 # Quan s'executa:
 #  - cada cop que Cowork puja un guió pendent (push que toca pendents/)
-#  - cada dia a les 06:30 UTC (08:30 hora catalana) com a xarxa de seguretat
+#  - de dilluns a divendres a les 06:30 UTC (08:30 hora catalana) com a xarxa de seguretat
 #  - manualment des de la pestanya Actions (botó "Run workflow")
 on:
   push:
     paths:
       - 'pendents/ep*.json'
   schedule:
-    - cron: '30 6 * * *'
+    - cron: '30 6 * * 1-5'
   workflow_dispatch:
 
 # Permisos perquè el workflow pugui fer commit i push al propi repo
