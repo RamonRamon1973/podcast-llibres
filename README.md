@@ -20,3 +20,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 11. The Speed of Trust — Stephen M. R. Covey
 12. Radical Candor — Kim Scott
 13. Blue Ocean Strategy — W. Chan Kim i Renée Mauborgne
+14. Les cinc disfuncions d'un equip — Patrick Lencioni
