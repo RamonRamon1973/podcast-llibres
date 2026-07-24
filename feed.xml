@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 15 — Extreme Ownership, de Jocko Willink i Leif Babin</title>
+      <description>Dos antics oficials dels Navy SEALs expliquen com la propietat extrema, la senzillesa i el comandament descentralitzat converteixen equips normals en equips d'alt rendiment. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep15.mp3" length="22313805" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep15</guid>
+      <pubDate>Fri, 24 Jul 2026 05:18:30 +0000</pubDate>
+      <itunes:duration>18:35</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 14 — Les cinc disfuncions d'un equip, de Patrick Lencioni</title>
       <description>Per què equips plens de talent individual fracassen com a grup? Lencioni explica, a través d'una faula empresarial, la piràmide de les cinc disfuncions: absència de confiança, por al conflicte, falta de compromís, evitació de la responsabilitat i falta d'atenció als resultats col·lectius. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep14.mp3" length="22043565" type="audio/mpeg"/>
