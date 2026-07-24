@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gestión en 15 Minutos</title>
+    <link>https://ramonramon1973.github.io/podcast-llibres/es/</link>
+    <atom:link href="https://ramonramon1973.github.io/podcast-llibres/feed-es.xml" rel="self" type="application/rss+xml"/>
+    <language>es</language>
+    <copyright>© 2026 Gestión en 15 Minutos</copyright>
+    <description>Cada día laborable, un gran libro de gestión empresarial resumido y comentado en quince minutos. Ideas clave, ejemplos prácticos y acciones concretas para aplicar desde hoy mismo. Resúmenes en español generados con inteligencia artificial.</description>
+    <itunes:summary>Cada día laborable, un gran libro de gestión empresarial resumido y comentado en quince minutos. Ideas clave, ejemplos prácticos y acciones concretas para aplicar desde hoy mismo.</itunes:summary>
+    <itunes:author>Gestión en 15 Minutos</itunes:author>
+    <itunes:owner>
+      <itunes:name>Ramon</itunes:name>
+      <itunes:email>ramonramonreal@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/cover-es.png"/>
+    <itunes:category text="Business">
+      <itunes:category text="Management"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+  </channel>
+</rss>

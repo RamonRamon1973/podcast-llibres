@@ -28,15 +28,6 @@ FFDIR = os.environ.get("FFMPEG_DIR", "").strip()
 FFMPEG = os.path.join(FFDIR, "ffmpeg") if FFDIR else "ffmpeg"
 FFPROBE = os.path.join(FFDIR, "ffprobe") if FFDIR else "ffprobe"
 
-# Configuració per idioma: cada podcast té les seves carpetes, feed, veu i prefix de guid
-CONFIGS = [
-    {"pend": "pendents",    "epis": "episodes",    "feed": "feed.xml",
-     "voice": VOICE, "lang": "ca-ES", "guid": "gestio15-ep", "readme": True},
-    {"pend": "pendents-es", "epis": "episodes-es", "feed": "feed-es.xml",
-     "voice": os.environ.get("AZURE_VOICE_ES", "es-ES-ElviraNeural"), "lang": "es-ES",
-     "guid": "gestion15es-ep", "readme": False},
-]
-
 def log(m): print(f"[podcast] {m}", flush=True)
 def die(m, c=1): print(f"[podcast] ERROR: {m}", file=sys.stderr, flush=True); sys.exit(c)
 
@@ -48,7 +39,7 @@ def run(cmd, **kw):
     return r
 
 # ---- Azure TTS ----
-def azure_tts(text, out_mp3, voice=VOICE, lang="ca-ES"):
+def azure_tts(text, out_mp3):
     def trosseja(t, maxlen=2500):
         frases = re.split(r'(?<=[.!?])\s+', t)
         blocs, actual = [], ""
@@ -62,10 +53,10 @@ def azure_tts(text, out_mp3, voice=VOICE, lang="ca-ES"):
     endpoint = f"https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1"
     tmp = tempfile.mkdtemp(); parts = []
     blocs = trosseja(text)
-    log(f"{len(text)} caràcters en {len(blocs)} blocs, veu {voice}")
+    log(f"{len(text)} caràcters en {len(blocs)} blocs, veu {VOICE}")
     for i, bloc in enumerate(blocs):
-        ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="{lang}">'
-                f'<voice name="{voice}"><prosody rate="-4%">{html.escape(bloc)}</prosody></voice></speak>')
+        ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="ca-ES">'
+                f'<voice name="{VOICE}"><prosody rate="-4%">{html.escape(bloc)}</prosody></voice></speak>')
         req = urllib.request.Request(endpoint, data=ssml.encode("utf-8"),
             headers={"Ocp-Apim-Subscription-Key": KEY, "Content-Type": "application/ssml+xml",
                      "X-Microsoft-OutputFormat": "audio-24khz-96kbitrate-mono-mp3",
@@ -93,49 +84,45 @@ def azure_tts(text, out_mp3, voice=VOICE, lang="ca-ES"):
     if r.returncode: die(f"masterització: {r.stderr[:200]}")
 
 # ---- Processa cada guió pendent ----
-tots = [(cfg, pf) for cfg in CONFIGS for pf in sorted(glob.glob(f"{cfg['pend']}/ep*.json"))]
-if not tots:
-    log("No hi ha guions pendents (cap idioma). Res a fer."); sys.exit(0)
+pendents = sorted(glob.glob("pendents/ep*.json"))
+if not pendents:
+    log("No hi ha guions pendents. Res a fer."); sys.exit(0)
 
 run(["git","config","user.email","podcast@local"])
 run(["git","config","user.name","Podcast PC"])
 
-for cfg, pf in tots:
+for pf in pendents:
     d = json.load(open(pf, encoding="utf-8"))
     NN = str(d["nn"]).zfill(2)
-    if f"{cfg['guid']}{NN}" in open(cfg["feed"], encoding="utf-8").read():
+    if f"gestio15-ep{NN}" in open("feed.xml", encoding="utf-8").read():
         log(f"ep{NN} ja existeix al feed, salto i esborro el pendent")
         os.remove(pf); continue
-    log(f"== [{cfg['lang']}] Processant ep{NN}: {d['titol']} ({d['autor']}) ==")
-    open(f"{cfg['epis']}/ep{NN}-guio.txt","w",encoding="utf-8").write(d["guio"])
-    azure_tts(d["guio"], f"{cfg['epis']}/ep{NN}.mp3", voice=cfg["voice"], lang=cfg["lang"])
-    size = os.path.getsize(f"{cfg['epis']}/ep{NN}.mp3")
-    durs = run([FFPROBE,"-v","error","-show_entries","format=duration","-of","csv=p=0",f"{cfg['epis']}/ep{NN}.mp3"]).stdout.strip()
+    log(f"== Processant ep{NN}: {d['titol']} ({d['autor']}) ==")
+    open(f"episodes/ep{NN}-guio.txt","w",encoding="utf-8").write(d["guio"])
+    azure_tts(d["guio"], f"episodes/ep{NN}.mp3")
+    size = os.path.getsize(f"episodes/ep{NN}.mp3")
+    durs = run([FFPROBE,"-v","error","-show_entries","format=duration","-of","csv=p=0",f"episodes/ep{NN}.mp3"]).stdout.strip()
     sec = float(durs); dur = f"{int(sec//60)}:{int(sec%60):02d}"
     pub = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     # Inserir al feed abans del primer <item>
-    feed = open(cfg["feed"], encoding="utf-8").read()
+    feed = open("feed.xml", encoding="utf-8").read()
     item = (f'    <item>\n'
             f'      <title>Ep. {int(NN)} — {d["titol"]}, de {d["autor"]}</title>\n'
             f'      <description>{d["descripcio"]}</description>\n'
-            f'      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/{cfg['epis']}/ep{NN}.mp3" length="{size}" type="audio/mpeg"/>\n'
-            f'      <guid isPermaLink="false">{cfg['guid']}{NN}</guid>\n'
+            f'      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep{NN}.mp3" length="{size}" type="audio/mpeg"/>\n'
+            f'      <guid isPermaLink="false">gestio15-ep{NN}</guid>\n'
             f'      <pubDate>{pub}</pubDate>\n'
             f'      <itunes:duration>{dur}</itunes:duration>\n'
             f'      <itunes:episode>{int(NN)}</itunes:episode>\n'
             f'      <itunes:explicit>false</itunes:explicit>\n'
             f'    </item>\n\n')
-    if "    <item>" in feed:
-        feed = feed.replace("    <item>", item + "    <item>", 1)
-    else:
-        feed = feed.replace("  </channel>", item.rstrip() + "\n\n  </channel>", 1)
-    open(cfg["feed"],"w",encoding="utf-8").write(feed)
-    import xml.etree.ElementTree as ET; ET.parse(cfg["feed"])
+    feed = feed.replace("    <item>", item + "    <item>", 1)
+    open("feed.xml","w",encoding="utf-8").write(feed)
+    import xml.etree.ElementTree as ET; ET.parse("feed.xml")
     # README
-    if cfg["readme"]:
-        linia = f'{int(NN)}. {d["titol"]} — {d["autor"]}'
-        rm = open("README.md", encoding="utf-8").read()
-        if linia not in rm: open("README.md","a",encoding="utf-8").write(linia+"\n")
+    linia = f'{int(NN)}. {d["titol"]} — {d["autor"]}'
+    rm = open("README.md", encoding="utf-8").read()
+    if linia not in rm: open("README.md","a",encoding="utf-8").write(linia+"\n")
     os.remove(pf)
     log(f"ep{NN} llest: {dur}, {size} bytes")
 

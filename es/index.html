@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gestió en 15 Minuts — Podcast</title>
+<title>Gestión en 15 Minutos — Podcast</title>
 <style>
   :root{
     --nit:#0d1b3e; --petroli:#0a5f58; --or:#d4a853; --paper:#f5f2ea; --tinta:#1c2333;
@@ -49,27 +49,26 @@
 </style>
 </head>
 <body>
-  <img class="cover" src="cover.png" alt="Portada del podcast Gestió en 15 Minuts">
-  <p class="eyebrow">Podcast diari · Català</p>
-  <h1>Gestió en 15 Minuts</h1>
-  <p class="sub">Cada dia, un gran llibre de gestió empresarial resumit en un quart d'hora.</p>
+  <img class="cover" src="../cover-es.png" alt="Portada del podcast Gestión en 15 Minutos">
+  <p class="eyebrow">Podcast diario · Español</p>
+  <h1>Gestión en 15 Minutos</h1>
+  <p class="sub">Cada día laborable, un gran libro de gestión empresarial resumido en un cuarto de hora.</p>
 
-  <a class="btn btn-apple" href="podcast://ramonramon1973.github.io/podcast-llibres/feed.xml">🎧 Escolta'l a Apple Podcasts</a>
-  <a class="btn btn-spotify" href="https://open.spotify.com/show/033TOnpct9K4HJlE9byCdw">🎵 Escolta'l a Spotify</a>
-  <a class="btn btn-copy" href="#" onclick="copia(event)">Copia l'adreça del feed</a>
-  <p id="avis">✓ Adreça copiada</p>
+  <a class="btn btn-apple" href="podcast://ramonramon1973.github.io/podcast-llibres/feed-es.xml">🎧 Escúchalo en Apple Podcasts</a>
+  <a class="btn btn-copy" href="#" onclick="copia(event)">Copia la dirección del feed</a>
+  <p id="avis">✓ Dirección copiada</p>
 
-  <p class="hint">Si el botó no obre l'app Podcasts: copia l'adreça, i a Podcasts ves a Biblioteca → ⋯ → «Segueix un programa per URL» i enganxa-la.</p>
+  <p class="hint">Si el botón no abre la app Podcasts: copia la dirección y, en Podcasts, ve a Biblioteca → ⋯ → «Seguir un programa por URL» y pégala.</p>
 
-  <p class="feed">https://ramonramon1973.github.io/podcast-llibres/feed.xml</p>
+  <p class="feed">https://ramonramon1973.github.io/podcast-llibres/feed-es.xml</p>
 
 <script>
 function copia(e){
   e.preventDefault();
-  navigator.clipboard.writeText('https://ramonramon1973.github.io/podcast-llibres/feed.xml')
+  navigator.clipboard.writeText('https://ramonramon1973.github.io/podcast-llibres/feed-es.xml')
     .then(()=>{document.getElementById('avis').style.display='block'});
 }
 </script>
-  <p class="hint"><a href="es/" style="color:#d4a853">🔗 En castellano →</a></p>
+  <p class="hint"><a href="../" style="color:#d4a853">🔗 Versió en català →</a></p>
 </body>
 </html>
