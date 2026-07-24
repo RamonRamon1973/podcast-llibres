@@ -41,6 +41,8 @@ jobs:
         env:
           AZURE_KEY: ${{ secrets.AZURE_KEY }}
           AZURE_REGION: ${{ secrets.AZURE_REGION }}
+          AZURE_KEY_ES: ${{ secrets.AZURE_KEY_ES }}
+          AZURE_REGION_ES: ${{ secrets.AZURE_REGION_ES }}
           AZURE_VOICE: ca-ES-JoanaNeural
           SKIP_GIT: '1'
         run: |

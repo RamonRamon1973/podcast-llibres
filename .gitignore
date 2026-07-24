@@ -4,3 +4,4 @@
 guio_tts.txt
 *.wav
 v.tar.gz
+veu/__pycache__/

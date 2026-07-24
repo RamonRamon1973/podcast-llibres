@@ -34,7 +34,9 @@ CONFIGS = [
      "voice": VOICE, "lang": "ca-ES", "guid": "gestio15-ep", "readme": True},
     {"pend": "pendents-es", "epis": "episodes-es", "feed": "feed-es.xml",
      "voice": os.environ.get("AZURE_VOICE_ES", "es-ES-ElviraNeural"), "lang": "es-ES",
-     "guid": "gestion15es-ep", "readme": False},
+     "guid": "gestion15es-ep", "readme": False,
+     "key": os.environ.get("AZURE_KEY_ES", "").strip() or None,
+     "region": os.environ.get("AZURE_REGION_ES", "").strip() or None},
 ]
 
 def log(m): print(f"[podcast] {m}", flush=True)
@@ -48,7 +50,9 @@ def run(cmd, **kw):
     return r
 
 # ---- Azure TTS ----
-def azure_tts(text, out_mp3, voice=VOICE, lang="ca-ES"):
+def azure_tts(text, out_mp3, voice=VOICE, lang="ca-ES", key=None, region=None):
+    key = key or KEY
+    region = region or REGION
     def trosseja(t, maxlen=2500):
         frases = re.split(r'(?<=[.!?])\s+', t)
         blocs, actual = [], ""
@@ -59,7 +63,7 @@ def azure_tts(text, out_mp3, voice=VOICE, lang="ca-ES"):
                 actual += " " + f
         if actual.strip(): blocs.append(actual.strip())
         return blocs
-    endpoint = f"https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1"
+    endpoint = f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1"
     tmp = tempfile.mkdtemp(); parts = []
     blocs = trosseja(text)
     log(f"{len(text)} caràcters en {len(blocs)} blocs, veu {voice}")
@@ -67,7 +71,7 @@ def azure_tts(text, out_mp3, voice=VOICE, lang="ca-ES"):
         ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="{lang}">'
                 f'<voice name="{voice}"><prosody rate="-4%">{html.escape(bloc)}</prosody></voice></speak>')
         req = urllib.request.Request(endpoint, data=ssml.encode("utf-8"),
-            headers={"Ocp-Apim-Subscription-Key": KEY, "Content-Type": "application/ssml+xml",
+            headers={"Ocp-Apim-Subscription-Key": key, "Content-Type": "application/ssml+xml",
                      "X-Microsoft-OutputFormat": "audio-24khz-96kbitrate-mono-mp3",
                      "User-Agent": "podcast-gestio"})
         try:
@@ -108,7 +112,7 @@ for cfg, pf in tots:
         os.remove(pf); continue
     log(f"== [{cfg['lang']}] Processant ep{NN}: {d['titol']} ({d['autor']}) ==")
     open(f"{cfg['epis']}/ep{NN}-guio.txt","w",encoding="utf-8").write(d["guio"])
-    azure_tts(d["guio"], f"{cfg['epis']}/ep{NN}.mp3", voice=cfg["voice"], lang=cfg["lang"])
+    azure_tts(d["guio"], f"{cfg['epis']}/ep{NN}.mp3", voice=cfg["voice"], lang=cfg["lang"], key=cfg.get("key"), region=cfg.get("region"))
     size = os.path.getsize(f"{cfg['epis']}/ep{NN}.mp3")
     durs = run([FFPROBE,"-v","error","-show_entries","format=duration","-of","csv=p=0",f"{cfg['epis']}/ep{NN}.mp3"]).stdout.strip()
     sec = float(durs); dur = f"{int(sec//60)}:{int(sec%60):02d}"
