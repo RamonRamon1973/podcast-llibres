@@ -23,5 +23,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
+    <item>
+      <title>Ep. 1 — Co-Intelligence, de Ethan Mollick</title>
+      <description>Empezamos con el libro de management más influyente de la era de la IA. Las cuatro reglas de Mollick para trabajar con inteligencia artificial, la frontera dentada, centauros y cíborgs, los cíborgs secretos de tu empresa, y cuatro acciones para aplicar mañana mismo. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep01.mp3" length="17353005" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep01</guid>
+      <pubDate>Fri, 24 Jul 2026 16:37:25 +0000</pubDate>
+      <itunes:duration>14:27</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
   </channel>
 </rss>
