@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 4 — Thinking, Fast and Slow, de Daniel Kahneman</title>
+      <description>El Nobel que demostró que el cerebro del mejor directivo viene con defectos de serie. Los dos sistemas de pensamiento, el anclaje, la falacia de la planificación, la aversión a la pérdida, la regresión a la media, cuándo fiarse de la intuición y el premortem: la mejor técnica para decidir mejor. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep04.mp3" length="17567565" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep04</guid>
+      <pubDate>Sat, 25 Jul 2026 05:29:52 +0000</pubDate>
+      <itunes:duration>14:38</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 3 — Good to Great, de Jim Collins</title>
       <description>El estudio más famoso del management: mil cuatrocientas treinta y cinco empresas analizadas durante cuarenta años para descubrir por qué solo once pasaron de buenas a extraordinarias. El liderazgo de nivel cinco, primero quién y después qué, la paradoja de Stockdale, el concepto del erizo, el caso Nucor y el volante de inercia. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep03.mp3" length="17419245" type="audio/mpeg"/>
