@@ -1,36 +1,40 @@
 ---
 name: podcast-gestio
-description: Produeix i publica un episodi diari del podcast "Gestió en 15 Minuts" (resums en català de llibres de gestió empresarial, ~15 min d'àudio, publicats a un feed RSS allotjat a GitHub i distribuïts via Apple Podcasts). Utilitza SEMPRE aquesta skill quan l'usuari digui "episodi d'avui", "publica l'episodi", "nou episodi", "resum del llibre d'avui", mencioni el podcast de llibres o demani generar/publicar un resum en àudio d'un llibre de gestió, encara que no digui la paraula "podcast".
+description: Produeix i publica un episodi diari del podcast "Gestió en 15 Minuts" / "Gestión en 15 Minutos" (anàlisi i comentari crític, en català i castellà, de llibres de gestió empresarial, ~15 min d'àudio, publicats a un feed RSS allotjat a GitHub i distribuïts via Apple Podcasts i Spotify). Utilitza SEMPRE aquesta skill quan l'usuari digui "episodi d'avui", "publica l'episodi", "nou episodi", "resum del llibre d'avui", mencioni el podcast de llibres o demani generar/publicar un resum/anàlisi en àudio d'un llibre de gestió, encara que no digui la paraula "podcast".
 ---
 
 # Podcast "Gestió en 15 Minuts" — Producció i publicació d'un episodi
 
 ## Context fix del projecte
 
-- **Podcast**: "Gestió en 15 Minuts", en català. Un llibre de gestió empresarial per episodi.
+- **Podcast**: "Gestió en 15 Minuts" (català) i "Gestión en 15 Minutos" (castellà, traducció del mateix catàleg). Un llibre de gestió empresarial per episodi, en forma d'anàlisi i comentari crític original, no de resum seqüencial.
 - **Repositori**: `github.com/RamonRamon1973/podcast-llibres` (branca `main`)
-- **Feed públic**: `https://ramonramon1973.github.io/podcast-llibres/feed.xml` (GitHub Pages, es desplega sol amb cada push)
-- **Estructura**: `feed.xml`, `cover.png`, `index.html`, `README.md` (llista de llibres publicats), `episodes/epNN.mp3` + `episodes/epNN-guio.txt`
+- **Feed públic CA**: `https://ramonramon1973.github.io/podcast-llibres/feed.xml`
+- **Feed públic ES**: `https://ramonramon1973.github.io/podcast-llibres/feed-es.xml`
+- (GitHub Pages es desplega sol amb cada push)
+- **Estructura**: `feed.xml`/`feed-es.xml`, `cover.png`/`cover-es.png`, `index.html`/`es/index.html`, `README.md` (llibres publicats, només CA), `episodes/epNN.mp3`+`-guio.txt` i `episodes-es/epNN.mp3`+`-guio.txt`, `pendents/` i `pendents-es/` (bústia de guions pendents de veu)
+- **Veu**: Azure Speech neuronal — `ca-ES-JoanaNeural` (recurs a França) i `es-ES-ElviraNeural` (recurs a Suècia), cadascun amb la seva quota gratuïta de 500.000 caràcters/mes independent
 - **Estadístiques**: les URL d'àudio del feed van prefixades amb OP3.
 - **Autenticació**: cal un token fine-grained de GitHub del propietari (Ramon). **Mai no està desat en aquesta skill.** Si no és al missatge de l'usuari ni a l'entorn de la tasca, demana'l abans de començar. No el mostris mai sencer en cap resposta.
 
-## Via ràpida (RECOMANADA): l'script `veu/publica.sh`
+## Com es publica un episodi (arquitectura real, actualitzada)
 
-Tota la part tècnica (veu, correcció de la erra, àudio MP3, feed, README, commit, push i verificació) ja està encapsulada a `veu/publica.sh` del repositori. El flux recomanat és:
+**Arquitectura del sistema (dos idiomes, català i castellà):** Cowork (aquesta skill) NOMÉS escriu el guió i el deixa "pendent" al repositori. NO genera l'àudio directament — això ho fa GitHub Actions (que sí té accés obert a Azure; l'entorn de Cowork no hi arriba).
 
-1. Clona el repo, decideix el llibre (pas 2 de baix) i escriu el guió (pas 3) a un fitxer `guio.txt`.
-2. Executa: `bash veu/publica.sh <TOKEN> <NN> "<TÍTOL>" "<AUTOR>" "<DESCRIPCIÓ>" <ruta_absoluta_guio.txt>`
-3. Comprova que acaba amb "FET" i verificació HTTP 200.
+Flux:
+1. Clona el repo, decideix el llibre (secció "Decidir el llibre") i escriu el guió (secció "Escriure el guió i el disclaimer d'IA") a un fitxer `guio.txt`.
+2. Si el guió conté noms propis anglesos que no siguin ja a `veu/pronunciacions.py`, crea un `pron.json` amb l'aproximació fonètica (veu la secció de pronunciació més avall).
+3. Executa per al **català**:
+   `bash veu/deixa_pendent.sh <TOKEN> <NN> "<TÍTOL>" "<AUTOR>" "<DESCRIPCIÓ>" "$(realpath guio.txt)" ["$(realpath pron.json)"]`
+   (el número `NN` és el següent lliure: mira `README.md` i la carpeta `pendents/`)
+4. Per al **castellà**, tradueix el guió (`guio_es.txt`, natural i adaptat, no literal) i executa:
+   `bash veu/deixa_pendent_es.sh <TOKEN> "<TÍTULO>" "<AUTOR>" "<DESCRIPCIÓN>" "$(realpath guio_es.txt)" ["$(realpath pron_es.json)"]`
+   (el número es calcula sol; NO repeteixis cap llibre que ja existeixi en castellà)
+5. Comprova que cada script acaba amb "FET". **Aquí acaba la feina de Cowork.** El push a `pendents/` o `pendents-es/` dispara sol el workflow de GitHub Actions, que genera l'àudio amb Azure, actualitza `feed.xml`/`feed-es.xml` i `README.md`, i publica. No cal fer res més ni esperar que acabi.
 
-L'script ja gestiona: protecció anti-duplicats (feed i README), model medium amb fallback a x-low, correcció de la erra, MP3 net (no AAC), length_scale 1.18 i masterització. Els passos manuals de sota són la referència detallada per si cal depurar o modificar alguna cosa.
+**⚠️ Script `veu/publica.sh` OBSOLET**: és una relíquia de quan la veu era Piper i tot es feia en un sol pas. NO l'utilitzis. El pipeline real i vigent és `deixa_pendent.sh` / `deixa_pendent_es.sh` + GitHub Actions descrit a dalt.
 
-**IMPORTANT sobre el format i el soroll de fons:** els episodis són MP3 (`libmp3lame`, 160k), NO AAC/m4a. A més, la veu medium genera un lleuger soroll de fons a les pauses; per això la cadena de masterització inclou un noise gate (`agate`) i fa servir `dynaudnorm` en lloc de `loudnorm` (aquest últim amplificava el soroll dels silencis fins a fer-lo audible, ~-37 dB; amb el gate baixa a ~-73 dB, inaudible). NO tornis a `loudnorm` ni treguis l'`agate`.
-
-
-
-## Veu: Azure TTS (per defecte si hi ha clau) o Piper (reserva)
-
-Si les variables d'entorn `AZURE_KEY` i `AZURE_REGION` estan definides, l'script genera l'àudio amb la veu neuronal catalana d'Azure (`ca-ES-JoanaNeural`), que és neta, natural i pronuncia bé les erres. Si no hi ha clau o Azure falla, torna automàticament a la veu Piper mini (allotjada al repo). No cal cap correcció d'erra ni afftdn amb Azure. La tasca de Cowork ha de passar AZURE_KEY i AZURE_REGION com a variables d'entorn abans de cridar publica.sh.
+**⚠️ Quota d'Azure**: cada recurs (català a França, castellà a Suècia) té 500.000 caràcters/mes gratuïts. Si el consum del mes va molt just (comprova-ho si l'usuari ho pregunta), un episodi pot fallar per quota exhaurida; en aquest cas informa l'usuari en lloc de reintentar en bucle.
 
 ---
 
@@ -89,74 +93,40 @@ Llegeix `repo/README.md` (secció "Llibres publicats") i `repo/feed.xml` per sab
 
 Criteris de tria: alterna (a) clàssics de referència del management (Drucker, Collins, Covey, Kahneman, Christensen, Grove, Porter, Sinek, Lencioni, Ries...) i (b) novetats influents dels últims 2-3 anys. Tria'l tu: no preguntis a l'usuari.
 
-### 3. Escriure el guió
+### Escriure el guió i el disclaimer d'IA
 
 Fitxer de treball: `/home/claude/guio.txt`. Requisits:
 
-- **En català**, to de podcast conversacional (parla a "tu"), sense encapçalaments ni llistes amb símbols: text corregut que es pugui llegir en veu alta.
-- **Mínim 2.600 paraules** (comprova amb `wc -w`; amb la veu medium a length_scale 1.18, ~2.600-2.900 paraules donen 14-16 min. Per sota, l'àudio queda curt).
-- Estructura: salutació i presentació del llibre i per què s'ha triat → context de l'autor → tesi central → 3-6 idees clau desenvolupades amb exemples i casos reals → si escau, una nota crítica honesta sobre les limitacions del llibre → 4-5 accions pràctiques concretes per aplicar demà → resum final d'una frase → comiat anunciant que demà hi haurà nou episodi.
+- **En català** (o castellà per a `guio_es.txt`), to de podcast conversacional (parla a "tu"), sense encapçalaments ni llistes amb símbols: text corregut que es pugui llegir en veu alta.
+- **Mínim 2.600 paraules** (comprova amb `wc -w`; per sota, l'àudio queda curt d'uns 15 min).
 - Escriu els números en lletres (la veu llegeix malament les xifres) i evita anglicismes innecessaris; els títols en anglès es diuen tal qual i es tradueixen un cop.
 - Cap dada inventada: si no estàs segur d'una xifra o cas del llibre, omet-lo o explica'l de manera genèrica.
 
-### 4. Generar i masteritzar l'àudio
+**Disclaimer d'IA (OBLIGATORI, a la salutació inicial):** integra de manera natural, dins la primera o segona frase, que el contingut és una anàlisi original generada amb IA — mai amagat ni al final. Exemple de fórmula (adapta-la, no la repeteixis literal cada dia per no sonar robòtic):
+> "Hola, i benvingut un dia més al teu podcast de gestió empresarial — un comentari i anàlisi original, escrit i narrat amb intel·ligència artificial. Avui parlem de..."
+> (ES: "Hola, y bienvenido un día más a tu podcast de gestión empresarial — un comentario y análisis original, escrito y narrado con inteligencia artificial. Hoy hablamos de...")
 
-Primer aplica la correcció de la erra, després genera amb el model medium:
+**Estructura (IMPORTANT: és una anàlisi comentada, NO un resum seqüencial del llibre):**
+1. Salutació amb el disclaimer integrat + presentació del llibre i per què s'ha triat avui
+2. Context breu de l'autor
+3. La tesi central, **explicada I valorada amb veu pròpia** — no només "el llibre diu X", sinó per què això importa o és discutible avui
+4. 3-5 idees clau: per cadascuna, no et limitis a exposar-la — contrasta-la, qüestiona-la si toca, connecta-la amb algun episodi anterior del podcast quan tingui sentit, o dona-hi la teva lectura pròpia
+5. **Secció de valoració crítica, NO opcional**: on l'autor generalitza massa, quines dades han envellit malament, quines objeccions raonables té algú que hi discrepeixi. Cada episodi n'ha de tenir una, encara que el llibre t'agradi
+6. 4-5 accions pràctiques concretes per aplicar demà
+7. Una frase final que sigui una valoració pròpia (no un resum del que ja s'ha dit)
+8. Comiat anunciant que demà hi haurà nou episodi
 
-```bash
-python3 repo/veu/fix_erra.py < guio.txt > guio_tts.txt
+El motiu d'aquest èmfasi: un podcast que és pura seqüència del contingut del llibre s'assembla legalment a un "resum", que la llei de propietat intel·lectual espanyola tracta com a obra derivada. Un podcast que analitza, valora, contrasta i connecta idees pròpies és comentari/crítica original, molt més protegit. Cada episodi ha de sonar com "algú intel·ligent parlant SOBRE el llibre", no "algú explicant el llibre per ordre".
 
-# length_scale 1.18: la veu medium parla ràpid; aquest valor la porta a ritme de podcast
-python3 -m piper --model ca-medium.onnx --length_scale 1.18 --sentence_silence 0.45 \
-  --output_file ep.wav < guio_tts.txt
+A les descripcions del feed (`<description>` i al paràmetre `<DESCRIPCIÓ>`), acaba amb "Anàlisi i comentari crític del llibre, en català/en español" (NO "Resum i comentari"), coherent amb aquest enfocament.
 
-ffmpeg -y -i ep.wav -af "highpass=f=75,afftdn=nf=-25:nt=w,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-18dB:ratio=3:attack=10:release=150,dynaudnorm=f=250:g=4:p=0.9,agate=threshold=0.008:ratio=9:attack=1:release=100" \
-  -c:a libmp3lame -b:a 160k repo/episodes/epNN.mp3
-```
+### Què fa GitHub Actions (Cowork NO ho fa, és automàtic)
 
-Nota: `guio.txt` és l'original (es desa com a `epNN-guio.txt`); `guio_tts.txt` és el corregit i només serveix per generar l'àudio.
+Un cop `deixa_pendent.sh`/`deixa_pendent_es.sh` acaben amb "FET", GitHub Actions s'encarrega sol de: generar l'àudio amb Azure (aplicant `veu/pronunciacions.py` per corregir noms anglesos), masteritzar amb `highpass + loudnorm + alimiter` (mai `dynaudnorm` sol, va causar distorsió), inserir l'`<item>` al feed corresponent, actualitzar `README.md` (només per al català), fer commit i push. Cowork no ha de tocar `feed.xml`, `episodes/*.mp3` ni fer cap `git push` d'àudio directament — si ho fas, probablement estàs seguint el pipeline obsolet.
 
-Comprova la durada: `ffprobe -v error -show_entries format=duration -of csv=p=0 repo/episodes/epNN.mp3`.
-**Objectiu: entre 13:30 i 16:30 minuts.** Si queda curt, amplia el guió amb una secció nova (un cas real més, una crítica, una comparació amb un altre llibre ja publicat al podcast) i regenera. Desa el guió final a `repo/episodes/epNN-guio.txt`.
+### Informar l'usuari
 
-### 5. Actualitzar el feed
-
-Obté la mida exacta en bytes (`stat -c%s`) i la durada en format `MM:SS`. Insereix aquest bloc a `repo/feed.xml` **just abans del primer `<item>` existent** (l'episodi nou sempre va a dalt):
-
-```xml
-    <item>
-      <title>Ep. NN — TÍTOL, d'AUTOR</title>
-      <description>DESCRIPCIÓ ATRACTIVA DE 2-4 FRASES AMB LES IDEES CLAU. Acaba amb: Resum i comentari del llibre en català.</description>
-      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/epNN.mp3" length="BYTES" type="audio/mpeg"/>
-      <guid isPermaLink="false">gestio15-epNN</guid>
-      <pubDate>DATA RFC-2822 D'AVUI, p.ex. Sat, 18 Jul 2026 09:00:00 +0200</pubDate>
-      <itunes:duration>MM:SS</itunes:duration>
-      <itunes:episode>NN</itunes:episode>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-```
-
-Valida sempre l'XML abans de continuar:
-`python3 -c "import xml.etree.ElementTree as ET; ET.parse('repo/feed.xml')"`
-
-### 6. Actualitzar el registre de llibres
-
-Afegeix una línia `NN. TÍTOL — AUTOR (ANY)` a la llista de `repo/README.md`.
-
-### 7. Publicar i verificar
-
-```bash
-cd repo && git config user.email "claude@anthropic.com" && git config user.name "Claude"
-git add -A && git commit -m "Episodi NN: TÍTOL (AUTOR)" && git push origin main
-```
-
-Verificació obligatòria després del push:
-- `curl -s -o /dev/null -w "%{http_code}"` de l'àudio nou a `raw.githubusercontent.com` → ha de ser 200
-- estat del desplegament: `GET https://api.github.com/repos/RamonRamon1973/podcast-llibres/pages/builds/latest` amb el token → `"status": "built"` (pot trigar ~1 min; reintenta)
-
-### 8. Informar l'usuari
-
-Missatge breu: número i llibre publicat, durada, recordatori que refresqui l'app Podcasts, i avança quin llibre tens pensat per a demà. Sense tecnicismes.
+Missatge breu: número i llibre deixat pendent (en cada idioma), i que GitHub Actions el publicarà en pocs minuts. Sense tecnicismes. No cal esperar activament que acabi ni consultar l'estat del workflow tret que l'usuari ho demani.
 
 ## Gestió d'errors
 
