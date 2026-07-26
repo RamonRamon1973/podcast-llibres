@@ -1,0 +1,57 @@
+name: Regenera tots els episodis
+
+# Es dispara quan es puja/modifica el fitxer .github/regenera-trigger.txt,
+# o manualment des de la pestanya Actions.
+on:
+  push:
+    paths:
+      - '.github/regenera-trigger.txt'
+  workflow_dispatch:
+    inputs:
+      idiomes:
+        description: 'Idiomes a regenerar (ca,es)'
+        default: 'ca,es'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regenera-tot
+  cancel-in-progress: false
+
+jobs:
+  regenera:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el repositori
+        uses: actions/checkout@v4
+
+      - name: Instal·lar ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerar tots els episodis amb Azure
+        env:
+          AZURE_KEY: ${{ secrets.AZURE_KEY }}
+          AZURE_REGION: ${{ secrets.AZURE_REGION }}
+          AZURE_KEY_ES: ${{ secrets.AZURE_KEY_ES }}
+          AZURE_REGION_ES: ${{ secrets.AZURE_REGION_ES }}
+          IDIOMES: ${{ github.event.inputs.idiomes || 'ca,es' }}
+        run: |
+          python3 veu/regenera_tot.py
+
+      - name: Publicar els canvis
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            git add -A
+            git commit -m "Regenerar tots els episodis amb el diccionari de pronunciacions actualitzat"
+            git push
+          else
+            echo "Res per publicar."
+          fi
