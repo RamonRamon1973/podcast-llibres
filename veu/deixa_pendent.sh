@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 # deixa_pendent.sh — El fa servir Cowork (núvol, només GitHub).
 # Desa un guió com a pendent perquè el PC el converteixi a àudio amb Azure.
-# Ús: ./deixa_pendent.sh <TOKEN> <NN> "<TÍTOL>" "<AUTOR>" "<DESCRIPCIÓ>" <guio.txt>
+# Ús: ./deixa_pendent.sh <TOKEN> <NN> "<TÍTOL>" "<AUTOR>" "<DESCRIPCIÓ>" <guio.txt> [pron.json]
+# pron.json (opcional): {"Nom Anglès": "aproximació fonètica catalana", ...}
+# per corregir la pronunciació de noms/títols anglesos específics d'aquest episodi.
 set -euo pipefail
 
 TOKEN="$1"; NN="$2"; TITOL="$3"; AUTOR="$4"; DESC="$5"; GUIO="$(realpath "$6")"
+PRON="${7:-}"; [ -n "$PRON" ] && PRON="$(realpath "$PRON")"
 REPO="RamonRamon1973/podcast-llibres"
 WORK="/tmp/pendent-work"
 
@@ -20,14 +23,17 @@ if [ -f "pendents/ep${NN}.json" ]; then
 fi
 
 # Escriure el JSON del pendent (Python per escapar bé el text)
-python3 - "$NN" "$TITOL" "$AUTOR" "$DESC" "$GUIO" << 'PYEOF'
+python3 - "$NN" "$TITOL" "$AUTOR" "$DESC" "$GUIO" "$PRON" << 'PYEOF'
 import sys, json
-NN, TITOL, AUTOR, DESC, GUIO = sys.argv[1:6]
+NN, TITOL, AUTOR, DESC, GUIO, PRON = sys.argv[1:7]
 guio = open(GUIO, encoding="utf-8").read()
 d = {"nn": int(NN), "titol": TITOL, "autor": AUTOR, "descripcio": DESC, "guio": guio}
+if PRON:
+    d["pron"] = json.load(open(PRON, encoding="utf-8"))
 open(f"pendents/ep{NN.zfill(2)}.json","w",encoding="utf-8").write(
     json.dumps(d, ensure_ascii=False, indent=2))
-print(f"    Pendent ep{NN.zfill(2)} desat ({len(guio)} caràcters)")
+print(f"    Pendent ep{NN.zfill(2)} desat ({len(guio)} caràcters" +
+      (f", {len(d.get('pron', {}))} pronunciacions extra" if PRON else "") + ")")
 PYEOF
 
 git config user.email "claude@anthropic.com"

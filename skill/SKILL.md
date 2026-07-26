@@ -34,7 +34,32 @@ Si les variables d'entorn `AZURE_KEY` i `AZURE_REGION` estan definides, l'script
 
 ---
 
-## Procés detallat (referència)
+## Pronunciació de noms i termes en anglès (IMPORTANT)
+
+Les veus Azure (Joana en català, Elvira en castellà) NO són multilingües: llegeixen els noms propis i termes anglesos amb les regles fonètiques del seu propi idioma, cosa que sona estrany o confon l'oient (p. ex. "Kahneman" o "Silicon Valley" llegits com si fossin paraules catalanes).
+
+**Solució ja integrada:** `veu/pronunciacions.py` conté un diccionari de termes anglesos recurrents (Google, Harvard, feedback, startup, marketing...) que es reescriuen foneticament amb ortografia catalana/castellana NOMÉS per a la síntesi de veu — mai es toca el guió que es desa com a transcripció. Aquest pas és automàtic, no cal fer-hi res.
+
+**El que SÍ has de fer cada dia:** si el guió d'avui conté el títol del llibre en anglès, el nom de l'autor, o qualsevol altre terme anglès que no sigui ja al diccionari base, crea un petit fitxer JSON amb l'aproximació fonètica i passa'l com a paràmetre opcional als scripts:
+
+```json
+{"Thinking, Fast and Slow": "Zínquin Fast an Slou", "Daniel Kahneman": "Dàniel Càhneman"}
+```
+
+Escriu l'aproximació fent servir ortografia catalana (o castellana per a l'episodi en castellà) que, llegida amb les regles normals d'aquell idioma, soni el més semblant possible a la pronunciació anglesa real. Exemples de tècnica: dobla consonants per marcar èmfasi, evita lletres que no existeixen en la pronunciació catalana/castellana (com la "th"), i pensa en com un locutor de ràdio català/castellà "castellanitzaria" el nom en veu alta.
+
+Desa aquest JSON com a `pron.txt` (o el nom que vulguis) i passa'l com a últim argument:
+
+```bash
+bash veu/deixa_pendent.sh <TOKEN> <NN> "<TÍTOL>" "<AUTOR>" "<DESCRIPCIÓ>" "$(realpath guio.txt)" "$(realpath pron.txt)"
+bash veu/deixa_pendent_es.sh <TOKEN> "<TÍTULO>" "<AUTOR>" "<DESCRIPCIÓN>" "$(realpath guio_es.txt)" "$(realpath pron_es.txt)"
+```
+
+Aquest paràmetre és opcional: si el guió d'avui no té termes anglesos rellevants més enllà dels que ja cobreix el diccionari base, no cal passar-lo.
+
+**Termes recurrents nous:** si detectes un terme anglès que probablement es repetirà en episodis futurs (una empresa, un concepte de negoci habitual), afegeix-lo directament a `DICCIONARI_CA` i `DICCIONARI_ES` dins de `veu/pronunciacions.py` en el mateix commit, perquè quedi cobert per sempre sense haver-ho de repetir cada dia.
+
+
 
 ### 1. Preparar l'entorn
 

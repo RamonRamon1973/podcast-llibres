@@ -17,6 +17,7 @@ Variables d'entorn necessàries:
   AZURE_VOICE    (opcional) veu, per defecte ca-ES-JoanaNeural
 """
 import os, sys, re, json, subprocess, tempfile, urllib.request, urllib.error, html, glob, datetime
+import pronunciacions
 
 REPO_DIR = os.environ.get("REPO_DIR", os.path.join(os.path.dirname(__file__), ".."))
 KEY = os.environ.get("AZURE_KEY", "").strip()
@@ -112,7 +113,8 @@ for cfg, pf in tots:
         os.remove(pf); continue
     log(f"== [{cfg['lang']}] Processant ep{NN}: {d['titol']} ({d['autor']}) ==")
     open(f"{cfg['epis']}/ep{NN}-guio.txt","w",encoding="utf-8").write(d["guio"])
-    azure_tts(d["guio"], f"{cfg['epis']}/ep{NN}.mp3", voice=cfg["voice"], lang=cfg["lang"], key=cfg.get("key"), region=cfg.get("region"))
+    text_tts = pronunciacions.aplica(d["guio"], lang=cfg["lang"], extra=d.get("pron"))
+    azure_tts(text_tts, f"{cfg['epis']}/ep{NN}.mp3", voice=cfg["voice"], lang=cfg["lang"], key=cfg.get("key"), region=cfg.get("region"))
     size = os.path.getsize(f"{cfg['epis']}/ep{NN}.mp3")
     durs = run([FFPROBE,"-v","error","-show_entries","format=duration","-of","csv=p=0",f"{cfg['epis']}/ep{NN}.mp3"]).stdout.strip()
     sec = float(durs); dur = f"{int(sec//60)}:{int(sec%60):02d}"
