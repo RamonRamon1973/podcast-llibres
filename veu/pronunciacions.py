@@ -189,6 +189,10 @@ DICCIONARI_CA = {
     # Fundadors i executius sovint citats
     "Steve Jobs": "Estíu Yobs",
     "Bill Gates": "Bil Guéits",
+    "Gates": "Guéits",
+    "Fundació Gates": "Fundació Guéits",
+    "Gates Foundation": "Guéits Fàundeixon",
+    "Melinda Gates": "Melinda Guéits",
     "Jeff Bezos": "Yef Bézos",
     "Mark Zuckerberg": "Marc Zúcarberg",
     "Warren Buffett": "Uóren Báfet",
@@ -416,6 +420,10 @@ DICCIONARI_ES = {
     # Fundadores y ejecutivos citados a menudo
     "Steve Jobs": "Estíf Yobs",
     "Bill Gates": "Bil Guéits",
+    "Gates": "Guéits",
+    "Fundación Gates": "Fundación Guéits",
+    "Gates Foundation": "Guéits Fáundeichon",
+    "Melinda Gates": "Melinda Guéits",
     "Jeff Bezos": "Yef Bésos",
     "Mark Zuckerberg": "Marc Zúcarberg",
     "Warren Buffett": "Uóren Báfet",
