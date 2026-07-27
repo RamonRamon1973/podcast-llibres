@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 17 — Start with Why, de Simon Sinek</title>
+      <description>Per què alguns líders i algunes empreses aconsegueixen una lleialtat que cap descompte pot comprar? Simon Sinek explica el cercle daurat: primer el per què, després el com, i finalment el què. Amb els exemples d'Apple, els germans Wright i Martin Luther King, descobrim per què la gent no compra el que fas, sinó per què ho fas. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep17.mp3" length="23018925" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep17</guid>
+      <pubDate>Mon, 27 Jul 2026 05:21:28 +0000</pubDate>
+      <itunes:duration>19:10</itunes:duration>
+      <itunes:episode>17</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 16 — Zero to One, de Peter Thiel</title>
       <description>Peter Thiel, cofundador de PayPal i inversor a Facebook, LinkedIn i Palantir, explica per què la competència és per als perdedors, com dominar un mercat petit abans d'expandir-te, i per què tota empresa d'èxit amaga un secret. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep16.mp3" length="11823405" type="audio/mpeg"/>

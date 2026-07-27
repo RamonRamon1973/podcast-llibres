@@ -23,3 +23,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 14. Les cinc disfuncions d'un equip — Patrick Lencioni
 15. Extreme Ownership — Jocko Willink i Leif Babin
 16. Zero to One — Peter Thiel
+17. Start with Why — Simon Sinek
