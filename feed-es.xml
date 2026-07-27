@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 5 — The Innovator's Dilemma, de Clayton Christensen</title>
+      <description>Por qué las empresas líderes mueren precisamente por hacerlo todo bien. Innovación sostenedora contra disruptiva, la escalada de las minifábricas de acero, por qué escuchar a los mejores clientes te puede dejar ciego, el caso Netflix contra Blockbuster, y cinco preguntas para detectar a tu propio disruptor antes de que llegue. Análisis y comentario crítico del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep05.mp3" length="15994605" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep05</guid>
+      <pubDate>Mon, 27 Jul 2026 06:31:17 +0000</pubDate>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 4 — Thinking, Fast and Slow, de Daniel Kahneman</title>
       <description>El Nobel que demostró que el cerebro del mejor directivo viene con defectos de serie. Los dos sistemas de pensamiento, el anclaje, la falacia de la planificación, la aversión a la pérdida, la regresión a la media, cuándo fiarse de la intuición y el premortem: la mejor técnica para decidir mejor. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep04.mp3" length="17558445" type="audio/mpeg"/>
