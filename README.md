@@ -24,3 +24,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 15. Extreme Ownership — Jocko Willink i Leif Babin
 16. Zero to One — Peter Thiel
 17. Start with Why — Simon Sinek
+18. Slow Productivity — Cal Newport

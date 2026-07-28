@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 18 — Slow Productivity, de Cal Newport</title>
+      <description>Cal Newport, professor a Georgetown i autor de "Deep Work", proposa deixar enrere la pseudoproductivitat basada en semblar sempre ocupat. El llibre planteja tres principis per treballar millor: fer menys coses, treballar a un ritme natural i obsessionar-se per la qualitat del resultat. Repassem exemples pràctics d'estacionalitat, marges de temps més realistes i com fer visible el treball que no es veu. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep18.mp3" length="23085165" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep18</guid>
+      <pubDate>Tue, 28 Jul 2026 05:22:58 +0000</pubDate>
+      <itunes:duration>19:14</itunes:duration>
+      <itunes:episode>18</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 17 — Start with Why, de Simon Sinek</title>
       <description>Per què alguns líders i algunes empreses aconsegueixen una lleialtat que cap descompte pot comprar? Simon Sinek explica el cercle daurat: primer el per què, després el com, i finalment el què. Amb els exemples d'Apple, els germans Wright i Martin Luther King, descobrim per què la gent no compra el que fas, sinó per què ho fas. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep17.mp3" length="23018925" type="audio/mpeg"/>
