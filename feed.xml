@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 19 — The Hard Thing About Hard Things, de Ben Horowitz</title>
+      <description>Ben Horowitz, cofundador de Loudcloud i Andreessen Horowitz, explica com prendre decisions difícils quan una empresa està al caire de la fallida: com liderar en temps de guerra, com acomiadar amb dignitat i com contractar per fortaleses. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep19.mp3" length="22951245" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep19</guid>
+      <pubDate>Wed, 29 Jul 2026 05:18:34 +0000</pubDate>
+      <itunes:duration>19:07</itunes:duration>
+      <itunes:episode>19</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 18 — Slow Productivity, de Cal Newport</title>
       <description>Cal Newport, professor a Georgetown i autor de "Deep Work", proposa deixar enrere la pseudoproductivitat basada en semblar sempre ocupat. El llibre planteja tres principis per treballar millor: fer menys coses, treballar a un ritme natural i obsessionar-se per la qualitat del resultat. Repassem exemples pràctics d'estacionalitat, marges de temps més realistes i com fer visible el treball que no es veu. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep18.mp3" length="23085165" type="audio/mpeg"/>

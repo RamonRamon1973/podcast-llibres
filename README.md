@@ -25,3 +25,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 16. Zero to One — Peter Thiel
 17. Start with Why — Simon Sinek
 18. Slow Productivity — Cal Newport
+19. The Hard Thing About Hard Things — Ben Horowitz
