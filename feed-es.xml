@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 6 — The Lean Startup, de Eric Ries</title>
+      <description>El método que enseñó a startups y grandes empresas a dejar de planificar a ciegas y empezar a aprender rápido: producto mínimo viable, el bucle de crear-medir-aprender, métricas accionables frente a métricas de vanidad, y cuándo pivotar o perseverar. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep06.mp3" length="18459405" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep06</guid>
+      <pubDate>Thu, 30 Jul 2026 07:49:04 +0000</pubDate>
+      <itunes:duration>15:22</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 5 — The Innovator's Dilemma, de Clayton Christensen</title>
       <description>Por qué las empresas líderes mueren precisamente por hacerlo todo bien. Innovación sostenedora contra disruptiva, la escalada de las minifábricas de acero, por qué escuchar a los mejores clientes te puede dejar ciego, el caso Netflix contra Blockbuster, y cinco preguntas para detectar a tu propio disruptor antes de que llegue. Análisis y comentario crítico del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep05.mp3" length="15994605" type="audio/mpeg"/>
