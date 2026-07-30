@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 20 — Estratègia Competitiva, de Michael Porter</title>
+      <description>El clàssic fundacional de l'estratègia empresarial moderna: les cinc forces competitives, les tres estratègies genèriques i la cadena de valor, explicades amb exemples reals per entendre per què hi ha sectors on és fàcil guanyar diners i d'altres on és molt difícil. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep20.mp3" length="25049325" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep20</guid>
+      <pubDate>Thu, 30 Jul 2026 05:19:08 +0000</pubDate>
+      <itunes:duration>20:52</itunes:duration>
+      <itunes:episode>20</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 19 — The Hard Thing About Hard Things, de Ben Horowitz</title>
       <description>Ben Horowitz, cofundador de Loudcloud i Andreessen Horowitz, explica com prendre decisions difícils quan una empresa està al caire de la fallida: com liderar en temps de guerra, com acomiadar amb dignitat i com contractar per fortaleses. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep19.mp3" length="22951245" type="audio/mpeg"/>
