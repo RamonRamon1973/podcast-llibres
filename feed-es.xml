@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 7 — El ejecutivo eficaz, de Peter Drucker</title>
+      <description>Los hábitos prácticos que separan a los directivos que producen resultados extraordinarios de los que simplemente están ocupados: gestionar el tiempo en bloques grandes, preguntarse qué hay que hacer en lugar de qué se quiere hacer, centrarse en la contribución, construir sobre las fortalezas, abandonar lo obsoleto y buscar el desacuerdo antes de decidir. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep07.mp3" length="19283565" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep07</guid>
+      <pubDate>Thu, 30 Jul 2026 09:34:53 +0000</pubDate>
+      <itunes:duration>16:04</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 6 — The Lean Startup, de Eric Ries</title>
       <description>El método que enseñó a startups y grandes empresas a dejar de planificar a ciegas y empezar a aprender rápido: producto mínimo viable, el bucle de crear-medir-aprender, métricas accionables frente a métricas de vanidad, y cuándo pivotar o perseverar. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep06.mp3" length="18459405" type="audio/mpeg"/>
