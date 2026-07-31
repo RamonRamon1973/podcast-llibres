@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 8 — Right Kind of Wrong, de Amy C. Edmondson, de Amy C. Edmondson</title>
+      <description>Amy Edmondson, profesora en Harvard y creadora del concepto de seguridad psicológica, distingue tres tipos de fracaso (básico, complejo e inteligente) y explica por qué aprender a fracasar bien es clave para innovar sin hacerse daño por el camino. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep08.mp3" length="20064045" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep08</guid>
+      <pubDate>Fri, 31 Jul 2026 05:23:41 +0000</pubDate>
+      <itunes:duration>16:43</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 7 — El ejecutivo eficaz, de Peter Drucker</title>
       <description>Los hábitos prácticos que separan a los directivos que producen resultados extraordinarios de los que simplemente están ocupados: gestionar el tiempo en bloques grandes, preguntarse qué hay que hacer en lugar de qué se quiere hacer, centrarse en la contribución, construir sobre las fortalezas, abandonar lo obsoleto y buscar el desacuerdo antes de decidir. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep07.mp3" length="19283565" type="audio/mpeg"/>

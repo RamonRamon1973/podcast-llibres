@@ -27,3 +27,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 18. Slow Productivity — Cal Newport
 19. The Hard Thing About Hard Things — Ben Horowitz
 20. Estratègia Competitiva — Michael Porter
+21. Team of Teams — Stanley McChrystal
