@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 9 — High Output Management, de Andy Grove</title>
+      <description>El clásico de Andy Grove, fundador y CEO de Intel, sobre cómo multiplicar el output de un equipo a través del apalancamiento directivo, las reuniones individuales y los objetivos y resultados clave que después se popularizarían como OKR. La fábrica de desayunos, la Operación Crush y el abandono del negocio de memorias de Intel ilustran unas ideas que siguen vigentes cuarenta años después. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep09.mp3" length="19069965" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep09</guid>
+      <pubDate>Mon, 03 Aug 2026 05:22:48 +0000</pubDate>
+      <itunes:duration>15:53</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 8 — Right Kind of Wrong, de Amy C. Edmondson, de Amy C. Edmondson</title>
       <description>Amy Edmondson, profesora en Harvard y creadora del concepto de seguridad psicológica, distingue tres tipos de fracaso (básico, complejo e inteligente) y explica por qué aprender a fracasar bien es clave para innovar sin hacerse daño por el camino. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep08.mp3" length="20064045" type="audio/mpeg"/>
