@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 22 — Build, de Tony Fadell</title>
+      <description>Tony Fadell, creador de l'iPod i fundador de Nest, explica com construir productes, equips i carreres a partir de la seva pròpia experiència. Un llibre honest sobre travessar el pantà dels inicis, distingir gestionar de liderar, evitar dependre d'un heroi solitari i dissenyar pensant sempre en el client. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep22.mp3" length="22072845" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep22</guid>
+      <pubDate>Mon, 03 Aug 2026 05:42:51 +0000</pubDate>
+      <itunes:duration>18:23</itunes:duration>
+      <itunes:episode>22</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 21 — Team of Teams, de Stanley McChrystal</title>
       <description>Com un exèrcit va aprendre a combatre una xarxa terrorista descentralitzada substituint el comandament vertical per equips connectats amb consciència compartida i execució delegada. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep21.mp3" length="24433485" type="audio/mpeg"/>
