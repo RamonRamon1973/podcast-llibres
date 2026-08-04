@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 23 — Principles: Life and Work, de Ray Dalio</title>
+      <description>Ray Dalio, fundador de Bridgewater Associates, explica el sistema de principis que va construir per prendre millors decisions: veritat radical, transparència, meritocràcia d'idees i un procés en cinc passos per convertir cada error en aprenentatge. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep23.mp3" length="23232045" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep23</guid>
+      <pubDate>Tue, 04 Aug 2026 05:24:10 +0000</pubDate>
+      <itunes:duration>19:21</itunes:duration>
+      <itunes:episode>23</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 22 — Build, de Tony Fadell</title>
       <description>Tony Fadell, creador de l'iPod i fundador de Nest, explica com construir productes, equips i carreres a partir de la seva pròpia experiència. Un llibre honest sobre travessar el pantà dels inicis, distingir gestionar de liderar, evitar dependre d'un heroi solitari i dissenyar pensant sempre en el client. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep22.mp3" length="22072845" type="audio/mpeg"/>

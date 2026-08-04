@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 10 — No Rules Rules, de Reed Hastings y Erin Meyer</title>
+      <description>Cómo Netflix construyó una cultura basada en la densidad de talento, la franqueza radical y la sustitución de controles por contexto, y qué debes tener en cuenta antes de copiarla. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep10.mp3" length="19286925" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep10</guid>
+      <pubDate>Tue, 04 Aug 2026 05:25:05 +0000</pubDate>
+      <itunes:duration>16:04</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 9 — High Output Management, de Andy Grove</title>
       <description>El clásico de Andy Grove, fundador y CEO de Intel, sobre cómo multiplicar el output de un equipo a través del apalancamiento directivo, las reuniones individuales y los objetivos y resultados clave que después se popularizarían como OKR. La fábrica de desayunos, la Operación Crush y el abandono del negocio de memorias de Intel ilustran unas ideas que siguen vigentes cuarenta años después. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep09.mp3" length="19069965" type="audio/mpeg"/>
