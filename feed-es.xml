@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 11 — The Speed of Trust, de Stephen M. R. Covey</title>
+      <description>La confianza como activo económico medible, no como una virtud blanda. La ecuación confianza-velocidad-coste, las cinco ondas de la confianza, los cuatro pilares de la credibilidad, los trece comportamientos que la construyen, y cómo detectar los impuestos de la desconfianza en tu organización. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep11.mp3" length="12374445" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep11</guid>
+      <pubDate>Fri, 07 Aug 2026 05:26:27 +0000</pubDate>
+      <itunes:duration>10:18</itunes:duration>
+      <itunes:episode>11</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 10 — No Rules Rules, de Reed Hastings y Erin Meyer</title>
       <description>Cómo Netflix construyó una cultura basada en la densidad de talento, la franqueza radical y la sustitución de controles por contexto, y qué debes tener en cuenta antes de copiarla. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep10.mp3" length="19286925" type="audio/mpeg"/>
