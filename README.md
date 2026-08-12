@@ -30,3 +30,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 21. Team of Teams — Stanley McChrystal
 22. Build — Tony Fadell
 23. Principles: Life and Work — Ray Dalio
+24. Dare to Lead — Brené Brown

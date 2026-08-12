@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 24 — Dare to Lead, de Brené Brown</title>
+      <description>Brené Brown demostra que el coratge és un conjunt d'habilitats que es poden entrenar, i que la vulnerabilitat és el punt de partida per liderar amb honestedat. Descobreix el marc de la confiança BRAVING, la diferència entre lideratge blindat i lideratge valent, i com aprendre a aixecar-se després d'un fracàs. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep24.mp3" length="22655085" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep24</guid>
+      <pubDate>Wed, 12 Aug 2026 07:59:19 +0000</pubDate>
+      <itunes:duration>18:52</itunes:duration>
+      <itunes:episode>24</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 23 — Principles: Life and Work, de Ray Dalio</title>
       <description>Ray Dalio, fundador de Bridgewater Associates, explica el sistema de principis que va construir per prendre millors decisions: veritat radical, transparència, meritocràcia d'idees i un procés en cinc passos per convertir cada error en aprenentatge. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep23.mp3" length="23232045" type="audio/mpeg"/>
