@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 15 — Extreme Ownership, de Jocko Willink y Leif Babin</title>
+      <description>Dos exoficiales de los Navy SEALs trasladan al mundo empresarial las lecciones de mando que aprendieron en el combate urbano de Ramadi: la propiedad extrema de los resultados, el control del ego, la sencillez en los planes y el mando descentralizado. Un libro directo y sin excusas sobre lo que significa asumir la responsabilidad total como líder. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep15.mp3" length="18769965" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep15</guid>
+      <pubDate>Thu, 13 Aug 2026 05:28:19 +0000</pubDate>
+      <itunes:duration>15:38</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 14 — Las cinco disfunciones de un equipo, de Patrick Lencioni</title>
       <description>¿Por qué equipos llenos de talento individual fracasan como grupo? Lencioni explica, a través de una fábula empresarial, la pirámide de las cinco disfunciones: ausencia de confianza, miedo al conflicto, falta de compromiso, evitación de la responsabilidad y falta de atención a los resultados colectivos. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep14.mp3" length="18835725" type="audio/mpeg"/>

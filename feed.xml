@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 25 — Working Backwards, de Colin Bryar i Bill Carr</title>
+      <description>Els dos autors, exdirectius d'Amazon durant més de dues dècades combinades, desgranen els processos interns que expliquen l'èxit sostingut de la companyia: el mètode de treballar cap enrere a partir del comunicat de premsa del client, les memòries narratives de sis pàgines sense diapositives, el lideratge d'un sol fil, el bar raiser a les contractacions i la distinció entre decisions reversibles i irreversibles. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep25.mp3" length="23045805" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep25</guid>
+      <pubDate>Thu, 13 Aug 2026 05:27:28 +0000</pubDate>
+      <itunes:duration>19:12</itunes:duration>
+      <itunes:episode>25</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 24 — Dare to Lead, de Brené Brown</title>
       <description>Brené Brown demostra que el coratge és un conjunt d'habilitats que es poden entrenar, i que la vulnerabilitat és el punt de partida per liderar amb honestedat. Descobreix el marc de la confiança BRAVING, la diferència entre lideratge blindat i lideratge valent, i com aprendre a aixecar-se després d'un fracàs. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep24.mp3" length="22655085" type="audio/mpeg"/>
