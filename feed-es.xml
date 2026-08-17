@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 17 — Start with Why, de Simon Sinek</title>
+      <description>Simon Sinek explica por qué la gente no compra lo que haces, sino por qué lo haces. El círculo dorado, la diferencia entre manipulación e inspiración, y ejemplos como Apple, los hermanos Wright o el discurso de Martin Luther King ilustran cómo comunicar un propósito genera una lealtad que ningún descuento puede comprar. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep17.mp3" length="19181805" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep17</guid>
+      <pubDate>Mon, 17 Aug 2026 05:28:09 +0000</pubDate>
+      <itunes:duration>15:59</itunes:duration>
+      <itunes:episode>17</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 16 — Zero to One, de Peter Thiel</title>
       <description>Peter Thiel, cofundador de PayPal e inversor en Facebook, LinkedIn y Palantir, explica por qué la competencia es para los perdedores, cómo dominar un mercado pequeño antes de expandirte, y por qué toda empresa de éxito esconde un secreto. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep16.mp3" length="9767565" type="audio/mpeg"/>

@@ -33,3 +33,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 24. Dare to Lead — Brené Brown
 25. Working Backwards — Colin Bryar i Bill Carr
 26. En cerca de l'excel·lència — Tom Peters i Robert Waterman
+27. Never Split the Difference — Chris Voss i Tahl Raz
