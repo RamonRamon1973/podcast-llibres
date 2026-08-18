@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 28 — La Meta, de Eliyahu M. Goldratt</title>
+      <description>Una novel·la que es va convertir en un clàssic absolut de la gestió d'operacions: la història d'un director de fàbrica que, guiat per preguntes incòmodes, descobreix la Teoria de les Limitacions. Parlem del coll d'ampolla, dels cinc passos de focalització i de per què produir no és el mateix que guanyar diners. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep28.mp3" length="23680845" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep28</guid>
+      <pubDate>Tue, 18 Aug 2026 05:26:31 +0000</pubDate>
+      <itunes:duration>19:44</itunes:duration>
+      <itunes:episode>28</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 27 — Never Split the Difference, de Chris Voss i Tahl Raz</title>
       <description>L'exnegociador d'ostatges de l'FBI Chris Voss explica com l'empatia tàctica, el mirroring, l'etiquetatge emocional i les preguntes calibrades poden transformar qualsevol negociació, des d'un segrest fins a una pujada de sou. Descobreix per què el 'no' és un objectiu, no un fracàs, i com el mètode Ackerman et pot ajudar a negociar millor un preu. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep27.mp3" length="22792845" type="audio/mpeg"/>

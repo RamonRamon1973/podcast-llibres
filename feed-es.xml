@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 18 — Slow Productivity, de Cal Newport</title>
+      <description>Cal Newport, profesor de Georgetown y autor de Deep Work, propone que la verdadera productividad no viene de estar siempre ocupado sino de hacer menos cosas, trabajar a un ritmo natural y obsesionarse con la calidad. Estacionalidad en el trabajo, márgenes realistas en los plazos y cómo hacer visible el trabajo invisible que sostiene los buenos resultados. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep18.mp3" length="19526445" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep18</guid>
+      <pubDate>Tue, 18 Aug 2026 05:27:25 +0000</pubDate>
+      <itunes:duration>16:16</itunes:duration>
+      <itunes:episode>18</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 17 — Start with Why, de Simon Sinek</title>
       <description>Simon Sinek explica por qué la gente no compra lo que haces, sino por qué lo haces. El círculo dorado, la diferencia entre manipulación e inspiración, y ejemplos como Apple, los hermanos Wright o el discurso de Martin Luther King ilustran cómo comunicar un propósito genera una lealtad que ningún descuento puede comprar. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep17.mp3" length="19181805" type="audio/mpeg"/>
