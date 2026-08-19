@@ -35,3 +35,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 26. En cerca de l'excel·lència — Tom Peters i Robert Waterman
 27. Never Split the Difference — Chris Voss i Tahl Raz
 28. La Meta — Eliyahu M. Goldratt
+29. The Cold Start Problem — Andrew Chen

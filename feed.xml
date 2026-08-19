@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 29 — The Cold Start Problem, de Andrew Chen</title>
+      <description>Com resoldre el problema de l'arrencada freda i construir efectes de xarxa que facin imbatible un producte: la xarxa atòmica, el costat difícil, i per què créixer massa de pressa pot ser perillós.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep29.mp3" length="22557165" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep29</guid>
+      <pubDate>Wed, 19 Aug 2026 05:34:16 +0000</pubDate>
+      <itunes:duration>18:47</itunes:duration>
+      <itunes:episode>29</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 28 — La Meta, de Eliyahu M. Goldratt</title>
       <description>Una novel·la que es va convertir en un clàssic absolut de la gestió d'operacions: la història d'un director de fàbrica que, guiat per preguntes incòmodes, descobreix la Teoria de les Limitacions. Parlem del coll d'ampolla, dels cinc passos de focalització i de per què produir no és el mateix que guanyar diners. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep28.mp3" length="23680845" type="audio/mpeg"/>

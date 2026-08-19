@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 19 — The Hard Thing About Hard Things, de Ben Horowitz</title>
+      <description>Ben Horowitz cuenta sin filtros qué se siente al dirigir una empresa al borde del colapso: despidos, decisiones sin buenas opciones y la distinción entre liderazgo en tiempos de paz y en tiempos de guerra. Un clásico crudo y honesto sobre la parte difícil de gestionar. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep19.mp3" length="19381485" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep19</guid>
+      <pubDate>Wed, 19 Aug 2026 05:35:09 +0000</pubDate>
+      <itunes:duration>16:09</itunes:duration>
+      <itunes:episode>19</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 18 — Slow Productivity, de Cal Newport</title>
       <description>Cal Newport, profesor de Georgetown y autor de Deep Work, propone que la verdadera productividad no viene de estar siempre ocupado sino de hacer menos cosas, trabajar a un ritmo natural y obsesionarse con la calidad. Estacionalidad en el trabajo, márgenes realistas en los plazos y cómo hacer visible el trabajo invisible que sostiene los buenos resultados. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep18.mp3" length="19526445" type="audio/mpeg"/>
