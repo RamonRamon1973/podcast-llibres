@@ -36,3 +36,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 27. Never Split the Difference — Chris Voss i Tahl Raz
 28. La Meta — Eliyahu M. Goldratt
 29. The Cold Start Problem — Andrew Chen
+30. First, Break All the Rules — Marcus Buckingham i Curt Coffman

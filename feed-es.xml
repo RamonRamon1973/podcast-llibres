@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 20 — Estrategia Competitiva, de Michael Porter</title>
+      <description>El libro que sentó las bases de la estrategia empresarial moderna. Descubre el marco de las cinco fuerzas competitivas, las tres estrategias genéricas y por qué la rentabilidad de una empresa depende tanto de la estructura del sector como de su gestión interna. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep20.mp3" length="20976045" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep20</guid>
+      <pubDate>Thu, 20 Aug 2026 05:26:44 +0000</pubDate>
+      <itunes:duration>17:28</itunes:duration>
+      <itunes:episode>20</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 19 — The Hard Thing About Hard Things, de Ben Horowitz</title>
       <description>Ben Horowitz cuenta sin filtros qué se siente al dirigir una empresa al borde del colapso: despidos, decisiones sin buenas opciones y la distinción entre liderazgo en tiempos de paz y en tiempos de guerra. Un clásico crudo y honesto sobre la parte difícil de gestionar. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep19.mp3" length="19381485" type="audio/mpeg"/>
