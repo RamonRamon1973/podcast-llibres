@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 21 — Equipo de equipos, de Stanley McChrystal</title>
+      <description>Un general de cuatro estrellas explica cómo transformó una fuerza militar rígida en una red de equipos rápida y adaptable, y qué puede aprender cualquier organización de esa transformación. Conciencia compartida, ejecución delegada y confianza como motor de la velocidad de decisión. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep21.mp3" length="20556525" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep21</guid>
+      <pubDate>Fri, 21 Aug 2026 05:25:59 +0000</pubDate>
+      <itunes:duration>17:07</itunes:duration>
+      <itunes:episode>21</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 20 — Estrategia Competitiva, de Michael Porter</title>
       <description>El libro que sentó las bases de la estrategia empresarial moderna. Descubre el marco de las cinco fuerzas competitivas, las tres estrategias genéricas y por qué la rentabilidad de una empresa depende tanto de la estructura del sector como de su gestión interna. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep20.mp3" length="20976045" type="audio/mpeg"/>

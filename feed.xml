@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 31 — The Culture Code, de Daniel Coyle</title>
+      <description>Per què alguns equips amb talent normal aconsegueixen resultats extraordinaris i altres plens d'estrelles fracassen. Daniel Coyle va conviure amb els Navy SEALs, Pixar, els San Antonio Spurs i Google per descobrir que la cultura no és qui ets, és el que fas: seguretat psicològica, bucles de vulnerabilitat i catalitzadors de propòsit. El repte del malví, el Braintrust de Pixar i els moments crítics que defineixen un equip. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep31.mp3" length="22965645" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep31</guid>
+      <pubDate>Fri, 21 Aug 2026 05:25:11 +0000</pubDate>
+      <itunes:duration>19:08</itunes:duration>
+      <itunes:episode>31</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 30 — First, Break All the Rules, de Marcus Buckingham i Curt Coffman</title>
       <description>Basat en una investigació de Gallup amb més d'un milió de treballadors, aquest clàssic de mil nou-cents noranta-nou trenca el sentit comú convencional sobre com gestionar persones: el talent no s'ensenya, cal seleccionar-lo i construir el rol al voltant dels punts forts de cadascú. Descobreix les quatre claus dels grans directius i per què la gent no deixa les empreses, deixa els caps. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep30.mp3" length="21725805" type="audio/mpeg"/>
