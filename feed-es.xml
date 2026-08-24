@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 22 — Build, de Tony Fadell</title>
+      <description>Tony Fadell, creador del iPod y fundador de Nest, explica cómo construir productos, equipos y carreras a partir de su propia experiencia. Un libro honesto sobre atravesar el pantano de los inicios, distinguir gestionar de liderar, evitar depender de un héroe solitario y diseñar pensando siempre en el cliente. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep22.mp3" length="18521325" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep22</guid>
+      <pubDate>Mon, 24 Aug 2026 05:23:14 +0000</pubDate>
+      <itunes:duration>15:26</itunes:duration>
+      <itunes:episode>22</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 21 — Equipo de equipos, de Stanley McChrystal</title>
       <description>Un general de cuatro estrellas explica cómo transformó una fuerza militar rígida en una red de equipos rápida y adaptable, y qué puede aprender cualquier organización de esa transformación. Conciencia compartida, ejecución delegada y confianza como motor de la velocidad de decisión. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep21.mp3" length="20556525" type="audio/mpeg"/>

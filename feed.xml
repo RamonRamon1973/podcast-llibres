@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 32 — The Nature of Managerial Work, de Henry Mintzberg</title>
+      <description>Un clàssic de mil nou-cents setanta-tres que va trencar el mite del directiu ordenat i reflexiu: Mintzberg va observar directius reals i hi va trobar fragmentació, comunicació oral constant i deu rols directius entrellaçats. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep32.mp3" length="23776845" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep32</guid>
+      <pubDate>Mon, 24 Aug 2026 05:22:30 +0000</pubDate>
+      <itunes:duration>19:48</itunes:duration>
+      <itunes:episode>32</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 31 — The Culture Code, de Daniel Coyle</title>
       <description>Per què alguns equips amb talent normal aconsegueixen resultats extraordinaris i altres plens d'estrelles fracassen. Daniel Coyle va conviure amb els Navy SEALs, Pixar, els San Antonio Spurs i Google per descobrir que la cultura no és qui ets, és el que fas: seguretat psicològica, bucles de vulnerabilitat i catalitzadors de propòsit. El repte del malví, el Braintrust de Pixar i els moments crítics que defineixen un equip. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep31.mp3" length="22965645" type="audio/mpeg"/>
