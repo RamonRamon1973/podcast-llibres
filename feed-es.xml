@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 23 — Principios: vida y trabajo, de Ray Dalio</title>
+      <description>Ray Dalio comparte el sistema de principios que construyó tras la casi quiebra de Bridgewater: verdad radical, meritocracia de ideas y un método de cinco pasos para aprender de cada error. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep23.mp3" length="19352205" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep23</guid>
+      <pubDate>Tue, 25 Aug 2026 05:29:06 +0000</pubDate>
+      <itunes:duration>16:07</itunes:duration>
+      <itunes:episode>23</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 22 — Build, de Tony Fadell</title>
       <description>Tony Fadell, creador del iPod y fundador de Nest, explica cómo construir productos, equipos y carreras a partir de su propia experiencia. Un libro honesto sobre atravesar el pantano de los inicios, distinguir gestionar de liderar, evitar depender de un héroe solitario y diseñar pensando siempre en el cliente. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep22.mp3" length="18521325" type="audio/mpeg"/>
