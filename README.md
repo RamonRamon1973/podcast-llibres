@@ -39,3 +39,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 30. First, Break All the Rules — Marcus Buckingham i Curt Coffman
 31. The Culture Code — Daniel Coyle
 32. The Nature of Managerial Work — Henry Mintzberg
+33. Scaling People — Claire Hughes Johnson

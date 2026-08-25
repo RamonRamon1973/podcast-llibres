@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 33 — Scaling People, de Claire Hughes Johnson</title>
+      <description>Un manual pràctic d'una directora d'operacions que va viure en primera persona el creixement accelerat de Stripe. Documentació, formació de directius, decisions amb propietari clar i trobades individuals com a pilars per escalar una organització sense perdre'n la coherència. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep33.mp3" length="22951245" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep33</guid>
+      <pubDate>Tue, 25 Aug 2026 05:23:22 +0000</pubDate>
+      <itunes:duration>19:07</itunes:duration>
+      <itunes:episode>33</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 32 — The Nature of Managerial Work, de Henry Mintzberg</title>
       <description>Un clàssic de mil nou-cents setanta-tres que va trencar el mite del directiu ordenat i reflexiu: Mintzberg va observar directius reals i hi va trobar fragmentació, comunicació oral constant i deu rols directius entrellaçats. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep32.mp3" length="23776845" type="audio/mpeg"/>
