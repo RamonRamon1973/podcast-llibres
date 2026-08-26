@@ -40,3 +40,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 31. The Culture Code — Daniel Coyle
 32. The Nature of Managerial Work — Henry Mintzberg
 33. Scaling People — Claire Hughes Johnson
+34. The Toyota Way — Jeffrey Liker

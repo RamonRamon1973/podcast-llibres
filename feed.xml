@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 34 — The Toyota Way, de Jeffrey Liker</title>
+      <description>Un dels llibres de referència sobre gestió d'operacions: com Toyota va construir un sistema de producció basat en catorze principis, des del flux continu i el jidoka fins al respecte per les persones. Liker explica per què tantes empreses copien les eines de Toyota sense aconseguir els mateixos resultats, perquè els falta la filosofia que les sosté. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep34.mp3" length="22767885" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep34</guid>
+      <pubDate>Wed, 26 Aug 2026 05:19:49 +0000</pubDate>
+      <itunes:duration>18:58</itunes:duration>
+      <itunes:episode>34</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 33 — Scaling People, de Claire Hughes Johnson</title>
       <description>Un manual pràctic d'una directora d'operacions que va viure en primera persona el creixement accelerat de Stripe. Documentació, formació de directius, decisions amb propietari clar i trobades individuals com a pilars per escalar una organització sense perdre'n la coherència. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep33.mp3" length="22951245" type="audio/mpeg"/>
