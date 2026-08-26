@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 24 — Dare to Lead, de Brené Brown</title>
+      <description>El liderazgo desde la vulnerabilidad, no desde la armadura. El marco BRAVING de la confianza, la diferencia entre líderes blindados y líderes valientes, la frase clave: claro es amable, poco claro es cruel, y el proceso en tres pasos para aprender a levantarse tras un fracaso. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep24.mp3" length="18984045" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep24</guid>
+      <pubDate>Wed, 26 Aug 2026 05:26:10 +0000</pubDate>
+      <itunes:duration>15:49</itunes:duration>
+      <itunes:episode>24</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 23 — Principios: vida y trabajo, de Ray Dalio</title>
       <description>Ray Dalio comparte el sistema de principios que construyó tras la casi quiebra de Bridgewater: verdad radical, meritocracia de ideas y un método de cinco pasos para aprender de cada error. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep23.mp3" length="19352205" type="audio/mpeg"/>
