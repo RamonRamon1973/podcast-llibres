@@ -41,3 +41,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 32. The Nature of Managerial Work — Henry Mintzberg
 33. Scaling People — Claire Hughes Johnson
 34. The Toyota Way — Jeffrey Liker
+35. Hidden Potential — Adam Grant

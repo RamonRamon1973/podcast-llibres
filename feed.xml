@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 35 — Hidden Potential, de Adam Grant</title>
+      <description>El potencial no es descobreix, es construeix. Adam Grant explica per què les habilitats de caràcter, la incomoditat ben calibrada i els sistemes d'acompanyament compten més que el talent de partida, i com equips i organitzacions poden multiplicar el potencial col·lectiu. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep35.mp3" length="22298445" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep35</guid>
+      <pubDate>Thu, 27 Aug 2026 05:25:55 +0000</pubDate>
+      <itunes:duration>18:34</itunes:duration>
+      <itunes:episode>35</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 34 — The Toyota Way, de Jeffrey Liker</title>
       <description>Un dels llibres de referència sobre gestió d'operacions: com Toyota va construir un sistema de producció basat en catorze principis, des del flux continu i el jidoka fins al respecte per les persones. Liker explica per què tantes empreses copien les eines de Toyota sense aconseguir els mateixos resultats, perquè els falta la filosofia que les sosté. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep34.mp3" length="22767885" type="audio/mpeg"/>
