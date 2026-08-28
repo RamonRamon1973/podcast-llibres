@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 36 — Getting Things Done, de David Allen</title>
+      <description>El clàssic de la productivitat personal explicat per a gestors: com treure els compromisos del cap i posar-los en un sistema extern per guanyar claredat i reduir l'estrès. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep36.mp3" length="23634285" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep36</guid>
+      <pubDate>Fri, 28 Aug 2026 18:54:21 +0000</pubDate>
+      <itunes:duration>19:41</itunes:duration>
+      <itunes:episode>36</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 35 — Hidden Potential, de Adam Grant</title>
       <description>El potencial no es descobreix, es construeix. Adam Grant explica per què les habilitats de caràcter, la incomoditat ben calibrada i els sistemes d'acompanyament compten més que el talent de partida, i com equips i organitzacions poden multiplicar el potencial col·lectiu. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep35.mp3" length="22298445" type="audio/mpeg"/>

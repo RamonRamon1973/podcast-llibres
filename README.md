@@ -42,3 +42,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 33. Scaling People — Claire Hughes Johnson
 34. The Toyota Way — Jeffrey Liker
 35. Hidden Potential — Adam Grant
+36. Getting Things Done — David Allen
