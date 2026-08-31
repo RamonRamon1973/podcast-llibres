@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 37 — Loonshots, de Safi Bahcall</title>
+      <description>Un físic convertit en conseller delegat biotecnològic explica per què les organitzacions grans, com la matèria, pateixen transicions de fase que congelen la innovació. Loonshots repassa casos com el descobriment del Viagra, el transistor dels laboratoris Bell o la fotocopiadora de Chester Carlson per proposar una recepta estructural, no cultural, per protegir les idees arriscades sense perdre la disciplina d'execució. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep37.mp3" length="23162925" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep37</guid>
+      <pubDate>Mon, 31 Aug 2026 05:25:42 +0000</pubDate>
+      <itunes:duration>19:18</itunes:duration>
+      <itunes:episode>37</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 36 — Getting Things Done, de David Allen</title>
       <description>El clàssic de la productivitat personal explicat per a gestors: com treure els compromisos del cap i posar-los en un sistema extern per guanyar claredat i reduir l'estrès. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep36.mp3" length="23634285" type="audio/mpeg"/>

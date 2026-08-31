@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 27 — Nunca dividas la diferencia, de Chris Voss y Tahl Raz</title>
+      <description>Un ex negociador de rehenes del FBI revela las técnicas de empatía táctica, preguntas calibradas y el poder del 'no' que también funcionan en la mesa de negociación de cualquier negocio. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep27.mp3" length="19200525" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep27</guid>
+      <pubDate>Mon, 31 Aug 2026 05:26:33 +0000</pubDate>
+      <itunes:duration>16:00</itunes:duration>
+      <itunes:episode>27</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 26 — En busca de la excelencia, de Tom Peters y Robert Waterman</title>
       <description>El clásico de mil novecientos ochenta y dos que identificó los ocho atributos culturales de las empresas excelentes norteamericanas: inclinación hacia la acción, cercanía con el cliente, autonomía interna y fidelidad al negocio que se domina. Un libro fundamental del management moderno, aunque con importantes críticas metodológicas. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep26.mp3" length="20401965" type="audio/mpeg"/>
