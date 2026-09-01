@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 28 — La Meta, de Eliyahu M. Goldratt</title>
+      <description>Un director de planta tiene tres meses para demostrar que su fábrica es rentable, o la cierran. A través de una novela narrada como método socrático, Eliyahu Goldratt introduce la Teoría de las Limitaciones: el cuello de botella que marca el ritmo de todo el sistema, los cinco pasos de focalización y el método del tambor, el amortiguador y la cuerda. Un clásico de operaciones disfrazado de novela, tan válido en una fábrica como en cualquier proceso con esperas y cuellos de botella. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep28.mp3" length="19914285" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep28</guid>
+      <pubDate>Tue, 01 Sep 2026 05:24:49 +0000</pubDate>
+      <itunes:duration>16:35</itunes:duration>
+      <itunes:episode>28</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 27 — Nunca dividas la diferencia, de Chris Voss y Tahl Raz</title>
       <description>Un ex negociador de rehenes del FBI revela las técnicas de empatía táctica, preguntas calibradas y el poder del 'no' que también funcionan en la mesa de negociación de cualquier negocio. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep27.mp3" length="19200525" type="audio/mpeg"/>

@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 38 — The E-Myth Revisited, de Michael E. Gerber</title>
+      <description>Per què tants petits negocis acaben ofegant el seu propietari en comptes d'alliberar-lo? Gerber desmunta l'assumpció fatal de creure que saber fer una feina tècnica és el mateix que saber dirigir un negoci que la fa, i proposa el famós prototip de franquícia: dissenyar l'empresa com un sistema que funcioni sense dependre de tu. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep38.mp3" length="23214285" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep38</guid>
+      <pubDate>Tue, 01 Sep 2026 05:23:56 +0000</pubDate>
+      <itunes:duration>19:20</itunes:duration>
+      <itunes:episode>38</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 37 — Loonshots, de Safi Bahcall</title>
       <description>Un físic convertit en conseller delegat biotecnològic explica per què les organitzacions grans, com la matèria, pateixen transicions de fase que congelen la innovació. Loonshots repassa casos com el descobriment del Viagra, el transistor dels laboratoris Bell o la fotocopiadora de Chester Carlson per proposar una recepta estructural, no cultural, per protegir les idees arriscades sense perdre la disciplina d'execució. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep37.mp3" length="23162925" type="audio/mpeg"/>

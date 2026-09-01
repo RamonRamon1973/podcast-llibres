@@ -44,3 +44,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 35. Hidden Potential — Adam Grant
 36. Getting Things Done — David Allen
 37. Loonshots — Safi Bahcall
+38. The E-Myth Revisited — Michael E. Gerber
