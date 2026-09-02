@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 29 — El problema del arranque en frío, de Andrew Chen</title>
+      <description>Un inversor de capital riesgo que lideró el crecimiento de Uber explica por qué los productos más valiosos no ganan por su tecnología, sino por el efecto de red que consiguen crear. Andrew Chen propone un mapa de cinco fases -de la red atómica al foso competitivo- para entender cómo se resuelve el problema del arranque en frío en cualquier producto o comunidad. Un libro escrito desde dentro de Silicon Valley, con casos de Uber, Airbnb, Dropbox e Instagram. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep29.mp3" length="18802125" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep29</guid>
+      <pubDate>Wed, 02 Sep 2026 05:27:40 +0000</pubDate>
+      <itunes:duration>15:40</itunes:duration>
+      <itunes:episode>29</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 28 — La Meta, de Eliyahu M. Goldratt</title>
       <description>Un director de planta tiene tres meses para demostrar que su fábrica es rentable, o la cierran. A través de una novela narrada como método socrático, Eliyahu Goldratt introduce la Teoría de las Limitaciones: el cuello de botella que marca el ritmo de todo el sistema, los cinco pasos de focalización y el método del tambor, el amortiguador y la cuerda. Un clásico de operaciones disfrazado de novela, tan válido en una fábrica como en cualquier proceso con esperas y cuellos de botella. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep28.mp3" length="19914285" type="audio/mpeg"/>
