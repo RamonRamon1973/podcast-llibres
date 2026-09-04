@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 41 — Good Strategy, Bad Strategy, de Richard Rumelt</title>
+      <description>Richard Rumelt desmunta el mite de la planificacio estrategica corporativa: la majoria del que s'anomena estrategia es nomes llenguatge inflat i llistes de bons desitjos. Presenta el nucli de tota bona estrategia -diagnostic, politica directriu i accions coherents- i mostra amb exemples reals com identificar el punt d'apalancament que fa que un esforc petit tingui un impacte gran. Resum i comentari del llibre en catala.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep41.mp3" length="23401005" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep41</guid>
+      <pubDate>Fri, 04 Sep 2026 05:26:25 +0000</pubDate>
+      <itunes:duration>19:30</itunes:duration>
+      <itunes:episode>41</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 40 — Crossing the Chasm, de Geoffrey A. Moore</title>
       <description>Per què tants productes prometedors triomfen entre els primers entusiastes i després desapareixen sense arribar mai al públic majoritari? Geoffrey Moore explica l'esquerda que separa els visionaris dels pragmàtics, i com travessar-la concentrant-se en un nicho concret, construint un producte total complet i guanyant referències sòlides abans d'expandir-se. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep40.mp3" length="23194605" type="audio/mpeg"/>

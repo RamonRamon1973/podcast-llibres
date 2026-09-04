@@ -47,3 +47,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 38. The E-Myth Revisited — Michael E. Gerber
 39. Atomic Habits — James Clear
 40. Crossing the Chasm — Geoffrey A. Moore
+41. Good Strategy, Bad Strategy — Richard Rumelt

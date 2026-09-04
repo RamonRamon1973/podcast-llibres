@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 31 — The Culture Code, de Daniel Coyle</title>
+      <description>Por qué algunos equipos con talento normal consiguen resultados extraordinarios y otros llenos de estrellas fracasan. Daniel Coyle convivió con los Navy SEALs, Pixar, los San Antonio Spurs y Google para descubrir que la cultura no es quién eres, es lo que haces: seguridad psicológica, bucles de vulnerabilidad y catalizadores de propósito. El reto del malvavisco, el Braintrust de Pixar y los momentos críticos que definen a un equipo. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep31.mp3" length="19481325" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep31</guid>
+      <pubDate>Fri, 04 Sep 2026 05:27:18 +0000</pubDate>
+      <itunes:duration>16:14</itunes:duration>
+      <itunes:episode>31</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 30 — First, Break All the Rules, de Marcus Buckingham y Curt Coffman</title>
       <description>Basado en una investigación de Gallup con más de un millón de trabajadores, este clásico de mil novecientos noventa y nueve rompe el sentido común convencional sobre cómo gestionar personas: el talento no se enseña, hay que seleccionarlo y construir el puesto alrededor de los puntos fuertes de cada uno. Descubre las cuatro claves de los grandes directivos y por qué la gente no deja las empresas, deja a sus jefes. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep30.mp3" length="18494445" type="audio/mpeg"/>
