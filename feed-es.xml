@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 32 — The Nature of Managerial Work, de Henry Mintzberg</title>
+      <description>Un clásico de hace más de cincuenta años que sigue siendo referencia: Henry Mintzberg siguió físicamente a cinco directores generales para descubrir que el trabajo directivo real no es ordenado ni reflexivo, sino fragmentado, oral y frenético, organizado en diez roles distintos. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep32.mp3" length="20037645" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep32</guid>
+      <pubDate>Mon, 07 Sep 2026 05:26:44 +0000</pubDate>
+      <itunes:duration>16:41</itunes:duration>
+      <itunes:episode>32</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 31 — The Culture Code, de Daniel Coyle</title>
       <description>Por qué algunos equipos con talento normal consiguen resultados extraordinarios y otros llenos de estrellas fracasan. Daniel Coyle convivió con los Navy SEALs, Pixar, los San Antonio Spurs y Google para descubrir que la cultura no es quién eres, es lo que haces: seguridad psicológica, bucles de vulnerabilidad y catalizadores de propósito. El reto del malvavisco, el Braintrust de Pixar y los momentos críticos que definen a un equipo. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep31.mp3" length="19481325" type="audio/mpeg"/>
