@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 33 — Scaling People, de Claire Hughes Johnson</title>
+      <description>Cómo construir una infraestructura de personas —documentación, formación de directivos, decisiones con propietario claro y buenos rituales de gestión— para que una empresa no se rompa cuando crece deprisa. Claire Hughes Johnson, exdirectora de operaciones de Stripe, comparte las prácticas que tuvo que diseñar y corregir mientras la compañía multiplicaba su tamaño. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep33.mp3" length="19525965" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep33</guid>
+      <pubDate>Tue, 08 Sep 2026 05:25:57 +0000</pubDate>
+      <itunes:duration>16:16</itunes:duration>
+      <itunes:episode>33</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 32 — The Nature of Managerial Work, de Henry Mintzberg</title>
       <description>Un clásico de hace más de cincuenta años que sigue siendo referencia: Henry Mintzberg siguió físicamente a cinco directores generales para descubrir que el trabajo directivo real no es ordenado ni reflexivo, sino fragmentado, oral y frenético, organizado en diez roles distintos. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep32.mp3" length="20037645" type="audio/mpeg"/>

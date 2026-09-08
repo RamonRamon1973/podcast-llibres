@@ -49,3 +49,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 40. Crossing the Chasm — Geoffrey A. Moore
 41. Good Strategy, Bad Strategy — Richard Rumelt
 42. Unreasonable Hospitality — Will Guidara
+43. Multipliers — Liz Wiseman
