@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 44 — How Big Things Get Done, de Bent Flyvbjerg i Dan Gardner</title>
+      <description>Per què els grans projectes s'endarrereixen i es disparen de pressupost, i com pensar a poc a poc i actuar de pressa pot evitar-ho. Amb casos com l'Òpera de Sydney, l'Empire State Building, el Gran Forat de Boston i el mètode de Pixar. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep44.mp3" length="21995085" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep44</guid>
+      <pubDate>Wed, 09 Sep 2026 05:22:43 +0000</pubDate>
+      <itunes:duration>18:19</itunes:duration>
+      <itunes:episode>44</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 43 — Multipliers, de Liz Wiseman</title>
       <description>Per què alguns líders multipliquen la intel·ligència i el rendiment del seu equip mentre altres, sense voler-ho, l'apaguen. Liz Wiseman presenta les cinc disciplines que diferencien un Multiplicador d'un Disminuïdor —Imant de Talent, Alliberador, Reptador, Generador de Debat i Inversor— i el concepte clau del Disminuïdor Accidental. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep43.mp3" length="22914765" type="audio/mpeg"/>

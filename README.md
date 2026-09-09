@@ -50,3 +50,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 41. Good Strategy, Bad Strategy — Richard Rumelt
 42. Unreasonable Hospitality — Will Guidara
 43. Multipliers — Liz Wiseman
+44. How Big Things Get Done — Bent Flyvbjerg i Dan Gardner
