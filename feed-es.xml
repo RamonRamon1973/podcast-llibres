@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 35 — Hidden Potential, de Adam Grant</title>
+      <description>El potencial no se descubre, se construye. Adam Grant explica por qué las habilidades de carácter, la incomodidad bien calibrada y los sistemas de acompañamiento cuentan más que el talento de partida, y cómo equipos y organizaciones pueden multiplicar el potencial colectivo. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep35.mp3" length="19990125" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep35</guid>
+      <pubDate>Thu, 10 Sep 2026 05:26:56 +0000</pubDate>
+      <itunes:duration>16:39</itunes:duration>
+      <itunes:episode>35</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 34 — The Toyota Way, de Jeffrey Liker, de Jeffrey Liker</title>
       <description>Cómo Toyota fabrica coches con una calidad y eficiencia difíciles de igualar, según el investigador que pasó veinte años estudiando su sistema de producción desde dentro de las fábricas. Filosofía a largo plazo, flujo continuo y justo a tiempo, jidoka y el cordón andon, kaizen y genchi genbutsu, heijunka y nemawashi: por qué copiar las herramientas de Toyota sin su filosofía nunca funciona. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep34.mp3" length="19206765" type="audio/mpeg"/>
