@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 36 — Getting Things Done, de David Allen</title>
+      <description>El clásico de la productividad personal explicado para gestores: cómo sacar los compromisos de la cabeza y ponerlos en un sistema externo para ganar claridad y reducir el estrés. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep36.mp3" length="19924845" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep36</guid>
+      <pubDate>Fri, 11 Sep 2026 05:31:08 +0000</pubDate>
+      <itunes:duration>16:36</itunes:duration>
+      <itunes:episode>36</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 35 — Hidden Potential, de Adam Grant</title>
       <description>El potencial no se descubre, se construye. Adam Grant explica por qué las habilidades de carácter, la incomodidad bien calibrada y los sistemas de acompañamiento cuentan más que el talento de partida, y cómo equipos y organizaciones pueden multiplicar el potencial colectivo. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep35.mp3" length="19990125" type="audio/mpeg"/>

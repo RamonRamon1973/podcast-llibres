@@ -52,3 +52,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 43. Multipliers — Liz Wiseman
 44. How Big Things Get Done — Bent Flyvbjerg i Dan Gardner
 45. La cinquena disciplina — Peter Senge
+46. The Ministry of Common Sense — Martin Lindstrom
