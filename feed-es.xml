@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 38 — The E-Myth Revisited, de Michael E. Gerber</title>
+      <description>¿Por qué tantos pequeños negocios acaban ahogando a su propietario en lugar de liberarlo? Gerber desmonta la suposición fatal de creer que saber hacer un trabajo técnico es lo mismo que saber dirigir un negocio que lo hace, y propone el famoso prototipo de franquicia: diseñar la empresa como un sistema que funcione sin depender de ti. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep38.mp3" length="19469325" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep38</guid>
+      <pubDate>Tue, 15 Sep 2026 05:25:42 +0000</pubDate>
+      <itunes:duration>16:13</itunes:duration>
+      <itunes:episode>38</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 37 — Loonshots, de Safi Bahcall</title>
       <description>Un físico convertido en consejero delegado biotecnológico explica por qué las organizaciones grandes, como la materia, sufren transiciones de fase que congelan la innovación. Loonshots repasa casos como el descubrimiento del Viagra, el transistor de los laboratorios Bell o la fotocopiadora de Chester Carlson para proponer una receta estructural, no cultural, para proteger las ideas arriesgadas sin perder la disciplina de ejecución. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep37.mp3" length="19382445" type="audio/mpeg"/>

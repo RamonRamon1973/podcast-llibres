@@ -54,3 +54,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 45. La cinquena disciplina — Peter Senge
 46. The Ministry of Common Sense — Martin Lindstrom
 47. Leading Change — John Kotter
+48. The Making of a Manager — Julie Zhuo

@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 48 — The Making of a Manager, de Julie Zhuo</title>
+      <description>Julie Zhuo, que va passar de becaria a vicepresidenta de disseny de producte a Facebook, explica què significa de debò ser cap per primera vegada: com construir confiança amb el teu equip, com aprofitar les reunions d'un contra un, com donar feedback útil i com fer créixer els altres en lloc de fer-ho tot tu mateix. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep48.mp3" length="21333645" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep48</guid>
+      <pubDate>Tue, 15 Sep 2026 05:24:54 +0000</pubDate>
+      <itunes:duration>17:46</itunes:duration>
+      <itunes:episode>48</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 47 — Leading Change, de John Kotter</title>
       <description>El clàssic de referència sobre com liderar transformacions dins de les organitzacions. Kotter explica per què fracassen la majoria dels canvis empresarials i proposa un model de vuit passos, des de crear urgència fins a ancorar el canvi en la cultura, per aconseguir que una transformació arreli de veritat.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep47.mp3" length="23125485" type="audio/mpeg"/>
