@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 39 — Atomic Habits, de James Clear</title>
+      <description>Cómo los sistemas y los hábitos pequeños, no los grandes objetivos, determinan los resultados de un equipo o una empresa. Repasamos las cuatro leyes del cambio de comportamiento, el encadenamiento de hábitos y la idea del valle de la decepción, con ejemplos aplicados a la gestión de equipos. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep39.mp3" length="18944205" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep39</guid>
+      <pubDate>Wed, 16 Sep 2026 05:26:56 +0000</pubDate>
+      <itunes:duration>15:47</itunes:duration>
+      <itunes:episode>39</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 38 — The E-Myth Revisited, de Michael E. Gerber</title>
       <description>¿Por qué tantos pequeños negocios acaban ahogando a su propietario en lugar de liberarlo? Gerber desmonta la suposición fatal de creer que saber hacer un trabajo técnico es lo mismo que saber dirigir un negocio que lo hace, y propone el famoso prototipo de franquicia: diseñar la empresa como un sistema que funcione sin depender de ti. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep38.mp3" length="19469325" type="audio/mpeg"/>
