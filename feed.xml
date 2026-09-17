@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 50 — Amp It Up, de Frank Slootman</title>
+      <description>Frank Slootman, l'executiu que ha dirigit Data Domain, ServiceNow i Snowflake, explica com sacsejar una organització instal·lada en la comoditat: densitat de talent, focus radical, urgència i comunicació directa. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep50.mp3" length="22688685" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep50</guid>
+      <pubDate>Thu, 17 Sep 2026 05:21:04 +0000</pubDate>
+      <itunes:duration>18:54</itunes:duration>
+      <itunes:episode>50</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 49 — El quadre de comandament integral, de Robert S. Kaplan i David P. Norton</title>
       <description>Kaplan i Norton expliquen com equilibrar la perspectiva financera amb la de client, la de processos interns i la d'aprenentatge i creixement per pilotar una organització amb visió de futur, no només amb el retrovisor dels resultats passats. Un clàssic de referència sobre com connectar l'estratègia amb el dia a dia de tota l'empresa. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep49.mp3" length="22766925" type="audio/mpeg"/>
