@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 40 — Crossing the Chasm, de Geoffrey A. Moore, de Geoffrey A. Moore</title>
+      <description>¿Por qué tantos productos prometedores triunfan entre los primeros entusiastas y después desaparecen sin llegar nunca al público mayoritario? Geoffrey Moore explica la grieta que separa a los visionarios de los pragmáticos, y cómo cruzarla concentrándose en un nicho concreto, construyendo un producto completo y ganando referencias sólidas antes de expandirse. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep40.mp3" length="19462605" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep40</guid>
+      <pubDate>Thu, 17 Sep 2026 05:26:33 +0000</pubDate>
+      <itunes:duration>16:13</itunes:duration>
+      <itunes:episode>40</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 39 — Atomic Habits, de James Clear</title>
       <description>Cómo los sistemas y los hábitos pequeños, no los grandes objetivos, determinan los resultados de un equipo o una empresa. Repasamos las cuatro leyes del cambio de comportamiento, el encadenamiento de hábitos y la idea del valle de la decepción, con ejemplos aplicados a la gestión de equipos. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep39.mp3" length="18944205" type="audio/mpeg"/>
