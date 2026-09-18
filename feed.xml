@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 51 — Reenginyeria de l'empresa, de Michael Hammer i James Champy</title>
+      <description>El clàssic de mil nou-cents noranta-tres que va llançar el terme 'reenginyeria': repensar radicalment els processos de negoci de punta a punta, amb els famosos casos d'IBM Credit, Ford i Hallmark. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep51.mp3" length="23097165" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep51</guid>
+      <pubDate>Fri, 18 Sep 2026 05:24:51 +0000</pubDate>
+      <itunes:duration>19:14</itunes:duration>
+      <itunes:episode>51</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 50 — Amp It Up, de Frank Slootman</title>
       <description>Frank Slootman, l'executiu que ha dirigit Data Domain, ServiceNow i Snowflake, explica com sacsejar una organització instal·lada en la comoditat: densitat de talent, focus radical, urgència i comunicació directa. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep50.mp3" length="22688685" type="audio/mpeg"/>

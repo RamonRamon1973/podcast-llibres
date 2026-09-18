@@ -57,3 +57,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 48. The Making of a Manager — Julie Zhuo
 49. El quadre de comandament integral — Robert S. Kaplan i David P. Norton
 50. Amp It Up — Frank Slootman
+51. Reenginyeria de l'empresa — Michael Hammer i James Champy
