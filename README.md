@@ -58,3 +58,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 49. El quadre de comandament integral — Robert S. Kaplan i David P. Norton
 50. Amp It Up — Frank Slootman
 51. Reenginyeria de l'empresa — Michael Hammer i James Champy
+52. El Viatge d'una Vida — Robert Iger

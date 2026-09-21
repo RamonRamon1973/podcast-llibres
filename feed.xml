@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 52 — El Viatge d'una Vida, de Robert Iger</title>
+      <description>Robert Iger explica, en primera persona, com va dirigir The Walt Disney Company durant quinze anys: les adquisicions de Pixar, Marvel, Lucasfilm i la Fox, el llançament arriscat de Disney Plus, i els principis de lideratge —optimisme, integritat, coratge i respecte pel talent creatiu— que hi ha darrere de cada gran decisió. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep52.mp3" length="22070925" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep52</guid>
+      <pubDate>Mon, 21 Sep 2026 05:25:26 +0000</pubDate>
+      <itunes:duration>18:23</itunes:duration>
+      <itunes:episode>52</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 51 — Reenginyeria de l'empresa, de Michael Hammer i James Champy</title>
       <description>El clàssic de mil nou-cents noranta-tres que va llançar el terme 'reenginyeria': repensar radicalment els processos de negoci de punta a punta, amb els famosos casos d'IBM Credit, Ford i Hallmark. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep51.mp3" length="23097165" type="audio/mpeg"/>
