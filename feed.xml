@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 53 — Drive, de Daniel H. Pink</title>
+      <description>Per què els premis i càstigs clàssics no funcionen quan la feina exigeix pensar. Daniel Pink explica els tres motors reals del rendiment: autonomia, maestria i propòsit, amb l'experiment de l'espelma, els dies FedEx d'Atlassian i el contrast entre la Viquipèdia i Encarta. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep53.mp3" length="23331405" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep53</guid>
+      <pubDate>Tue, 22 Sep 2026 05:25:35 +0000</pubDate>
+      <itunes:duration>19:26</itunes:duration>
+      <itunes:episode>53</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 52 — El Viatge d'una Vida, de Robert Iger</title>
       <description>Robert Iger explica, en primera persona, com va dirigir The Walt Disney Company durant quinze anys: les adquisicions de Pixar, Marvel, Lucasfilm i la Fox, el llançament arriscat de Disney Plus, i els principis de lideratge —optimisme, integritat, coratge i respecte pel talent creatiu— que hi ha darrere de cada gran decisió. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep52.mp3" length="22070925" type="audio/mpeg"/>

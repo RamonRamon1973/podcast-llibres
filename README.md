@@ -59,3 +59,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 50. Amp It Up — Frank Slootman
 51. Reenginyeria de l'empresa — Michael Hammer i James Champy
 52. El Viatge d'una Vida — Robert Iger
+53. Drive — Daniel H. Pink
