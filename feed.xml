@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 54 — Same as Ever (Igual que sempre), de Morgan Housel</title>
+      <description>Un recorregut per allò que mai canvia en el comportament humà: per què el preu de l'admissió, les històries, els incentius, les cicatrius del passat i el risc invisible determinen les nostres decisions de gestió molt més que qualsevol predicció de futur. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep54.mp3" length="24716685" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep54</guid>
+      <pubDate>Wed, 23 Sep 2026 05:33:44 +0000</pubDate>
+      <itunes:duration>20:35</itunes:duration>
+      <itunes:episode>54</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 53 — Drive, de Daniel H. Pink</title>
       <description>Per què els premis i càstigs clàssics no funcionen quan la feina exigeix pensar. Daniel Pink explica els tres motors reals del rendiment: autonomia, maestria i propòsit, amb l'experiment de l'espelma, els dies FedEx d'Atlassian i el contrast entre la Viquipèdia i Encarta. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep53.mp3" length="23331405" type="audio/mpeg"/>
