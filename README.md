@@ -61,3 +61,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 52. El Viatge d'una Vida — Robert Iger
 53. Drive — Daniel H. Pink
 54. Same as Ever (Igual que sempre) — Morgan Housel
+55. Business Adventures — John Brooks

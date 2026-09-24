@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 45 — La quinta disciplina, de Peter Senge</title>
+      <description>Por qué las organizaciones inteligentes repiten los mismos errores año tras año, y las cinco disciplinas del pensamiento sistémico que Peter Senge propone para romper ese patrón: dominio personal, modelos mentales, visión compartida, aprendizaje en equipo y pensamiento sistémico. Un clásico imprescindible sobre organizaciones que aprenden.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep45.mp3" length="19363725" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep45</guid>
+      <pubDate>Thu, 24 Sep 2026 05:33:16 +0000</pubDate>
+      <itunes:duration>16:08</itunes:duration>
+      <itunes:episode>45</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 44 — How Big Things Get Done, de Bent Flyvbjerg y Dan Gardner, de Bent Flyvbjerg y Dan Gardner</title>
       <description>Por qué los grandes proyectos se retrasan y disparan su presupuesto, y cómo pensar despacio y actuar deprisa puede evitarlo. Con casos como la Ópera de Sídney, el Empire State Building, el Big Dig de Boston y el método de Pixar. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep44.mp3" length="18786765" type="audio/mpeg"/>
