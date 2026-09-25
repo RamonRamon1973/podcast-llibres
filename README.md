@@ -62,3 +62,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 53. Drive — Daniel H. Pink
 54. Same as Ever (Igual que sempre) — Morgan Housel
 55. Business Adventures — John Brooks
+56. Traction: Get a Grip on Your Business — Gino Wickman

@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 46 — El Ministerio del Sentido Común, de Martin Lindstrom</title>
+      <description>Por qué las empresas, con gente inteligente dentro, acaban tomando decisiones absurdas. Martin Lindstrom explica cómo la burocracia interna, el exceso de indicadores y los silos departamentales alejan a las organizaciones de sus clientes y empleados, y propone un Ministerio del Sentido Común para recuperar la empatía y la lógica en la toma de decisiones. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep46.mp3" length="19971405" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep46</guid>
+      <pubDate>Fri, 25 Sep 2026 05:26:37 +0000</pubDate>
+      <itunes:duration>16:38</itunes:duration>
+      <itunes:episode>46</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 45 — La quinta disciplina, de Peter Senge</title>
       <description>Por qué las organizaciones inteligentes repiten los mismos errores año tras año, y las cinco disciplinas del pensamiento sistémico que Peter Senge propone para romper ese patrón: dominio personal, modelos mentales, visión compartida, aprendizaje en equipo y pensamiento sistémico. Un clásico imprescindible sobre organizaciones que aprenden.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep45.mp3" length="19363725" type="audio/mpeg"/>
