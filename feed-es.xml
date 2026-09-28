@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 47 — Liderar el Cambio, de John Kotter</title>
+      <description>El clásico de John Kotter sobre por qué fracasan la mayoría de las transformaciones organizativas, y su modelo de ocho pasos para liderar un cambio profundo con éxito. Desde la urgencia genuina hasta el anclaje cultural, con ejemplos reales y una mirada crítica a sus límites. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep47.mp3" length="19443885" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep47</guid>
+      <pubDate>Mon, 28 Sep 2026 05:27:21 +0000</pubDate>
+      <itunes:duration>16:12</itunes:duration>
+      <itunes:episode>47</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 46 — El Ministerio del Sentido Común, de Martin Lindstrom</title>
       <description>Por qué las empresas, con gente inteligente dentro, acaban tomando decisiones absurdas. Martin Lindstrom explica cómo la burocracia interna, el exceso de indicadores y los silos departamentales alejan a las organizaciones de sus clientes y empleados, y propone un Ministerio del Sentido Común para recuperar la empatía y la lógica en la toma de decisiones. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep46.mp3" length="19971405" type="audio/mpeg"/>
