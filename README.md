@@ -64,3 +64,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 55. Business Adventures — John Brooks
 56. Traction: Get a Grip on Your Business — Gino Wickman
 57. Influence: La psicologia de la persuasió — Robert Cialdini
+58. Essentialism — Greg McKeown

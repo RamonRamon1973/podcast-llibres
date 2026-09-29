@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 58 — Essentialism, de Greg McKeown</title>
+      <description>Per què fer menys, però millor, és la manera més ambiciosa de decidir on posar el teu temps? Greg McKeown ens explica la paradoxa de l'èxit, l'art de dir que no amb elegància i el criteri del noranta per cent. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep58.mp3" length="24058125" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep58</guid>
+      <pubDate>Tue, 29 Sep 2026 05:25:19 +0000</pubDate>
+      <itunes:duration>20:02</itunes:duration>
+      <itunes:episode>58</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 57 — Influence: La psicologia de la persuasió, de Robert Cialdini</title>
       <description>Robert Cialdini, professor a la Universitat Estatal d'Arizona, va passar anys infiltrat en escoles de vendes per descobrir els sis principis universals que ens fan dir que sí: reciprocitat, compromís, prova social, simpatia, autoritat i escassetat. Un clàssic imprescindible per persuadir de manera ètica i per protegir-te de qui et vol manipular. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep57.mp3" length="23418765" type="audio/mpeg"/>
