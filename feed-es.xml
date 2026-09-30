@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 49 — El Cuadro de Mando Integral, de Robert S. Kaplan y David P. Norton</title>
+      <description>Kaplan y Norton explican cómo equilibrar la perspectiva financiera con la de cliente, la de procesos internos y la de aprendizaje y crecimiento para pilotar una organización con visión de futuro, y no solo con el retrovisor de los resultados pasados. Un clásico de referencia sobre cómo conectar la estrategia con el día a día de toda la empresa. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep49.mp3" length="18849165" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep49</guid>
+      <pubDate>Wed, 30 Sep 2026 05:22:01 +0000</pubDate>
+      <itunes:duration>15:42</itunes:duration>
+      <itunes:episode>49</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 48 — The Making of a Manager, de Julie Zhuo</title>
       <description>El libro de Julie Zhuo para quien acaba de pasar de hacer el trabajo a dirigir un equipo. Confianza, reuniones uno a uno, gestión por resultados, feedback concreto, conversaciones difíciles y delegación, con una mirada crítica a sus límites. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep48.mp3" length="18050445" type="audio/mpeg"/>
