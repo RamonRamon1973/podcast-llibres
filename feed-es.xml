@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 52 — El viaje de mi vida (The Ride of a Lifetime), de Robert Iger</title>
+      <description>Robert Iger dirigió Disney durante quince años y compró Pixar, Marvel, Lucasfilm y Fox antes de lanzar Disney Plus. Un repaso a su liderazgo: optimismo honesto, integridad sin excepciones y el coraje de tomar decisiones arriesgadas. Con acciones prácticas para aplicar mañana mismo.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep52.mp3" length="18601485" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep52</guid>
+      <pubDate>Mon, 05 Oct 2026 05:26:56 +0000</pubDate>
+      <itunes:duration>15:30</itunes:duration>
+      <itunes:episode>52</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 51 — Reingeniería de la empresa, de Michael Hammer y James Champy</title>
       <description>El clásico de mil novecientos noventa y tres que lanzó el término reingeniería: repensar radicalmente los procesos de negocio de punta a punta, con los famosos casos de IBM Credit, Ford y Hallmark, y una nota crítica sobre sus excesos. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep51.mp3" length="19183725" type="audio/mpeg"/>
