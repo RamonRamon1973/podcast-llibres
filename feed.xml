@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 61 — Thinking in Bets (Apostar amb cap), de Annie Duke</title>
+      <description>Cada decisió és una aposta amb part d'habilitat i part de sort. Annie Duke, exjugadora professional de pòquer i psicòloga cognitiva, ens ensenya a no jutjar les decisions només pel resultat, a expressar les creences amb percentatges i a construir grups que busquin la veritat. Amb eines pràctiques com el preludi del fracàs i els contractes d'Ulisses. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep61.mp3" length="25671885" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep61</guid>
+      <pubDate>Tue, 06 Oct 2026 05:25:42 +0000</pubDate>
+      <itunes:duration>21:23</itunes:duration>
+      <itunes:episode>61</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 60 — Playing to Win, de A. G. Lafley i Roger Martin</title>
       <description>Què és realment una estratègia? Lafley, ex-conseller delegat de Procter and Gamble, i Roger Martin proposen una cascada de cinc eleccions: aspiració, on jugar, com guanyar, capacitats i sistemes de gestió. Amb el cas Olay com a exemple, veurem per què començar pel client i renunciar a coses és el cor de qualsevol estratègia. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep60.mp3" length="24954765" type="audio/mpeg"/>
