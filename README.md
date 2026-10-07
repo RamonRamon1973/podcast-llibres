@@ -68,3 +68,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 59. Turn the Ship Around (Gira el vaixell) — L. David Marquet
 60. Playing to Win — A. G. Lafley i Roger Martin
 61. Thinking in Bets (Apostar amb cap) — Annie Duke
+62. Creativity, Inc. — Ed Catmull i Amy Wallace

@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 62 — Creativity, Inc., de Ed Catmull i Amy Wallace</title>
+      <description>Com construir una cultura creativa que no tingui por de la veritat? Ed Catmull, cofundador de Pixar, explica el Braintrust, el valor de l'error aviat i barat, com protegir les idees fràgils i com buscar els problemes que ningú no t'explica. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep62.mp3" length="22542285" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep62</guid>
+      <pubDate>Wed, 07 Oct 2026 05:26:48 +0000</pubDate>
+      <itunes:duration>18:47</itunes:duration>
+      <itunes:episode>62</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 61 — Thinking in Bets (Apostar amb cap), de Annie Duke</title>
       <description>Cada decisió és una aposta amb part d'habilitat i part de sort. Annie Duke, exjugadora professional de pòquer i psicòloga cognitiva, ens ensenya a no jutjar les decisions només pel resultat, a expressar les creences amb percentatges i a construir grups que busquin la veritat. Amb eines pràctiques com el preludi del fracàs i els contractes d'Ulisses. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep61.mp3" length="25671885" type="audio/mpeg"/>
