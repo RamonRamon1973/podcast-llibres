@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 55 — Business Adventures (Aventuras de negocios), de John Brooks</title>
+      <description>Doce historias reales de empresas que triunfaron, fracasaron o se dejaron llevar por el orgullo. John Brooks, el libro de negocios favorito de Bill Gates y Warren Buffett, enseña que los negocios los hacen personas: Xerox, el Ford Edsel, Piggly Wiggly y el escándalo de General Electric. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep55.mp3" length="19546125" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep55</guid>
+      <pubDate>Thu, 08 Oct 2026 05:25:03 +0000</pubDate>
+      <itunes:duration>16:17</itunes:duration>
+      <itunes:episode>55</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 54 — Same as Ever (Igual que siempre), de Morgan Housel</title>
       <description>Por qué deberíamos dejar de intentar predecir el futuro y centrarnos en lo que nunca cambia. Morgan Housel explica el precio de la entrada, el poder de las historias, los incentivos, las cicatrices y el riesgo que nadie ve venir. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep54.mp3" length="21001485" type="audio/mpeg"/>
