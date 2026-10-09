@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 63 — Competing for the Future (Competir pel futur), de Gary Hamel i C. K. Prahalad</title>
+      <description>Quin futur voleu construir i quines capacitats us hi portaran? Hamel i Prahalad expliquen la intenció estratègica, les competències bàsiques i per què retallar costos no és una estratègia. Amb els casos de Honda, Canon, Komatsu i NEC, i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep63.mp3" length="24422445" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep63</guid>
+      <pubDate>Fri, 09 Oct 2026 05:25:09 +0000</pubDate>
+      <itunes:duration>20:21</itunes:duration>
+      <itunes:episode>63</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 62 — Creativity, Inc., de Ed Catmull i Amy Wallace</title>
       <description>Com construir una cultura creativa que no tingui por de la veritat? Ed Catmull, cofundador de Pixar, explica el Braintrust, el valor de l'error aviat i barat, com protegir les idees fràgils i com buscar els problemes que ningú no t'explica. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep62.mp3" length="22542285" type="audio/mpeg"/>

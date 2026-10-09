@@ -69,3 +69,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 60. Playing to Win — A. G. Lafley i Roger Martin
 61. Thinking in Bets (Apostar amb cap) — Annie Duke
 62. Creativity, Inc. — Ed Catmull i Amy Wallace
+63. Competing for the Future (Competir pel futur) — Gary Hamel i C. K. Prahalad
