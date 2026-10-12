@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 56 — Traction: Get a Grip on Your Business, de Gino Wickman</title>
+      <description>Un sistema práctico para dejar de apagar fuegos y empezar a dirigir tu empresa. Wickman explica los seis componentes de una empresa sana (visión, personas, datos, problemas, procesos y tracción), el método IDS para resolver problemas y la reunión semanal de nivel diez. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep56.mp3" length="18457005" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep56</guid>
+      <pubDate>Mon, 12 Oct 2026 05:22:08 +0000</pubDate>
+      <itunes:duration>15:22</itunes:duration>
+      <itunes:episode>56</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 55 — Business Adventures (Aventuras de negocios), de John Brooks</title>
       <description>Doce historias reales de empresas que triunfaron, fracasaron o se dejaron llevar por el orgullo. John Brooks, el libro de negocios favorito de Bill Gates y Warren Buffett, enseña que los negocios los hacen personas: Xerox, el Ford Edsel, Piggly Wiggly y el escándalo de General Electric. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep55.mp3" length="19546125" type="audio/mpeg"/>
