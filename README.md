@@ -70,3 +70,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 61. Thinking in Bets (Apostar amb cap) — Annie Duke
 62. Creativity, Inc. — Ed Catmull i Amy Wallace
 63. Competing for the Future (Competir pel futur) — Gary Hamel i C. K. Prahalad
+64. Blitzscaling — Reid Hoffman i Chris Yeh

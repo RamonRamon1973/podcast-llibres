@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 58 — Essentialism (Esencialismo: la disciplinada búsqueda de menos), de Greg McKeown</title>
+      <description>¿Por qué hacer menos, pero mejor, es la manera más ambiciosa de decidir dónde poner tu tiempo? Greg McKeown nos explica la paradoja del éxito, el arte de decir que no con elegancia y el criterio del noventa por ciento. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep58.mp3" length="20076045" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep58</guid>
+      <pubDate>Wed, 14 Oct 2026 05:28:18 +0000</pubDate>
+      <itunes:duration>16:43</itunes:duration>
+      <itunes:episode>58</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 57 — Influence (Influencia: la psicología de la persuasión), de Robert Cialdini</title>
       <description>Por qué decimos que sí: Robert Cialdini explica los seis principios universales de la influencia (reciprocidad, compromiso y coherencia, prueba social, simpatía, autoridad y escasez), el séptimo de la unidad, y cómo usarlos de forma ética y defenderte de quien los usa para manipularte. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep57.mp3" length="19476525" type="audio/mpeg"/>
