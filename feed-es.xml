@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 59 — Turn the Ship Around (Gira el barco), de L. David Marquet</title>
+      <description>¿Y si el mejor jefe no es el que da más órdenes, sino el que consigue que todos piensen como líderes? David Marquet cuenta cómo transformó uno de los peores submarinos de la flota pasando de «pido permiso» a «tengo la intención de». Ideas clave, una mirada crítica y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep59.mp3" length="20198925" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep59</guid>
+      <pubDate>Thu, 15 Oct 2026 05:31:38 +0000</pubDate>
+      <itunes:duration>16:49</itunes:duration>
+      <itunes:episode>59</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 58 — Essentialism (Esencialismo: la disciplinada búsqueda de menos), de Greg McKeown</title>
       <description>¿Por qué hacer menos, pero mejor, es la manera más ambiciosa de decidir dónde poner tu tiempo? Greg McKeown nos explica la paradoja del éxito, el arte de decir que no con elegancia y el criterio del noventa por ciento. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep58.mp3" length="20076045" type="audio/mpeg"/>

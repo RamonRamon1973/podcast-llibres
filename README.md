@@ -71,3 +71,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 62. Creativity, Inc. — Ed Catmull i Amy Wallace
 63. Competing for the Future (Competir pel futur) — Gary Hamel i C. K. Prahalad
 64. Blitzscaling — Reid Hoffman i Chris Yeh
+65. Switch: Com canviar les coses quan canviar és difícil — Chip Heath i Dan Heath
