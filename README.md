@@ -72,3 +72,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 63. Competing for the Future (Competir pel futur) — Gary Hamel i C. K. Prahalad
 64. Blitzscaling — Reid Hoffman i Chris Yeh
 65. Switch: Com canviar les coses quan canviar és difícil — Chip Heath i Dan Heath
+66. Supercommunicators: els secrets per desbloquejar el poder de la conversa — Charles Duhigg
