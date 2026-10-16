@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 61 — Thinking in Bets (Pensar apostando), de Annie Duke, de Annie Duke</title>
+      <description>Cada decisión es una apuesta con parte de habilidad y parte de suerte. Annie Duke, exjugadora profesional de póquer y psicóloga cognitiva, nos enseña a no juzgar las decisiones solo por el resultado, a expresar las creencias con porcentajes y a construir grupos que busquen la verdad. Con herramientas prácticas como el preludio del fracaso y los contratos de Ulises. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep61.mp3" length="21422925" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep61</guid>
+      <pubDate>Fri, 16 Oct 2026 03:42:40 +0000</pubDate>
+      <itunes:duration>17:51</itunes:duration>
+      <itunes:episode>61</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 60 — Playing to Win (Jugar para ganar), de A. G. Lafley y Roger Martin, de A. G. Lafley y Roger Martin</title>
       <description>¿Qué es realmente una estrategia? Lafley, ex consejero delegado de Procter and Gamble, y Roger Martin proponen una cascada de cinco elecciones: aspiración, dónde jugar, cómo ganar, capacidades y sistemas de gestión. Con el caso Olay como ejemplo, veremos por qué empezar por el cliente y renunciar a cosas es el corazón de cualquier estrategia. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep60.mp3" length="20961165" type="audio/mpeg"/>
