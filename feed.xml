@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 67 — Rework, de Jason Fried i David Heinemeier Hansson</title>
+      <description>Un llibre petit i provocador que defensa fer menys: menys reunions, menys plans i menys funcions. Les idees clau de Rework de Jason Fried i David Heinemeier Hansson, una nota crítica i cinc accions per protegir el temps i l'atenció del teu equip. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep67.mp3" length="24492525" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep67</guid>
+      <pubDate>Fri, 16 Oct 2026 03:18:39 +0000</pubDate>
+      <itunes:duration>20:24</itunes:duration>
+      <itunes:episode>67</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 66 — Supercommunicators: els secrets per desbloquejar el poder de la conversa, de Charles Duhigg</title>
       <description>Per què algunes converses connecten i d'altres descarrilen? Charles Duhigg proposa un marc de tres tipus de conversa (pràctica, emocional i social) i tècniques com el bucle per entendre. Veiem les idees clau, una nota crítica i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep66.mp3" length="24172845" type="audio/mpeg"/>
