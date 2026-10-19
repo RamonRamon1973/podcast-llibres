@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 68 — The Halo Effect (L'efecte halo), de Phil Rosenzweig</title>
+      <description>Per què ens creiem les receptes d'èxit empresarial? Phil Rosenzweig desmunta els vuit enganys que perverteixen el judici dels directius: l'efecte halo, la confusió entre correlació i causalitat, l'oblit de l'atzar i la il·lusió de l'èxit durador. Una lliçó de pensament crític amb accions pràctiques per decidir millor. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep68.mp3" length="24678765" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep68</guid>
+      <pubDate>Mon, 19 Oct 2026 03:17:54 +0000</pubDate>
+      <itunes:duration>20:33</itunes:duration>
+      <itunes:episode>68</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 67 — Rework, de Jason Fried i David Heinemeier Hansson</title>
       <description>Un llibre petit i provocador que defensa fer menys: menys reunions, menys plans i menys funcions. Les idees clau de Rework de Jason Fried i David Heinemeier Hansson, una nota crítica i cinc accions per protegir el temps i l'atenció del teu equip. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep67.mp3" length="24492525" type="audio/mpeg"/>

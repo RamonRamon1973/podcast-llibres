@@ -74,3 +74,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 65. Switch: Com canviar les coses quan canviar és difícil — Chip Heath i Dan Heath
 66. Supercommunicators: els secrets per desbloquejar el poder de la conversa — Charles Duhigg
 67. Rework — Jason Fried i David Heinemeier Hansson
+68. The Halo Effect (L'efecte halo) — Phil Rosenzweig
