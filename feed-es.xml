@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 62 — Creativity, Inc. (Creatividad, S.A.), de Ed Catmull y Amy Wallace</title>
+      <description>Ed Catmull, cofundador de Pixar, explica cómo construir un entorno donde el talento se atreva a decir la verdad, equivocarse pronto y proteger las ideas frágiles: el Braintrust, el fracaso útil y cinco acciones para aplicar mañana.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep62.mp3" length="18919245" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep62</guid>
+      <pubDate>Mon, 19 Oct 2026 03:44:55 +0000</pubDate>
+      <itunes:duration>15:45</itunes:duration>
+      <itunes:episode>62</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 61 — Thinking in Bets (Pensar apostando), de Annie Duke, de Annie Duke</title>
       <description>Cada decisión es una apuesta con parte de habilidad y parte de suerte. Annie Duke, exjugadora profesional de póquer y psicóloga cognitiva, nos enseña a no juzgar las decisiones solo por el resultado, a expresar las creencias con porcentajes y a construir grupos que busquen la verdad. Con herramientas prácticas como el preludio del fracaso y los contratos de Ulises. Resumen y comentario del libro en español.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep61.mp3" length="21422925" type="audio/mpeg"/>
