@@ -75,3 +75,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 66. Supercommunicators: els secrets per desbloquejar el poder de la conversa — Charles Duhigg
 67. Rework — Jason Fried i David Heinemeier Hansson
 68. The Halo Effect (L'efecte halo) — Phil Rosenzweig
+69. Thinking in Systems (Pensar en sistemes) — Donella H. Meadows
