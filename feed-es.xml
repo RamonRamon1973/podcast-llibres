@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 63 — Competing for the Future (Competir por el futuro), de Gary Hamel y C. K. Prahalad</title>
+      <description>Hamel y Prahalad explican por qué la estrategia se juega en la carrera invisible por construir las capacidades de mañana: intención estratégica, competencias básicas, desaprender y cinco acciones para aplicar mañana.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep63.mp3" length="20434125" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep63</guid>
+      <pubDate>Tue, 20 Oct 2026 03:48:09 +0000</pubDate>
+      <itunes:duration>17:01</itunes:duration>
+      <itunes:episode>63</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 62 — Creativity, Inc. (Creatividad, S.A.), de Ed Catmull y Amy Wallace</title>
       <description>Ed Catmull, cofundador de Pixar, explica cómo construir un entorno donde el talento se atreva a decir la verdad, equivocarse pronto y proteger las ideas frágiles: el Braintrust, el fracaso útil y cinco acciones para aplicar mañana.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep62.mp3" length="18919245" type="audio/mpeg"/>
