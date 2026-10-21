@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 70 — Antifragile, de Nassim Nicholas Taleb</title>
+      <description>Per què resistir els cops no n'hi ha prou: Taleb defensa organitzacions que guanyen amb el desordre. Repassem la tríada fràgil-robust-antifragil, l'estratègia de l'halter, l'opcionalitat, la via negativa i la pell en joc, amb una nota crítica i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep70.mp3" length="24575085" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep70</guid>
+      <pubDate>Wed, 21 Oct 2026 03:24:49 +0000</pubDate>
+      <itunes:duration>20:28</itunes:duration>
+      <itunes:episode>70</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 69 — Thinking in Systems (Pensar en sistemes), de Donella H. Meadows</title>
       <description>Per què els mateixos problemes tornen una vegada i una altra? Donella Meadows ens ensenya a veure l'estructura que hi ha darrere dels resultats: estocs, fluxos, bucles de retroalimentació, retards i palanques d'intervenció. Un llibre clàssic per deixar de tapar forats i començar a canviar les regles del joc. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep69.mp3" length="23844045" type="audio/mpeg"/>

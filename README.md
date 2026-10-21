@@ -76,3 +76,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 67. Rework — Jason Fried i David Heinemeier Hansson
 68. The Halo Effect (L'efecte halo) — Phil Rosenzweig
 69. Thinking in Systems (Pensar en sistemes) — Donella H. Meadows
+70. Antifragile — Nassim Nicholas Taleb
