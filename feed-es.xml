@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 65 — Switch (Cambiar es difícil), de Chip Heath y Dan Heath</title>
+      <description>Cuando el cambio se atasca, casi siempre el problema no es la gente, sino cómo lo planteamos. Chip y Dan Heath proponen una imagen inolvidable: un jinete, un elefante y un camino. Dirigir al jinete con claridad, motivar al elefante con emociones y allanar el camino con pequeños ajustes del entorno. Con una nota crítica sobre las historias de éxito y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep65.mp3" length="19721325" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep65</guid>
+      <pubDate>Thu, 22 Oct 2026 03:47:49 +0000</pubDate>
+      <itunes:duration>16:26</itunes:duration>
+      <itunes:episode>65</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 64 — Blitzscaling (Crecimiento fulminante), de Reid Hoffman y Chris Yeh</title>
       <description>Cuando el mercado se abre y todos corren hacia el mismo premio, ir despacio puede ser la forma más segura de perder. Reid Hoffman, cofundador de LinkedIn, explica cuándo vale la pena priorizar la velocidad por encima de la eficiencia, las etapas de tamaño de una organización y cómo cambian las personas y la cultura por el camino. Con una nota crítica sobre el sesgo de supervivencia y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep64.mp3" length="19375245" type="audio/mpeg"/>
