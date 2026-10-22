@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 71 — Hit Refresh (Reinicia), de Satya Nadella</title>
+      <description>Com es reinventa una empresa gegant que s'ha adormit? Satya Nadella explica el seu gir a Microsoft: de saber-ho tot a voler-ho aprendre tot, l'empatia com a motor del negoci, deixar guerres que ja no tenen sentit i una missió clara. Amb una nota crítica i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep71.mp3" length="22692525" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep71</guid>
+      <pubDate>Thu, 22 Oct 2026 03:20:56 +0000</pubDate>
+      <itunes:duration>18:54</itunes:duration>
+      <itunes:episode>71</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 70 — Antifragile, de Nassim Nicholas Taleb</title>
       <description>Per què resistir els cops no n'hi ha prou: Taleb defensa organitzacions que guanyen amb el desordre. Repassem la tríada fràgil-robust-antifragil, l'estratègia de l'halter, l'opcionalitat, la via negativa i la pell en joc, amb una nota crítica i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep70.mp3" length="24575085" type="audio/mpeg"/>

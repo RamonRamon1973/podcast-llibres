@@ -77,3 +77,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 68. The Halo Effect (L'efecte halo) — Phil Rosenzweig
 69. Thinking in Systems (Pensar en sistemes) — Donella H. Meadows
 70. Antifragile — Nassim Nicholas Taleb
+71. Hit Refresh (Reinicia) — Satya Nadella
