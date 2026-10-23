@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 66 — Ep. 66 — Supercommunicators (Supercomunicadores), de Charles Duhigg, de Charles Duhigg</title>
+      <description>Casi todo lo que ocurre en una organización ocurre a través de conversaciones, y la mayoría las hacemos peor de lo que creemos. Charles Duhigg propone un marco sencillo: toda conversación es práctica, emocional o social, y los buenos comunicadores consiguen que todos estén en la misma categoría. Con la técnica del bucle para entender, una nota crítica sobre el poder de las historias y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep66.mp3" length="20309325" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep66</guid>
+      <pubDate>Fri, 23 Oct 2026 03:52:03 +0000</pubDate>
+      <itunes:duration>16:55</itunes:duration>
+      <itunes:episode>66</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 65 — Switch (Cambiar es difícil), de Chip Heath y Dan Heath</title>
       <description>Cuando el cambio se atasca, casi siempre el problema no es la gente, sino cómo lo planteamos. Chip y Dan Heath proponen una imagen inolvidable: un jinete, un elefante y un camino. Dirigir al jinete con claridad, motivar al elefante con emociones y allanar el camino con pequeños ajustes del entorno. Con una nota crítica sobre las historias de éxito y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep65.mp3" length="19721325" type="audio/mpeg"/>

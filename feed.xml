@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 72 — Crucial Conversations (Converses decisives), de Kerry Patterson, Joseph Grenny, Ron McMillan i Al Switzler</title>
+      <description>Com mantenir les converses en què hi ha molt en joc, opinions oposades i emocions fortes sense caure ni en el silenci ni en la violència. Un llibre clàssic sobre franquesa i respecte, amb tècniques concretes per aplicar des de demà. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep72.mp3" length="24320205" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep72</guid>
+      <pubDate>Fri, 23 Oct 2026 03:51:06 +0000</pubDate>
+      <itunes:duration>20:15</itunes:duration>
+      <itunes:episode>72</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 71 — Hit Refresh (Reinicia), de Satya Nadella</title>
       <description>Com es reinventa una empresa gegant que s'ha adormit? Satya Nadella explica el seu gir a Microsoft: de saber-ho tot a voler-ho aprendre tot, l'empatia com a motor del negoci, deixar guerres que ja no tenen sentit i una missió clara. Amb una nota crítica i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep71.mp3" length="22692525" type="audio/mpeg"/>
