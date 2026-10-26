@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 67 — Rework (Replantéate el trabajo), de Jason Fried y David Heinemeier Hansson</title>
+      <description>Un libro breve y provocador sobre cómo dirigir una empresa haciendo menos: menos reuniones, menos planes y menos ruido, para proteger el tiempo y la atención de las personas.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep67.mp3" length="20539244" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep67</guid>
+      <pubDate>Mon, 26 Oct 2026 03:54:33 +0000</pubDate>
+      <itunes:duration>17:06</itunes:duration>
+      <itunes:episode>67</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 66 — Ep. 66 — Supercommunicators (Supercomunicadores), de Charles Duhigg, de Charles Duhigg</title>
       <description>Casi todo lo que ocurre en una organización ocurre a través de conversaciones, y la mayoría las hacemos peor de lo que creemos. Charles Duhigg propone un marco sencillo: toda conversación es práctica, emocional o social, y los buenos comunicadores consiguen que todos estén en la misma categoría. Con la técnica del bucle para entender, una nota crítica sobre el poder de las historias y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep66.mp3" length="20309325" type="audio/mpeg"/>
