@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 73 — The Phoenix Project (El projecte Fènix), de Gene Kim, Kevin Behr i George Spafford</title>
+      <description>Una novel·la sobre el caos d'un departament d'operacions que descobreix que el treball s'ha de gestionar com una cadena de producció. Flux, retorn d'informació i aprenentatge continu, els quatre tipus de treball, el coll d'ampolla que es diu Brent i cinc accions per fer visible la feina del teu equip. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep73.mp3" length="23321324" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep73</guid>
+      <pubDate>Mon, 26 Oct 2026 03:23:23 +0000</pubDate>
+      <itunes:duration>19:25</itunes:duration>
+      <itunes:episode>73</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 72 — Crucial Conversations (Converses decisives), de Kerry Patterson, Joseph Grenny, Ron McMillan i Al Switzler</title>
       <description>Com mantenir les converses en què hi ha molt en joc, opinions oposades i emocions fortes sense caure ni en el silenci ni en la violència. Un llibre clàssic sobre franquesa i respecte, amb tècniques concretes per aplicar des de demà. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep72.mp3" length="24320205" type="audio/mpeg"/>

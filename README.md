@@ -79,3 +79,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 70. Antifragile — Nassim Nicholas Taleb
 71. Hit Refresh (Reinicia) — Satya Nadella
 72. Crucial Conversations (Converses decisives) — Kerry Patterson, Joseph Grenny, Ron McMillan i Al Switzler
+73. The Phoenix Project (El projecte Fènix) — Gene Kim, Kevin Behr i George Spafford
