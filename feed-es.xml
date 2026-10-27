@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 68 — Ep. 68 — The Halo Effect (El efecto halo), de Phil Rosenzweig, de Phil Rosenzweig</title>
+      <description>¿Por qué nos creemos las recetas del éxito empresarial? Phil Rosenzweig desmonta los engaños que pervierten el juicio de los directivos: el efecto halo, la confusión entre correlación y causalidad, el olvido del azar y la ilusión del éxito duradero. Una lección de pensamiento crítico con acciones prácticas para decidir mejor.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep68.mp3" length="20658764" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep68</guid>
+      <pubDate>Tue, 27 Oct 2026 03:50:00 +0000</pubDate>
+      <itunes:duration>17:12</itunes:duration>
+      <itunes:episode>68</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 67 — Rework (Replantéate el trabajo), de Jason Fried y David Heinemeier Hansson</title>
       <description>Un libro breve y provocador sobre cómo dirigir una empresa haciendo menos: menos reuniones, menos planes y menos ruido, para proteger el tiempo y la atención de las personas.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep67.mp3" length="20539244" type="audio/mpeg"/>
