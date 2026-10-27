@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 74 — The Pyramid Principle (El principi de la piràmide), de Barbara Minto</title>
+      <description>Com estructurar el pensament i comunicar-lo perquè t'entenguin a la primera. Barbara Minto, la mestra d'escriptura de McKinsey, explica per què cal començar per la resposta, com ordenar les idees en forma de piràmide, què vol dir que siguin mútuament excloents i col·lectivament exhaustives i com preparar el lector amb situació, complicació i pregunta. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep74.mp3" length="23463404" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep74</guid>
+      <pubDate>Tue, 27 Oct 2026 03:26:57 +0000</pubDate>
+      <itunes:duration>19:33</itunes:duration>
+      <itunes:episode>74</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 73 — The Phoenix Project (El projecte Fènix), de Gene Kim, Kevin Behr i George Spafford</title>
       <description>Una novel·la sobre el caos d'un departament d'operacions que descobreix que el treball s'ha de gestionar com una cadena de producció. Flux, retorn d'informació i aprenentatge continu, els quatre tipus de treball, el coll d'ampolla que es diu Brent i cinc accions per fer visible la feina del teu equip. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep73.mp3" length="23321324" type="audio/mpeg"/>
