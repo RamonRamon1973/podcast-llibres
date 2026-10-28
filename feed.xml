@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 75 — Range, de David Epstein</title>
+      <description>Per què els generalistes triomfen en un món molt especialitzat? David Epstein contraposa Tiger Woods i Roger Federer per mostrar que l'especialització primerenca només funciona en entorns amables, i que en entorns hostils guanyen l'amplitud, l'exploració i el pensament analògic. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep75.mp3" length="23120684" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep75</guid>
+      <pubDate>Wed, 28 Oct 2026 03:24:57 +0000</pubDate>
+      <itunes:duration>19:15</itunes:duration>
+      <itunes:episode>75</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 74 — The Pyramid Principle (El principi de la piràmide), de Barbara Minto</title>
       <description>Com estructurar el pensament i comunicar-lo perquè t'entenguin a la primera. Barbara Minto, la mestra d'escriptura de McKinsey, explica per què cal començar per la resposta, com ordenar les idees en forma de piràmide, què vol dir que siguin mútuament excloents i col·lectivament exhaustives i com preparar el lector amb situació, complicació i pregunta. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep74.mp3" length="23463404" type="audio/mpeg"/>

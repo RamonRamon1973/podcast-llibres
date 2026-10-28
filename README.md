@@ -81,3 +81,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 72. Crucial Conversations (Converses decisives) — Kerry Patterson, Joseph Grenny, Ron McMillan i Al Switzler
 73. The Phoenix Project (El projecte Fènix) — Gene Kim, Kevin Behr i George Spafford
 74. The Pyramid Principle (El principi de la piràmide) — Barbara Minto
+75. Range — David Epstein
