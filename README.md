@@ -82,3 +82,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 73. The Phoenix Project (El projecte Fènix) — Gene Kim, Kevin Behr i George Spafford
 74. The Pyramid Principle (El principi de la piràmide) — Barbara Minto
 75. Range — David Epstein
+76. Powerful: Building a Culture of Freedom and Responsibility — Patty McCord
