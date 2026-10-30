@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 71 — Hit Refresh (Reinicia), de Satya Nadella</title>
+      <description>¿Cómo se reinventa una empresa gigante que se ha adormecido? Satya Nadella explica su giro en Microsoft: de saberlo todo a querer aprenderlo todo, la empatía como motor del negocio, dejar guerras que ya no tienen sentido y una misión clara. Con una nota crítica y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep71.mp3" length="18986444" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep71</guid>
+      <pubDate>Fri, 30 Oct 2026 03:57:02 +0000</pubDate>
+      <itunes:duration>15:49</itunes:duration>
+      <itunes:episode>71</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 70 — Ep. 70 — Antifragile (Antifrágil), de Nassim Nicholas Taleb, de Nassim Nicholas Taleb</title>
       <description>Antifragile: las cosas que se benefician del desorden. Por qué resistir no basta y cómo construir una organización que mejore con los golpes: la estrategia de la barra con pesas, la opcionalidad, la vía negativa y la piel en juego.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep70.mp3" length="20738444" type="audio/mpeg"/>
