@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 72 — Crucial Conversations (Conversaciones cruciales), de Kerry Patterson, Joseph Grenny, Ron McMillan y Al Switzler</title>
+      <description>Cómo mantener las conversaciones difíciles, esas en las que hay mucho en juego, opiniones distintas y emociones fuertes, con franqueza y respeto a la vez: hechos, historias y acuerdos claros.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep72.mp3" length="20569484" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep72</guid>
+      <pubDate>Mon, 02 Nov 2026 03:56:44 +0000</pubDate>
+      <itunes:duration>17:08</itunes:duration>
+      <itunes:episode>72</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 71 — Hit Refresh (Reinicia), de Satya Nadella</title>
       <description>¿Cómo se reinventa una empresa gigante que se ha adormecido? Satya Nadella explica su giro en Microsoft: de saberlo todo a querer aprenderlo todo, la empatía como motor del negocio, dejar guerras que ya no tienen sentido y una misión clara. Con una nota crítica y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep71.mp3" length="18986444" type="audio/mpeg"/>
