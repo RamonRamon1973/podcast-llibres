@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 78 — Power and Prediction (Poder i predicció), de Ajay Agrawal, Joshua Gans i Avi Goldfarb</title>
+      <description>Per què la intel·ligència artificial triga tant a transformar les empreses? Els tres economistes de Toronto comparen la IA amb l'arribada de l'electricitat a les fàbriques i expliquen la diferència entre solucions puntuals i solucions de sistema, i per què el judici humà val ara més que mai. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep78.mp3" length="24112844" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep78</guid>
+      <pubDate>Mon, 02 Nov 2026 03:27:02 +0000</pubDate>
+      <itunes:duration>20:05</itunes:duration>
+      <itunes:episode>78</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 77 — Reinventing Organizations (Reinventar les organitzacions), de Frederic Laloux</title>
       <description>Pot una empresa funcionar sense la piràmide de caps? Frederic Laloux va estudiar organitzacions pioneres com Buurtzorg, Morning Star i FAVI i en treu una teoria sobre l'autogestió, la plenitud de les persones i el propòsit evolutiu. Anem a veure les idees clau, una mirada crítica i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep77.mp3" length="24320204" type="audio/mpeg"/>

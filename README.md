@@ -84,3 +84,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 75. Range — David Epstein
 76. Powerful: Building a Culture of Freedom and Responsibility — Patty McCord
 77. Reinventing Organizations (Reinventar les organitzacions) — Frederic Laloux
+78. Power and Prediction (Poder i predicció) — Ajay Agrawal, Joshua Gans i Avi Goldfarb
