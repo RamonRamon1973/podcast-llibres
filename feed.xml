@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 79 — Nudge: Un copet suau per decidir millor, de Richard H. Thaler i Cass R. Sunstein</title>
+      <description>Com l'arquitectura de l'elecció pot ajudar la gent a decidir millor sense prohibir res. Descobrim el paternalisme llibertari, el poder dels valors per defecte, els casos de la donació d'òrgans i de l'estalvi per a la jubilació, i cinc accions per dissenyar processos més humans. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep79.mp3" length="23413964" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep79</guid>
+      <pubDate>Tue, 03 Nov 2026 03:28:11 +0000</pubDate>
+      <itunes:duration>19:30</itunes:duration>
+      <itunes:episode>79</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 78 — Power and Prediction (Poder i predicció), de Ajay Agrawal, Joshua Gans i Avi Goldfarb</title>
       <description>Per què la intel·ligència artificial triga tant a transformar les empreses? Els tres economistes de Toronto comparen la IA amb l'arribada de l'electricitat a les fàbriques i expliquen la diferència entre solucions puntuals i solucions de sistema, i per què el judici humà val ara més que mai. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep78.mp3" length="24112844" type="audio/mpeg"/>
