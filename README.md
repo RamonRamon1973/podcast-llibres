@@ -86,3 +86,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 77. Reinventing Organizations (Reinventar les organitzacions) — Frederic Laloux
 78. Power and Prediction (Poder i predicció) — Ajay Agrawal, Joshua Gans i Avi Goldfarb
 79. Nudge: Un copet suau per decidir millor — Richard H. Thaler i Cass R. Sunstein
+80. Who: The A Method for Hiring (Qui: el Mètode A per contractar) — Geoff Smart i Randy Street
