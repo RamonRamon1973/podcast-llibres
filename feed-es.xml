@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 73 — The Phoenix Project (El proyecto Fénix), de Gene Kim, Kevin Behr y George Spafford</title>
+      <description>Una novela sobre cómo gestionar el trabajo invisible: las tres vías (flujo, retroalimentación y aprendizaje continuo), el cuello de botella y el trabajo no planificado. Con una nota crítica y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep73.mp3" length="19618124" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep73</guid>
+      <pubDate>Wed, 04 Nov 2026 03:56:59 +0000</pubDate>
+      <itunes:duration>16:20</itunes:duration>
+      <itunes:episode>73</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 72 — Crucial Conversations (Conversaciones cruciales), de Kerry Patterson, Joseph Grenny, Ron McMillan y Al Switzler</title>
       <description>Cómo mantener las conversaciones difíciles, esas en las que hay mucho en juego, opiniones distintas y emociones fuertes, con franqueza y respeto a la vez: hechos, historias y acuerdos claros.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep72.mp3" length="20569484" type="audio/mpeg"/>
