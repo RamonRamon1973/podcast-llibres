@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 81 — Obviously Awesome (Òbviament extraordinari), de April Dunford</title>
+      <description>Per què un bon producte no es ven? April Dunford defensa que el problema sol ser el context, no el producte. Descobrirem els cinc components del posicionament, l'ordre correcte per construir-lo i com triar la categoria de mercat. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep81.mp3" length="23375564" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep81</guid>
+      <pubDate>Thu, 05 Nov 2026 03:27:44 +0000</pubDate>
+      <itunes:duration>19:28</itunes:duration>
+      <itunes:episode>81</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 80 — Who: The A Method for Hiring (Qui: el Mètode A per contractar), de Geoff Smart i Randy Street</title>
       <description>Contractar bé no és sort ni intuïció, és mètode. Geoff Smart i Randy Street proposen el Mètode A: un quadre de resultats clar, cerca activa de talent, quatre entrevistes amb disciplina i la conquesta del candidat. Analitzem les idees clau, les limitacions i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep80.mp3" length="24496844" type="audio/mpeg"/>
