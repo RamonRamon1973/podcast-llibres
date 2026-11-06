@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 82 — Sprint, de Jake Knapp i John Zeratsky</title>
+      <description>Com resoldre problemes grans i provar idees noves en només cinc dies. Jake Knapp, creador del mètode a Google i Google Ventures, ens explica l'estructura de la setmana, la figura del decisor, els prototips de façana i la prova amb cinc clients. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep82.mp3" length="22851404" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep82</guid>
+      <pubDate>Fri, 06 Nov 2026 04:02:42 +0000</pubDate>
+      <itunes:duration>19:02</itunes:duration>
+      <itunes:episode>82</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 81 — Obviously Awesome (Òbviament extraordinari), de April Dunford</title>
       <description>Per què un bon producte no es ven? April Dunford defensa que el problema sol ser el context, no el producte. Descobrirem els cinc components del posicionament, l'ordre correcte per construir-lo i com triar la categoria de mercat. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep81.mp3" length="23375564" type="audio/mpeg"/>
