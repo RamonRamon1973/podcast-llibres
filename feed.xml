@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 83 — Let My People Go Surfing, de Yvon Chouinard</title>
+      <description>Com va construir Yvon Chouinard Patagonia sense voler ser empresari? Qualitat, llibertat per a l'equip, creixement lent i una empresa al servei d'una causa. Un llibre que demostra que els valors poden ser una estratègia. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep83.mp3" length="23373644" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep83</guid>
+      <pubDate>Mon, 09 Nov 2026 03:26:57 +0000</pubDate>
+      <itunes:duration>19:28</itunes:duration>
+      <itunes:episode>83</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 82 — Sprint, de Jake Knapp i John Zeratsky</title>
       <description>Com resoldre problemes grans i provar idees noves en només cinc dies. Jake Knapp, creador del mètode a Google i Google Ventures, ens explica l'estructura de la setmana, la figura del decisor, els prototips de façana i la prova amb cinc clients. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep82.mp3" length="22851404" type="audio/mpeg"/>
