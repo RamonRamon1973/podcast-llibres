@@ -90,3 +90,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 81. Obviously Awesome (Òbviament extraordinari) — April Dunford
 82. Sprint — Jake Knapp i John Zeratsky
 83. Let My People Go Surfing — Yvon Chouinard
+84. Inspired — Marty Cagan
