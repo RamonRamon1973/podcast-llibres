@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 85 — Who Says Elephants Can't Dance? (Qui diu que els elefants no poden ballar?), de Louis V. Gerstner Jr.</title>
+      <description>Com va aconseguir Louis Gerstner reflotar IBM quan tothom donava l'empresa per perduda? Sense visió grandiosa ni trossejament: escoltant els clients, protegint el que fa única la companyia i canviant la cultura a base d'exemple. Cinc idees clau, una nota crítica i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep85.mp3" length="24199724" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep85</guid>
+      <pubDate>Wed, 11 Nov 2026 03:29:13 +0000</pubDate>
+      <itunes:duration>20:09</itunes:duration>
+      <itunes:episode>85</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 84 — Inspired, de Marty Cagan</title>
       <description>Per què molts equips amb gent excel·lent no aconsegueixen productes que els clients estimin? Marty Cagan defensa passar d'equips que executen llistes de funcionalitats a equips empoderats que resolen problemes. Veurem els quatre riscos d'un producte, el descobriment continu, el trio de producte i accions per aplicar demà. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep84.mp3" length="23591084" type="audio/mpeg"/>
