@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 79 — Nudge (Un pequeño empujón), de Richard Thaler y Cass Sunstein, de Richard H. Thaler y Cass R. Sunstein</title>
+      <description>Cómo diseñar el contexto en el que otros deciden: la arquitectura de la elección, las opciones por defecto, la norma social y el paternalismo libertario, con acciones prácticas para tu equipo.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep79.mp3" length="19709804" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep79</guid>
+      <pubDate>Thu, 12 Nov 2026 04:02:15 +0000</pubDate>
+      <itunes:duration>16:25</itunes:duration>
+      <itunes:episode>79</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 78 — Power and Prediction (Poder y predicción), de Ajay Agrawal, Joshua Gans y Avi Goldfarb</title>
       <description>¿Por qué la inteligencia artificial ya está aquí y las empresas apenas han cambiado? Agrawal, Gans y Goldfarb explican el entretiempo, la diferencia entre soluciones puntuales y de sistema, y por qué el juicio humano vale más cuando predecir es barato. Vamos a ver las ideas clave, una mirada crítica y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep78.mp3" length="20296364" type="audio/mpeg"/>
