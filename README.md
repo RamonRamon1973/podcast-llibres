@@ -92,3 +92,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 83. Let My People Go Surfing — Yvon Chouinard
 84. Inspired — Marty Cagan
 85. Who Says Elephants Can't Dance? (Qui diu que els elefants no poden ballar?) — Louis V. Gerstner Jr.
+86. The First 90 Days (Els primers noranta dies) — Michael D. Watkins
