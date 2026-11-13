@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 80 — Who (Quién), de Geoff Smart y Randy Street</title>
+      <description>Cómo contratar bien: el Método A de Smart y Street, con el cuadro de resultados, la búsqueda activa, las cuatro entrevistas y la conquista del candidato, con acciones prácticas para tu próxima contratación.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep80.mp3" length="20545484" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep80</guid>
+      <pubDate>Fri, 13 Nov 2026 04:00:24 +0000</pubDate>
+      <itunes:duration>17:07</itunes:duration>
+      <itunes:episode>80</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 79 — Nudge (Un pequeño empujón), de Richard Thaler y Cass Sunstein, de Richard H. Thaler y Cass R. Sunstein</title>
       <description>Cómo diseñar el contexto en el que otros deciden: la arquitectura de la elección, las opciones por defecto, la norma social y el paternalismo libertario, con acciones prácticas para tu equipo.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep79.mp3" length="19709804" type="audio/mpeg"/>
