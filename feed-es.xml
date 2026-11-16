@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 81 — Obviously Awesome (Obviamente extraordinario), de April Dunford</title>
+      <description>¿Por qué un buen producto no se vende? April Dunford defiende que el problema suele ser el contexto, no el producto. Descubriremos los cinco componentes del posicionamiento, el orden correcto para construirlo y cómo elegir la categoría de mercado. Resumen y comentario del libro en español.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep81.mp3" length="19552844" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep81</guid>
+      <pubDate>Mon, 16 Nov 2026 04:55:52 +0000</pubDate>
+      <itunes:duration>16:17</itunes:duration>
+      <itunes:episode>81</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 80 — Who (Quién), de Geoff Smart y Randy Street</title>
       <description>Cómo contratar bien: el Método A de Smart y Street, con el cuadro de resultados, la búsqueda activa, las cuatro entrevistas y la conquista del candidato, con acciones prácticas para tu próxima contratación.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep80.mp3" length="20545484" type="audio/mpeg"/>
