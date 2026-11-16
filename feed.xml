@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 88 — Shoe Dog (El venedor de sabates), de Phil Knight</title>
+      <description>Les memòries del cofundador de Nike expliquen com es construeix una empresa partint de gairebé res: la caixa que ofega el creixement, la dependència d'un sol proveïdor, la cultura d'equip i la persistència amb criteri. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep88.mp3" length="23663084" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep88</guid>
+      <pubDate>Mon, 16 Nov 2026 04:30:55 +0000</pubDate>
+      <itunes:duration>19:43</itunes:duration>
+      <itunes:episode>88</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 87 — An Elegant Puzzle (Un trencaclosques elegant), de Will Larson</title>
       <description>Com dirigir una organització com un sistema: la mida dels equips, l'estat de cada equip, la gestió de la qualitat, les migracions ben dissenyades i les decisions escrites. Les idees de Will Larson per deixar de culpar les persones i començar a millorar el sistema. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep87.mp3" length="23321804" type="audio/mpeg"/>

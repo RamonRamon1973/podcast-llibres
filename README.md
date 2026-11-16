@@ -94,3 +94,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 85. Who Says Elephants Can't Dance? (Qui diu que els elefants no poden ballar?) — Louis V. Gerstner Jr.
 86. The First 90 Days (Els primers noranta dies) — Michael D. Watkins
 87. An Elegant Puzzle (Un trencaclosques elegant) — Will Larson
+88. Shoe Dog (El venedor de sabates) — Phil Knight
