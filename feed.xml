@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 90 — The Mom Test (El test de la mare), de Rob Fitzpatrick</title>
+      <description>Com fer preguntes als clients perquè ni la teva mare et pugui mentir. Rob Fitzpatrick explica tres regles per parlar de fets i no d'opinions, com detectar compliments i vaguetats, i per què el compromís val més que l'entusiasme. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep90.mp3" length="23571404" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep90</guid>
+      <pubDate>Wed, 18 Nov 2026 04:31:35 +0000</pubDate>
+      <itunes:duration>19:38</itunes:duration>
+      <itunes:episode>90</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 89 — Humble Inquiry (Indagació humil), de Edgar H. Schein</title>
       <description>Per què la gent no et diu el que realment passa a la teva empresa? Edgar Schein, pare de la cultura organitzativa, defensa que preguntar de debò, des de la curiositat i la humilitat, val més que donar respostes. Veurem com la jerarquia filtra la informació, quatre maneres de dirigir una conversa i cinc accions per començar demà. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep89.mp3" length="23326604" type="audio/mpeg"/>

@@ -96,3 +96,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 87. An Elegant Puzzle (Un trencaclosques elegant) — Will Larson
 88. Shoe Dog (El venedor de sabates) — Phil Knight
 89. Humble Inquiry (Indagació humil) — Edgar H. Schein
+90. The Mom Test (El test de la mare) — Rob Fitzpatrick
