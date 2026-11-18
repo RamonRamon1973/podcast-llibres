@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 83 — Let My People Go Surfing (Deja que mi gente vaya a hacer surf), de Yvon Chouinard</title>
+      <description>Cómo Yvon Chouinard construyó Patagonia poniendo los valores por delante del crecimiento: calidad, libertad para el equipo, crecimiento lento, cadena de suministro honesta y una causa que cuesta dinero.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep83.mp3" length="19480844" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep83</guid>
+      <pubDate>Wed, 18 Nov 2026 05:01:22 +0000</pubDate>
+      <itunes:duration>16:13</itunes:duration>
+      <itunes:episode>83</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 82 — Sprint (Sprint), de Jake Knapp y John Zeratsky</title>
       <description>Cómo resolver problemas grandes y probar ideas nuevas en solo cinco días: el método del sprint de Google Ventures, con una estructura de lunes a viernes, un decisor claro y pruebas con cinco clientes reales.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep82.mp3" length="19297004" type="audio/mpeg"/>
