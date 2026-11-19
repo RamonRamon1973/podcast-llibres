@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 91 — Trillion Dollar Coach (L'entrenador del bilió de dòlars), de Eric Schmidt, Jonathan Rosenberg i Alan Eagle</title>
+      <description>Com va ajudar Bill Campbell, l'entrenador de Silicon Valley, líders com Steve Jobs o els fundadors de Google? Primer l'equip, converses individuals que comencen per la persona, franquesa amb afecte i generositat sense focus. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep91.mp3" length="22614284" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep91</guid>
+      <pubDate>Thu, 19 Nov 2026 04:34:41 +0000</pubDate>
+      <itunes:duration>18:50</itunes:duration>
+      <itunes:episode>91</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 90 — The Mom Test (El test de la mare), de Rob Fitzpatrick</title>
       <description>Com fer preguntes als clients perquè ni la teva mare et pugui mentir. Rob Fitzpatrick explica tres regles per parlar de fets i no d'opinions, com detectar compliments i vaguetats, i per què el compromís val més que l'entusiasme. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep90.mp3" length="23571404" type="audio/mpeg"/>

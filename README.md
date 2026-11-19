@@ -97,3 +97,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 88. Shoe Dog (El venedor de sabates) — Phil Knight
 89. Humble Inquiry (Indagació humil) — Edgar H. Schein
 90. The Mom Test (El test de la mare) — Rob Fitzpatrick
+91. Trillion Dollar Coach (L'entrenador del bilió de dòlars) — Eric Schmidt, Jonathan Rosenberg i Alan Eagle
