@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 84 — Inspired (Inspirados), de Marty Cagan, de Marty Cagan</title>
+      <description>¿Por qué muchos equipos con gente excelente no consiguen productos que los clientes quieran? Marty Cagan defiende pasar de equipos que ejecutan listas de funcionalidades a equipos empoderados que resuelven problemas. Veremos los cuatro riesgos de un producto, el descubrimiento continuo, el trío de producto y acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep84.mp3" length="19806764" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep84</guid>
+      <pubDate>Thu, 19 Nov 2026 05:00:41 +0000</pubDate>
+      <itunes:duration>16:30</itunes:duration>
+      <itunes:episode>84</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 83 — Let My People Go Surfing (Deja que mi gente vaya a hacer surf), de Yvon Chouinard</title>
       <description>Cómo Yvon Chouinard construyó Patagonia poniendo los valores por delante del crecimiento: calidad, libertad para el equipo, crecimiento lento, cadena de suministro honesta y una causa que cuesta dinero.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep83.mp3" length="19480844" type="audio/mpeg"/>
