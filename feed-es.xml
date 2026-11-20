@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 85 — Who Says Elephants Can't Dance? (¿Quién dice que los elefantes no pueden bailar?), de Louis V. Gerstner Jr.</title>
+      <description>¿Puede una gran organización lenta y orgullosa de su pasado volver a bailar? Louis Gerstner explica cómo salvó a IBM: no trocearla, escuchar al cliente, detener la hemorragia y cambiar la cultura a través de los comportamientos. Veremos cinco ideas clave, una mirada crítica y cinco acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep85.mp3" length="20089004" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep85</guid>
+      <pubDate>Fri, 20 Nov 2026 04:57:19 +0000</pubDate>
+      <itunes:duration>16:44</itunes:duration>
+      <itunes:episode>85</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 84 — Inspired (Inspirados), de Marty Cagan, de Marty Cagan</title>
       <description>¿Por qué muchos equipos con gente excelente no consiguen productos que los clientes quieran? Marty Cagan defiende pasar de equipos que ejecutan listas de funcionalidades a equipos empoderados que resuelven problemas. Veremos los cuatro riesgos de un producto, el descubrimiento continuo, el trío de producto y acciones para aplicar mañana. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep84.mp3" length="19806764" type="audio/mpeg"/>

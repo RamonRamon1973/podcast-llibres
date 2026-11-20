@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 92 — Getting to Yes (Arribar al sí), de Roger Fisher, William Ury i Bruce Patton</title>
+      <description>Com negociar sense destruir la relació? El clàssic del Harvard Negotiation Project proposa quatre principis: separar les persones del problema, centrar-se en els interessos i no en les posicions, inventar opcions de guany mutu i fer servir criteris objectius. Parlem de la taronja de les dues germanes, de Camp David i de la MAPAN, la millor alternativa a un acord. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep92.mp3" length="24206444" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep92</guid>
+      <pubDate>Fri, 20 Nov 2026 04:56:33 +0000</pubDate>
+      <itunes:duration>20:10</itunes:duration>
+      <itunes:episode>92</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 91 — Trillion Dollar Coach (L'entrenador del bilió de dòlars), de Eric Schmidt, Jonathan Rosenberg i Alan Eagle</title>
       <description>Com va ajudar Bill Campbell, l'entrenador de Silicon Valley, líders com Steve Jobs o els fundadors de Google? Primer l'equip, converses individuals que comencen per la persona, franquesa amb afecte i generositat sense focus. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep91.mp3" length="22614284" type="audio/mpeg"/>
