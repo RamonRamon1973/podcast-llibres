@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 93 — Superforecasting: l'art i la ciència de predir, de Philip Tetlock i Dan Gardner</title>
+      <description>Pots millorar la qualitat de les teves prediccions? Philip Tetlock i Dan Gardner expliquen com un grup de voluntaris corrents, els superpronosticadors, van superar analistes professionals gràcies a una manera diferent de pensar: posar números, començar per la visió des de fora, descompondre els problemes i actualitzar les creences poc a poc. Hi trobaràs també els límits del mètode i cinc accions per aplicar demà. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep93.mp3" length="24799244" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep93</guid>
+      <pubDate>Mon, 23 Nov 2026 04:20:54 +0000</pubDate>
+      <itunes:duration>20:39</itunes:duration>
+      <itunes:episode>93</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 92 — Getting to Yes (Arribar al sí), de Roger Fisher, William Ury i Bruce Patton</title>
       <description>Com negociar sense destruir la relació? El clàssic del Harvard Negotiation Project proposa quatre principis: separar les persones del problema, centrar-se en els interessos i no en les posicions, inventar opcions de guany mutu i fer servir criteris objectius. Parlem de la taronja de les dues germanes, de Camp David i de la MAPAN, la millor alternativa a un acord. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep92.mp3" length="24206444" type="audio/mpeg"/>
