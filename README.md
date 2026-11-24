@@ -100,3 +100,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 91. Trillion Dollar Coach (L'entrenador del bilió de dòlars) — Eric Schmidt, Jonathan Rosenberg i Alan Eagle
 92. Getting to Yes (Arribar al sí) — Roger Fisher, William Ury i Bruce Patton
 93. Superforecasting: l'art i la ciència de predir — Philip Tetlock i Dan Gardner
+94. Mindset (La mentalitat) — Carol S. Dweck
