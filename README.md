@@ -101,3 +101,4 @@ Podcast diari de resums de llibres de gestió empresarial, en català.
 92. Getting to Yes (Arribar al sí) — Roger Fisher, William Ury i Bruce Patton
 93. Superforecasting: l'art i la ciència de predir — Philip Tetlock i Dan Gardner
 94. Mindset (La mentalitat) — Carol S. Dweck
+95. Seeing Around Corners (Veure més enllà de la cantonada) — Rita Gunther McGrath
