@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 96 — Leadership and Self-Deception (Lideratge i autoengany), de L'Institut Arbinger</title>
+      <description>Per què tants conflictes a l'empresa no són tècnics sinó humans? Un llibre en forma de paràbola sobre l'autoengany: com deixem de veure els altres com a persones, com ho paguem en equip i què podem fer demà mateix per sortir de la caixa. Resum i comentari del llibre en català.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep96.mp3" length="24673964" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestio15-ep96</guid>
+      <pubDate>Fri, 27 Nov 2026 04:18:57 +0000</pubDate>
+      <itunes:duration>20:33</itunes:duration>
+      <itunes:episode>96</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 95 — Seeing Around Corners (Veure més enllà de la cantonada), de Rita Gunther McGrath</title>
       <description>Com detectar els punts d'inflexió abans que siguin evidents? Rita McGrath ens explica per què els grans canvis comencen a la perifèria, com identificar les forces de deu vegades i com experimentar poc i ràpid. Resum i comentari del llibre en català.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes/ep95.mp3" length="23032364" type="audio/mpeg"/>
