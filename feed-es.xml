@@ -24,6 +24,17 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>Ep. 89 — Humble Inquiry (Indagación humilde), de Edgar H. Schein</title>
+      <description>Un libro breve sobre el arte de preguntar con humildad: cómo la indagación humilde derriba las barreras jerárquicas de la información y construye confianza en los equipos.</description>
+      <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep89.mp3" length="19639244" type="audio/mpeg"/>
+      <guid isPermaLink="false">gestion15es-ep89</guid>
+      <pubDate>Fri, 27 Nov 2026 04:54:18 +0000</pubDate>
+      <itunes:duration>16:21</itunes:duration>
+      <itunes:episode>89</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title>Ep. 88 — Ep. 88 — Shoe Dog (El vendedor de zapatillas), de Phil Knight, de Phil Knight</title>
       <description>Las memorias del cofundador de Nike explican cómo se construye una empresa partiendo de casi nada: la caja que ahoga el crecimiento, la dependencia de un solo proveedor, la cultura de equipo y la persistencia con criterio. Resumen y comentario del libro en castellano.</description>
       <enclosure url="https://op3.dev/e/raw.githubusercontent.com/RamonRamon1973/podcast-llibres/main/episodes-es/ep88.mp3" length="19688684" type="audio/mpeg"/>
